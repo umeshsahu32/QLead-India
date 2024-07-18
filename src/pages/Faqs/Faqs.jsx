@@ -3,6 +3,7 @@ import styles from "./Faqs.module.css";
 import { faqType, FaqData } from "./FaqData.js";
 import Button from "../../components/Buttons/GetStartedButton.jsx";
 import FaqComponent from "./FaqComponent.jsx";
+import SectionHeading from "../../components/SectionHeading/SectionHeading.jsx";
 
 const Faqs = () => {
   const [categoryId, setCategoryId] = useState(0);
@@ -14,16 +15,10 @@ const Faqs = () => {
   return (
     <Fragment>
       <div className={styles.faq_component}>
-        <div className={styles.faq_head}>
-          <h3>
-            Frequently Asked <b>Questions</b>
-          </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
-            aute irure dolor in reprehenderit
-          </p>
-        </div>
+        <SectionHeading
+          heading="Frequently Asked Questions"
+          para="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit"
+        />
       </div>
       <div className={styles.show_faq}>
         <div className={styles.faq_category}>

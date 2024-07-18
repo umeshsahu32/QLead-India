@@ -1,10 +1,13 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
+import styles from "./GetStartedButton.module.css";
 
 const BtnLink = ({ path, text }) => {
   return (
     <Fragment>
-      <Link to={path}>{text}</Link>
+      <Link className={styles.btnLink} to={path}>
+        {text}
+      </Link>
     </Fragment>
   );
 };

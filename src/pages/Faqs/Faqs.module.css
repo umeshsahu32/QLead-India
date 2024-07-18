@@ -6,24 +6,6 @@
   margin-top: 5rem;
 }
 
-.faq_head {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
-
-.faq_head h3 {
-  font-size: 3rem;
-}
-
-.faq_head p {
-  font-size: 1.2rem;
-  text-align: center;
-  max-width: 800px;
-}
-
 .show_faq {
   display: flex;
   justify-content: space-around;

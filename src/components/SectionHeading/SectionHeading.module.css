@@ -1,0 +1,29 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.heading h3 {
+  font-size: 3rem;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.heading h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 50px;
+  background: #1abc9c;
+}
+
+.heading p {
+  font-size: 1.2rem;
+  text-align: center;
+  max-width: 800px;
+}

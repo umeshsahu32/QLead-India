@@ -141,7 +141,6 @@ const Header = () => {
                 </Link>
               );
             })}
-            <Button text="Get Quote" onClick={() => {}} />
           </div>
           <div
             className={`${styles.hamburger} ${drawerOpen ? styles.active : ""}`}

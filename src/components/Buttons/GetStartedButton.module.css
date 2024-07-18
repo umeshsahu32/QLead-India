@@ -17,3 +17,18 @@
   background-color: #303030;
   color: #fff;
 }
+
+.btnLink {
+  border: none;
+  outline: none;
+  background-color: lightgreen;
+  color: #303030;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+}
