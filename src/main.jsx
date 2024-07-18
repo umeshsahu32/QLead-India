@@ -6,6 +6,7 @@ import "./index.css";
 import PageLoader from "./components/PageLoader/PageLoader.jsx";
 import { PageNotFound } from "./routes/routes.js";
 import Header from "./components/Header/Header.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
       <Suspense fallback={<PageLoader />}>
         <Header />
         <App />
+        <Footer />
       </Suspense>
     ),
   },

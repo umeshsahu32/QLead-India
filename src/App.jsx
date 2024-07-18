@@ -1,9 +1,10 @@
 import { Fragment } from "react";
+import Hero from "./components/HomePageComponent/HeroSection/Hero";
 
 function App() {
   return (
     <Fragment>
-      <p>HI</p>
+      <Hero />
     </Fragment>
   );
 }

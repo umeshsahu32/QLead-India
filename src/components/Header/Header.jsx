@@ -1,10 +1,19 @@
 import React, { Fragment, useState } from "react";
-import { Link } from "react-router-dom";
-import QLead_India_logo from "../../assets/images/QLead_India_logo.webp";
+import { Link, NavLink } from "react-router-dom";
+import QLead_India_logo from "../../assets/images/QLead-logo.png";
 import styles from "./Header.module.css";
 import { AiFillHome } from "react-icons/ai";
 import { FaHandshake } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaYoutube,
+  FaLinkedin,
+  FaBlogger,
+} from "react-icons/fa";
+import { FaA } from "react-icons/fa6";
+import Button from "../Buttons/GetStartedButton";
 
 const Header = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -13,26 +22,87 @@ const Header = () => {
     setDrawerOpen(!drawerOpen);
   };
 
-  const mobileNavigation = [
+  const NavigationLinks = [
     {
+      id: 1,
       path: "#",
       text: "Home",
       icon: <AiFillHome />,
     },
     {
-      path: "#",
-      text: "Case Study",
+      id: 2,
+      path: "about-us",
+      text: "About Us",
       icon: <AiFillHome />,
     },
     {
-      path: "#",
+      id: 3,
+      path: "services",
       text: "Services",
       icon: <FaHandshake />,
     },
     {
-      path: "#",
-      text: "Contact Us ",
+      id: 4,
+      path: "packages",
+      text: "Packages",
       icon: <MdEmail />,
+    },
+    {
+      id: 5,
+      path: "faqs",
+      text: "FAQs",
+      icon: <MdEmail />,
+    },
+    {
+      id: 6,
+      path: "media-and-blogs",
+      text: "Media & Blogs",
+      icon: <MdEmail />,
+    },
+    {
+      id: 7,
+      path: "case-study",
+      text: "Case Study",
+      icon: <MdEmail />,
+    },
+    {
+      id: 8,
+      path: "contact-us",
+      text: "Contact Us",
+      icon: <MdEmail />,
+    },
+  ];
+
+  const SocialLink = [
+    {
+      id: 1,
+      path: "#",
+      icon: <FaFacebook />,
+    },
+    {
+      id: 2,
+      path: "#",
+      icon: <FaInstagram />,
+    },
+    {
+      id: 3,
+      path: "#",
+      icon: <FaYoutube />,
+    },
+    {
+      id: 4,
+      path: "#",
+      icon: <FaLinkedin />,
+    },
+    {
+      id: 5,
+      path: "#",
+      icon: <FaBlogger />,
+    },
+    {
+      id: 6,
+      path: "#",
+      icon: <FaA />,
     },
   ];
 
@@ -48,19 +118,31 @@ const Header = () => {
             </Link>
           </div>
           <div className={styles.navMenu}>
-            <Link to="/" className={styles.navLink}>
-              Home
-            </Link>
-            <div className={styles.dropdown}>
-              <Link to="#" className={styles.navLink}>
-                About Us
-              </Link>
-            </div>
-            <Link to="#" className={styles.navLink}>
-              Contact Us
-            </Link>
+            {NavigationLinks.map((item) => {
+              return (
+                <NavLink
+                  to={item.path}
+                  className={({ isActive }) =>
+                    isActive ? styles.active : styles.navLink
+                  }
+                  key={item.id}
+                  exact
+                >
+                  {item.text}
+                </NavLink>
+              );
+            })}
           </div>
-
+          <div className={styles.social_icons}>
+            {SocialLink.map((item) => {
+              return (
+                <Link to={item.path} key={item.id}>
+                  {item.icon}
+                </Link>
+              );
+            })}
+            <Button text="Get Quote" onClick={() => {}} />
+          </div>
           <div
             className={`${styles.hamburger} ${drawerOpen ? styles.active : ""}`}
             onClick={toggleDrawer}
@@ -76,14 +158,23 @@ const Header = () => {
             }`}
           >
             <div className={styles.drawerContent}>
-              {mobileNavigation.map((item) => {
+              {NavigationLinks.map((item) => {
                 return (
                   <Link
                     to={item.path}
                     className={styles.drawerItem}
-                    key={Math.random()}
+                    key={item.id}
                   >
                     {item.icon}&nbsp;&nbsp;&nbsp;{item.text}
+                  </Link>
+                );
+              })}
+            </div>
+            <div className={styles.social_icons}>
+              {SocialLink.map((item) => {
+                return (
+                  <Link to={item.path} key={item.id}>
+                    {item.icon}
                   </Link>
                 );
               })}
