@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
 import PageLoader from "./components/PageLoader/PageLoader.jsx";
-import { PageNotFound } from "./routes/routes.js";
+import { PageNotFound, Faqs, BlogsAndMedia } from "./routes/routes.js";
 import Header from "./components/Header/Header.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 
@@ -20,6 +20,26 @@ const router = createBrowserRouter([
     ),
   },
 
+  {
+    path: "faqs",
+    element: (
+      <Suspense fallback={<PageLoader />}>
+        <Header />
+        <Faqs />
+        <Footer />
+      </Suspense>
+    ),
+  },
+  {
+    path: "blogs-and-media",
+    element: (
+      <Suspense fallback={<PageLoader />}>
+        <Header />
+        <BlogsAndMedia />
+        <Footer />
+      </Suspense>
+    ),
+  },
   {
     path: "*",
     element: (

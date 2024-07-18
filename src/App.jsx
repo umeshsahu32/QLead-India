@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import Hero from "./components/HomePageComponent/HeroSection/Hero";
+import HomePage from "./pages/Home/HomePage";
 
 function App() {
   return (
     <Fragment>
-      <Hero />
+      <HomePage />
     </Fragment>
   );
 }
