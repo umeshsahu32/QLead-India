@@ -29,12 +29,12 @@
   margin-bottom: 10px;
 }
 
-h3 {
+.card h3 {
   font-size: 1.5em;
   margin-bottom: 10px;
 }
 
-p {
+.card p {
   font-size: 1em;
   color: #666;
 }

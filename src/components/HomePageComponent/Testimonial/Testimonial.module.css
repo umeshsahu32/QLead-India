@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 4rem auto;
+  max-width: 1200px;
+}
+
+.youtube_video {
+  width: 30rem;
+  height: 16rem;
+}
