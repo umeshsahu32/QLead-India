@@ -1,0 +1,25 @@
+/* LINK BUTTON */
+.btn_align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--color-button-1);
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer !important;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.linkButton:hover {
+  background-color: var(--color-button-2);
+  text-decoration: none;
+  box-shadow: 0 0 20px #05791e50;
+  transform: scale(1.1);
+}

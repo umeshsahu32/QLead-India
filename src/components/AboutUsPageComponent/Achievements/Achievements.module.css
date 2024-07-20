@@ -33,7 +33,7 @@
   flex-direction: column;
   align-items: center;
   padding: 15px;
-  background-color: #f0f0f0;
+  background-color: var(--color-white);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -43,8 +43,8 @@
 
 .tab:hover {
   transform: translateY(-10px);
-  background-color: #0eb2e4;
-  color: #fff;
+  background-color: var(--color-button-1);
+  color: var(--color-white);
 }
 
 .tab svg {
@@ -53,8 +53,8 @@
 }
 
 .active {
-  background-color: #0eb2e4;
-  color: white;
+  background-color: var(--color-button-1);
+  color: var(--color-white);
 }
 
 .content h2 {
@@ -79,7 +79,7 @@
   content: "•";
   position: absolute;
   left: 0;
-  color: #007bff;
+  color: var(--color-button-1);
 }
 
 @keyframes slideIn {

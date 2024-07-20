@@ -13,7 +13,6 @@ import {
   FaBlogger,
 } from "react-icons/fa";
 import { FaA } from "react-icons/fa6";
-import Button from "../Buttons/GetStartedButton";
 
 const Header = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);

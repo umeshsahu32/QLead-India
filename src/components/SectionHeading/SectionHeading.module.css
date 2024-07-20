@@ -4,12 +4,14 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  margin-top: 4rem;
 }
 
 .heading h3 {
   font-size: 3rem;
   position: relative;
   padding-bottom: 10px;
+  color: var(--color-primary);
 }
 
 .heading h3::after {
@@ -19,11 +21,12 @@
   bottom: 0;
   height: 2px;
   width: 50px;
-  background: #1abc9c;
+  background: var(--color-button-1);
 }
 
 .heading p {
   font-size: 1.2rem;
   text-align: center;
   max-width: 800px;
+  color: var(--color-tertiary);
 }

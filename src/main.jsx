@@ -20,37 +20,37 @@ const router = createBrowserRouter([
     ),
   },
 
-  {
-    path: "about-us",
-    element: (
-      <Suspense fallback={<PageLoader />}>
-        <Header />
-        <AboutUs />
-        <Footer />
-      </Suspense>
-    ),
-  },
+  // {
+  //   path: "about-us",
+  //   element: (
+  //     <Suspense fallback={<PageLoader />}>
+  //       <Header />
+  //       <AboutUs />
+  //       <Footer />
+  //     </Suspense>
+  //   ),
+  // },
 
-  {
-    path: "faqs",
-    element: (
-      <Suspense fallback={<PageLoader />}>
-        <Header />
-        <Faqs />
-        <Footer />
-      </Suspense>
-    ),
-  },
-  {
-    path: "blogs-and-media",
-    element: (
-      <Suspense fallback={<PageLoader />}>
-        <Header />
-        <BlogsAndMedia />
-        <Footer />
-      </Suspense>
-    ),
-  },
+  // {
+  //   path: "faqs",
+  //   element: (
+  //     <Suspense fallback={<PageLoader />}>
+  //       <Header />
+  //       <Faqs />
+  //       <Footer />
+  //     </Suspense>
+  //   ),
+  // },
+  // {
+  //   path: "blogs-and-media",
+  //   element: (
+  //     <Suspense fallback={<PageLoader />}>
+  //       <Header />
+  //       <BlogsAndMedia />
+  //       <Footer />
+  //     </Suspense>
+  //   ),
+  // },
   {
     path: "*",
     element: (

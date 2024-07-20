@@ -2,6 +2,7 @@ import React from "react";
 import { Fragment } from "react";
 import SectionHeading from "../../SectionHeading/SectionHeading";
 import styles from "./Testimonial.module.css";
+import LinkButton from "../../Buttons/LinkButton";
 
 const Testimonial = () => {
   const arr = [
@@ -31,6 +32,7 @@ const Testimonial = () => {
           );
         })}
       </div>
+      <LinkButton path="#" text="View All" />
     </Fragment>
   );
 };

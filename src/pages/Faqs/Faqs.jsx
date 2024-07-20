@@ -1,7 +1,6 @@
 import React, { Fragment, useState } from "react";
 import styles from "./Faqs.module.css";
 import { faqType, FaqData } from "./FaqData.js";
-import Button from "../../components/Buttons/GetStartedButton.jsx";
 import FaqComponent from "./FaqComponent.jsx";
 import SectionHeading from "../../components/SectionHeading/SectionHeading.jsx";
 

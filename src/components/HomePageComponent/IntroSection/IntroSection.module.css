@@ -21,6 +21,7 @@
   margin-bottom: 10px;
   position: relative;
   padding-bottom: 10px;
+  color: var(--color-primary);
 }
 
 .leadsContent h2::after {
@@ -30,12 +31,13 @@
   bottom: 0;
   height: 2px;
   width: 50px;
-  background: #1abc9c;
+  background: var(--color-button-1);
 }
 
 .leadsContent p {
   font-size: 1em;
   line-height: 1.5;
+  color: var(--color-tertiary);
 }
 
 @media (max-width: 768px) {

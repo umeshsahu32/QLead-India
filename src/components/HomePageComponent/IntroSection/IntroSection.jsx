@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
-import leadImage1 from "../../../assets/images/high-quality-leads.webp";
-import leadImage2 from "../../../assets/images/high-quality-meetings.webp";
+import leadImage1 from "../../../assets/images/services-1.jpg";
+import leadImage2 from "../../../assets/images/services-5.jpg";
 import styles from "./IntroSection.module.css";
 
 const IntroSection = () => {

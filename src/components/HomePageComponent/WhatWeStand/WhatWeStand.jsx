@@ -29,7 +29,7 @@ const WhatWeStand = () => {
     <Fragment>
       <SectionHeading
         heading="What We Stand For"
-        para="With Qlead, you’re not just getting leads, you’re getting a strategic advantage in a competitive marketplace. Embrace the 3Q Advantage and turn prospects into profits with precision and ease"
+        para="With Qlead, you’re not just getting leads, you’re getting a strategic advantage in a competitive marketplace. Embrace the 3Q Advantage and turn prospects into profits with precision."
       />
 
       <section className={styles.standForSection}>

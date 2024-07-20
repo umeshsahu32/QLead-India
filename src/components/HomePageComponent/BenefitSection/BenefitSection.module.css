@@ -11,7 +11,8 @@
 }
 
 .card {
-  background-color: white;
+  background-color: var(--color-white);
+  color: var(--color-primary);
   border-radius: 8px;
   padding: 20px;
   text-align: center;
@@ -21,18 +22,29 @@
     background-color 0.3s ease, color 0.3s ease;
   margin: 10px;
   cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .benefitsCards h3 {
   font-size: 1rem;
+  color: var(--color-primary);
 }
 
-.card:hover,
-.card.active {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  background-color: #007bff;
-  color: white;
+.card:hover {
+  background-color: var(--color-button-1);
+  color: var(--color-white);
+}
+.card:hover h3 {
+  color: var(--color-white);
+}
+
+.active {
+  background-color: var(--color-button-1);
+  color: var(--color-white);
+}
+
+.active h3 {
+  color: var(--color-white);
 }
 
 .icon {
@@ -54,11 +66,19 @@
   width: 50%;
 }
 
+.contentText h3 {
+  color: var(--color-primary);
+}
+.contentText p {
+  color: var(--color-tertiary);
+}
+
 .contentImage img {
   /* max-width: 100%; */
   border-radius: 8px;
   width: 20rem;
-  height: 10rem;
+  height: 20rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 @media (max-width: 768px) {

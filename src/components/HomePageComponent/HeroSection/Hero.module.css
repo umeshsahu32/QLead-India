@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: white;
+  color: var(--color-white);
 }
 
 .videoBackground {
@@ -33,6 +33,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: 1rem;
+  color: var(--color-white);
 }
 
 .heading h1 {
@@ -45,11 +46,31 @@
   text-align: left;
   font-weight: normal;
   max-width: 55%;
+  color: var(--color-white);
 }
 
 .link_btn {
   text-align: left;
   margin: 2rem 0;
+}
+
+.get_started_btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--color-button-1);
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer !important;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.get_started_btn:hover {
+  background-color: var(--color-button-2);
+  text-decoration: none;
+  box-shadow: 0 0 20px #05791e50;
+  transform: scale(1.1);
 }
 
 @media (max-width: 768px) {

@@ -79,7 +79,7 @@ const BenefitSection = () => {
               }`}
               onClick={() => setActiveBenefit(benefit)}
             >
-              <div className={styles.icon}>{benefit.icon}</div>
+              <div className={`${styles.icon} `}>{benefit.icon}</div>
               <h3>{benefit.title}</h3>
             </div>
           ))}

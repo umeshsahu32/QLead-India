@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Hero.module.css";
 import video from "../../../assets/video/Ridhira-resort.mp4";
-import BtnLink from "../../Buttons/BtnLink";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -16,9 +16,6 @@ const Hero = () => {
         type="video/mp4"
       />
       <div className={styles.heroContent}>
-        {/* <h1 className={styles.heroHeading}>
-          Transform Your Sales <br /> with Qualified Leads <br /> from Q-Lead
-        </h1> */}
         <div className={styles.heading}>
           <h1>Transform Your Sales</h1>
           <h1>with Qualified Leads</h1>
@@ -30,7 +27,9 @@ const Hero = () => {
           offer market research, competitive analysis, and more.
         </h2>
         <div className={styles.link_btn}>
-          <BtnLink text="Get Started" path="services" />
+          <Link className={styles.get_started_btn} to="#">
+            Get Started
+          </Link>
         </div>
       </div>
     </section>

@@ -2,11 +2,11 @@
   --bg-light: #181c24;
   --color-white: #fff;
   --color-primary: #181c24;
-  --color-secondary: #94703a;
-  --color-drawer: #161616;
-  --color-grey: #ccc;
-  --color-success: #008000;
-  --color-error: #ff0000;
+  --color-secondary: #303030;
+  --color-tertiary: #555;
+  --color-button-1: #00a859;
+  --color-button-2: #07864a;
+  --font-family-1: "system-ui";
 }
 
 *,
@@ -15,4 +15,5 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font-family-1);
 }
