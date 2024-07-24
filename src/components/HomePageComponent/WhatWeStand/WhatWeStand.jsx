@@ -7,31 +7,30 @@ const WhatWeStand = () => {
   const data = [
     {
       id: 1,
-      title: "Quick",
-      description: "Advanced technology for swift lead generation",
+      title: "Qualified Lead Generation",
+      description:
+        "Qualified Lead Generation service is designed to provide businesses with high-quality, conversion-ready leads.",
       icon: <FaRocket />,
     },
     {
       id: 1,
-      title: "Quality",
-      description: "Rigorous analysis ensures high relevance",
+      title: "Qualified Meeting Generation",
+      description:
+        "Qualified Meeting Generation service is designed to ensure that your sales team meets with the right prospects who have a genuine interest in your products or services.",
       icon: <FaAward />,
     },
     {
       id: 1,
-      title: "Qualified",
-      description: "Precision targeting for tailored prospects",
+      title: "Qualified Audience Generation",
+      description:
+        "Looking for targeted profiles for your upcoming webinar, on-ground or virtual event? Count on us with our insights into various communities and audience profiles",
       icon: <FaUserCheck />,
     },
   ];
 
   return (
     <Fragment>
-      <SectionHeading
-        heading="What We Stand For"
-        para="With Qlead, you’re not just getting leads, you’re getting a strategic advantage in a competitive marketplace. Embrace the 3Q Advantage and turn prospects into profits with precision."
-      />
-
+      <SectionHeading heading="What We Deliver" />
       <section className={styles.standForSection}>
         {data.map((item) => {
           return (

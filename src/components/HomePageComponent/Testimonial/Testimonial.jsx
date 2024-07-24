@@ -9,15 +9,11 @@ const Testimonial = () => {
     "https://www.youtube.com/embed/nbXgHAzUWB0?si=Oxqk0bArWFQrMIRb",
     "https://www.youtube.com/embed/YykjpeuMNEk?si=HltyV7k7IVZl1OWE",
     "https://www.youtube.com/embed/JGwWNGJdvx8?si=6qOUYYgYh8ZvHate",
-    "https://www.youtube.com/embed/nYh-n7EOtMA?si=3l7wux5LIUmpDRdM",
   ];
 
   return (
     <Fragment>
-      <SectionHeading
-        heading="Customer Testimonials"
-        para="Quotes from Satisfied Customers"
-      />
+      <SectionHeading heading="Customer Testimonials" />
       <div className={styles.container}>
         {arr.map((item, index) => {
           return (

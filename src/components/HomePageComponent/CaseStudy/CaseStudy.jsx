@@ -69,10 +69,7 @@ const CaseStudyCard = ({ image, title, result, solution, challenge }) => {
 const CaseStudy = () => {
   return (
     <Fragment>
-      <SectionHeading
-        heading="Case Studies"
-        para="Brief summaries of successful lead generation campaigns"
-      />
+      <SectionHeading heading="Success Stories" />
       <div className={styles.container}>
         {data.map((item) => {
           return <CaseStudyCard {...item} />;

@@ -46,18 +46,18 @@ const Header = () => {
       text: "Packages",
       icon: <MdEmail />,
     },
-    {
-      id: 5,
-      path: "/faqs",
-      text: "FAQs",
-      icon: <MdEmail />,
-    },
-    {
-      id: 6,
-      path: "/blogs-and-media",
-      text: "Media & Blogs",
-      icon: <MdEmail />,
-    },
+    // {
+    //   id: 5,
+    //   path: "/faqs",
+    //   text: "FAQs",
+    //   icon: <MdEmail />,
+    // },
+    // {
+    //   id: 6,
+    //   path: "/blogs-and-media",
+    //   text: "Media & Blogs",
+    //   icon: <MdEmail />,
+    // },
     {
       id: 7,
       path: "/case-study",

@@ -1,120 +1,140 @@
-.benefitsSection {
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  padding: 20px;
-}
-
-.benefitsCards {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.card {
-  background-color: var(--color-white);
-  color: var(--color-primary);
-  border-radius: 8px;
-  padding: 20px;
-  text-align: center;
-  width: 15%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease,
-    background-color 0.3s ease, color 0.3s ease;
-  margin: 10px;
-  cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
-
-.benefitsCards h3 {
-  font-size: 1rem;
-  color: var(--color-primary);
-}
-
-.card:hover {
-  background-color: var(--color-button-1);
-  color: var(--color-white);
-}
-.card:hover h3 {
-  color: var(--color-white);
-}
-
-.active {
-  background-color: var(--color-button-1);
-  color: var(--color-white);
-}
-
-.active h3 {
-  color: var(--color-white);
-}
-
-.icon {
-  font-size: 2em;
-  margin-bottom: 10px;
-}
-
-.benefitsContent {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 55%;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.tabContainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.tabButton {
+  width: 10rem;
+  padding: 8px 20px;
+  border-radius: 12px;
+  border: 1px solid #cbcbfd;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.tabButton.active {
+  background-color: var(--color-button-1);
+  color: white;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: center;
+  height: 18rem;
+  width: 90%;
   margin: auto;
-  margin-top: 20px;
-  gap: 5rem;
-}
-
-.contentText {
-  width: 50%;
-}
-
-.contentText h3 {
-  color: var(--color-primary);
-}
-.contentText p {
-  color: var(--color-tertiary);
-}
-
-.contentImage img {
-  /* max-width: 100%; */
+  border: 1px solid #cbcbfd;
   border-radius: 8px;
-  width: 20rem;
-  height: 20rem;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
 
-@media (max-width: 768px) {
-  .card {
-    width: 45%;
+.imageContainer {
+  flex: 1;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.textContainer {
+  flex: 1;
+  background-color: #f1f1fd;
+  padding: 4rem;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: var(--color-button-1);
+  font-weight: 700;
+  font-family: system-ui, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 2;
+  font-family: system-ui, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+@media (max-width: 1200px) {
+  .tabContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
   }
 
-  .benefitsContent {
+  .textContainer {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 668px) {
+  .tabContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .contentContainer {
     flex-direction: column;
+    width: 80%;
+    height: auto;
   }
 
-  .contentText {
-    width: 100%;
-    text-align: center;
+  .textContainer {
+    padding: 1rem;
   }
 
-  .contentImage {
-    margin-top: 20px;
-    width: 100%;
+  .description {
+    font-size: 16px;
+    line-height: 1.5;
   }
 }
 
 @media (max-width: 480px) {
-  .card {
-    width: 100%;
+  .tabContainer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
 
-  .icon {
-    font-size: 1.5em;
+  .tabButton {
+    width: 8rem;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
   }
 
-  .contentText h3 {
-    font-size: 1.2em;
+  .title {
+    font-size: 16px;
   }
 
-  .contentText p {
-    font-size: 0.9em;
+  .description {
+    font-size: 14px;
   }
 }

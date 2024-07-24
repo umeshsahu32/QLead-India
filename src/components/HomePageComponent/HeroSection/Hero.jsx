@@ -23,12 +23,11 @@ const Hero = () => {
         </div>
 
         <h2 className={styles.heroSubHeading}>
-          Boost your business with our expert Q- Lead consulting services. We
-          offer market research, competitive analysis, and more.
+          Get leads that convert, with precision and ease
         </h2>
         <div className={styles.link_btn}>
           <Link className={styles.get_started_btn} to="#">
-            Get Started
+            Try Q-Lead
           </Link>
         </div>
       </div>

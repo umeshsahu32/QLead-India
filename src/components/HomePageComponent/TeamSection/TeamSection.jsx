@@ -59,12 +59,12 @@ const TeamsCard = ({ name, role, image, socials }) => {
         <h3 className={styles.cardName}>{name}</h3>
         <p className={styles.cardRole}>{role}</p>
         <div className={styles.socialIcons}>
-          <a href={socials?.facebook} className={styles.icon}>
+          {/* <a href={socials?.facebook} className={styles.icon}>
             <FaFacebookF />
           </a>
           <a href={socials?.instagram} className={styles.icon}>
             <FaInstagram />
-          </a>
+          </a> */}
           <a href={socials?.linkedin} className={styles.icon}>
             <FaLinkedinIn />
           </a>
@@ -77,7 +77,7 @@ const TeamsCard = ({ name, role, image, socials }) => {
 const TeamSection = () => {
   return (
     <Fragment>
-      <SectionHeading heading="Our Exclusive Team" />
+      <SectionHeading heading="Our Leadership" />
       <div className={styles.team_container}>
         {teamMembers.map((member, index) => (
           <TeamsCard

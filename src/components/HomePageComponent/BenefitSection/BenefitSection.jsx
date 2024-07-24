@@ -8,89 +8,96 @@ import {
   FaBrain,
   FaChartLine,
 } from "react-icons/fa";
-import benefitImage1 from "../../../assets/images/benefit-image-1.svg";
-import benefitImage2 from "../../../assets/images/benefit-image-2.svg";
-import benefitImage3 from "../../../assets/images/benefit-image-3.svg";
-import benefitImage4 from "../../../assets/images/benefit-image-4.svg";
-import benefitImage5 from "../../../assets/images/benefit-image-5.svg";
-import benefitImage6 from "../../../assets/images/benefit-image-6.svg";
+import unique0 from "../../../assets/images/Unique/image-0.avif";
+import unique1 from "../../../assets/images/Unique/image-1.avif";
+import unique2 from "../../../assets/images/Unique/image-2.avif";
+import unique3 from "../../../assets/images/Unique/image-3.avif";
+import unique4 from "../../../assets/images/Unique/image-4.avif";
+import unique5 from "../../../assets/images/Unique/image-5.avif";
 import SectionHeading from "../../SectionHeading/SectionHeading";
 
-const benefitsData = [
+const adTypes = [
   {
+    id: 0,
     title: "Higher Conversion Rates",
+    image: unique0,
     description: "Leverage AI to generate highly qualified leads.",
-    icon: <FaRocket />,
-    image: benefitImage1,
   },
   {
+    id: 1,
     title: "Pre-Qualified Prospects",
+    image: unique1,
     description: "Eliminate the need for initial screening.",
-    icon: <FaUserCheck />,
-    image: benefitImage2,
   },
   {
+    id: 2,
     title: "Speed to Market",
-    description: "Accelerate lead generation and sales cycles",
-    icon: <FaTachometerAlt />,
-    image: benefitImage3,
+    image: unique2,
+    description: "Accelerate lead generation and sales cycles.",
   },
   {
+    id: 3,
     title: "Expertise",
+    image: unique3,
     description:
-      "Over 10 years of experience in sales outsourcing and lead generation",
-    icon: <FaCogs />,
-    image: benefitImage4,
+      "Over 10 years of experience in sales outsourcing and lead generation.",
   },
   {
+    id: 4,
     title: "Technology",
+    image: unique4,
     description:
       "Cutting-edge AI and machine learning models tailored to your business needs.",
-    icon: <FaBrain />,
-    image: benefitImage5,
   },
   {
+    id: 5,
     title: "Results",
+    image: unique5,
     description:
-      "Proven track record of helping businesses achieve their sales goals through high-quality leads",
-    icon: <FaChartLine />,
-    image: benefitImage6,
+      "Proven track record of helping businesses achieve their sales goals through high-quality leads.",
   },
 ];
 
 const BenefitSection = () => {
-  const [activeBenefit, setActiveBenefit] = useState(benefitsData[0]);
+  const [activeTab, setActiveTab] = useState(0);
+
+  const tabClickHandler = (index) => {
+    setActiveTab(index);
+  };
 
   return (
     <Fragment>
-      <SectionHeading
-        heading="Benefits"
-        para="Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eos
-          alias sit recusandae libero provident itaque deserunt unde debitis
-          illum, doloremque vero, eligendi, rem"
-      />
-      <section className={styles.benefitsSection}>
-        <div className={styles.benefitsCards}>
-          {benefitsData.map((benefit, index) => (
-            <div
-              key={index}
-              className={`${styles.card} ${
-                activeBenefit.title === benefit.title ? styles.active : ""
+      <SectionHeading heading="What Makes Us Unique" />
+      <section className={styles.section}>
+        <div className={styles.tabContainer}>
+          {adTypes.map((adType) => (
+            <button
+              key={adType.id}
+              className={`${styles.tabButton} ${
+                adType.id === activeTab ? styles.active : ""
               }`}
-              onClick={() => setActiveBenefit(benefit)}
+              onClick={() => tabClickHandler(adType.id)}
             >
-              <div className={`${styles.icon} `}>{benefit.icon}</div>
-              <h3>{benefit.title}</h3>
-            </div>
+              {adType.title}
+            </button>
           ))}
         </div>
-        <div className={styles.benefitsContent}>
-          <div className={styles.contentText}>
-            <h3>{activeBenefit.title}</h3>
-            <p>{activeBenefit.description}</p>
+        {/* IMAGE CONTAINER */}
+        <div
+          className={`${styles.contentContainer} animate__animated  animate__bounceInUp`}
+        >
+          <div className={`${styles.imageContainer} `}>
+            <img
+              src={adTypes[activeTab].image}
+              alt={adTypes[activeTab].title}
+              className={`${styles.image}`}
+            />
           </div>
-          <div className={styles.contentImage}>
-            <img src={activeBenefit.image} alt={activeBenefit.title} />
+          <div className={styles.textContainer}>
+            <h2 className={`${styles.title} `}>{adTypes[activeTab].title}</h2>
+            <p className={styles.description}>
+              {adTypes[activeTab].description}
+            </p>
           </div>
         </div>
       </section>

@@ -10,21 +10,27 @@ import CaseStudy from "../../components/HomePageComponent/CaseStudy/CaseStudy";
 import BlogsAndMediaSection from "../../components/HomePageComponent/BlogsAndMediaSection/BlogsAndMediaSection";
 import TeamSection from "../../components/HomePageComponent/TeamSection/TeamSection";
 import ParallaxSection from "../../components/HomePageComponent/ParallaxSection/ParallaxSection";
+import IndustriesSection from "../../components/HomePageComponent/IndustriesSection/IndustriesSection";
+import SuccessStory from "../../components/HomePageComponent/SuccessStory/SuccessStory";
+import Blogs from "../../components/HomePageComponent/Blogs/Blogs";
 
 const HomePage = () => {
   return (
     <Fragment>
       <Hero />
       <div className={styles.home}>
-        <IntroSection />
+        {/* <IntroSection /> */}
         <WhatWeStand />
-        <FeatureSection />
         <BenefitSection />
-        <CaseStudy />
+        <IndustriesSection />
+        <SuccessStory />
+        {/* <CaseStudy /> */}
+        {/* <FeatureSection /> */}
         <TeamSection />
-        <ParallaxSection />
+        {/* <ParallaxSection /> */}
         <Testimonial />
-        <BlogsAndMediaSection />
+        <Blogs />
+        {/* <BlogsAndMediaSection /> */}
       </div>
     </Fragment>
   );
