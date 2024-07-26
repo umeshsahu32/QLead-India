@@ -10,6 +10,7 @@ import LinkButton from "../../Buttons/LinkButton";
 const Blogs = () => {
   const posts = [
     {
+      id: 1,
       image: image1,
       date: "December 12, 2024",
       title: "AOB India",
@@ -19,6 +20,7 @@ const Blogs = () => {
         "The Most Reliable Sales Outsourcing Partner For Any Business",
     },
     {
+      id: 2,
       image: image2,
       date: "July 17, 2023",
       title: "AOB India",
@@ -28,6 +30,7 @@ const Blogs = () => {
         "A pathbreaking initiative, efficiently delivering outsourcing service in sales",
     },
     {
+      id: 3,
       image: image3,
       date: "March 05, 2024",
       title: "AOB India",

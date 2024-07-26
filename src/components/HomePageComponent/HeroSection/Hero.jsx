@@ -26,7 +26,7 @@ const Hero = () => {
           Get leads that convert, with precision and ease
         </h2>
         <div className={styles.link_btn}>
-          <Link className={styles.get_started_btn} to="#">
+          <Link className={styles.get_started_btn} to="contact-us">
             Try Q-Lead
           </Link>
         </div>

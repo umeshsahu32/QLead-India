@@ -13,6 +13,7 @@ import ParallaxSection from "../../components/HomePageComponent/ParallaxSection/
 import IndustriesSection from "../../components/HomePageComponent/IndustriesSection/IndustriesSection";
 import SuccessStory from "../../components/HomePageComponent/SuccessStory/SuccessStory";
 import Blogs from "../../components/HomePageComponent/Blogs/Blogs";
+import CustomerTestimonial from "../../components/HomePageComponent/CustomerTestimonials/CustomerTestimonials";
 
 const HomePage = () => {
   return (
@@ -28,7 +29,8 @@ const HomePage = () => {
         {/* <FeatureSection /> */}
         <TeamSection />
         {/* <ParallaxSection /> */}
-        <Testimonial />
+        {/* <Testimonial /> */}
+        <CustomerTestimonial />
         <Blogs />
         {/* <BlogsAndMediaSection /> */}
       </div>

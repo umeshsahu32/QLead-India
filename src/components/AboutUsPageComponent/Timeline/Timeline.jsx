@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import styles from "./Timeline.module.css";
+import SectionHeading from "../../SectionHeading/SectionHeading";
 
 const Timeline = () => {
   const events = [
@@ -49,6 +50,7 @@ const Timeline = () => {
 
   return (
     <Fragment>
+      <SectionHeading heading="Our Journey" />
       <div className={styles.timeline}>
         <div className={styles.timelineContainer}>
           {events.map((event, index) => (
@@ -61,7 +63,7 @@ const Timeline = () => {
               <div className={styles.content}>
                 <h3>{event.title}</h3>
                 <p className={styles.subtitle}>{event.subtitle}</p>
-                <p>{event.description}</p>
+                <p className={styles.description}>{event.description}</p>
               </div>
             </div>
           ))}

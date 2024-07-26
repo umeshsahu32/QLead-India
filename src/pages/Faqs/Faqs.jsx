@@ -1,39 +1,46 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useState, useEffect } from "react";
 import styles from "./Faqs.module.css";
-import { faqType, FaqData } from "./FaqData.js";
-import FaqComponent from "./FaqComponent.jsx";
-import SectionHeading from "../../components/SectionHeading/SectionHeading.jsx";
+import { useLocation } from "react-router-dom";
 
-const Faqs = () => {
-  const [categoryId, setCategoryId] = useState(0);
+const Faqs = ({ data }) => {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const { pathname } = useLocation();
 
-  const faqCategoryBtnClickHandler = (e, id) => {
-    setCategoryId(id);
+  const toggleAccordion = (index) => {
+    setActiveIndex(index === activeIndex ? null : index);
   };
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, [pathname]);
+
+  //   @ JSX START
   return (
     <Fragment>
-      <div className={styles.faq_component}>
-        <SectionHeading
-          heading="Frequently Asked Questions"
-          para="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit"
-        />
-      </div>
-      <div className={styles.show_faq}>
-        <div className={styles.faq_category}>
-          {faqType.map((item, index) => {
-            return (
-              <Button
-                text={item.text}
-                onClick={(e) => faqCategoryBtnClickHandler(e, item.id)}
-                isActive={categoryId === index}
-              />
-            );
-          })}
-        </div>
-        <div>
-          <FaqComponent questions={FaqData[categoryId]} />
-        </div>
+      <div className={styles.faqContainer}>
+        {data.map((question, index) => (
+          <div key={index} className={styles.faqItem}>
+            <div
+              className={`${styles.faqQuestion} ${
+                activeIndex === index ? styles.active_border : ""
+              }`}
+              onClick={() => toggleAccordion(index)}
+            >
+              {question.question}
+              <span className={styles.icon}>
+                {activeIndex === index ? "-" : "+"}
+              </span>
+            </div>
+
+            <div
+              className={`${styles.faqAnswer} ${
+                activeIndex === index ? styles.active : ""
+              }`}
+            >
+              {question.answer}
+            </div>
+          </div>
+        ))}
       </div>
     </Fragment>
   );

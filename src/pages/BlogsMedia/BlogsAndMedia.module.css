@@ -1,89 +1,94 @@
-.blog_container {
+.sectionContainer {
+  max-width: 1200px;
+  margin: auto;
+  height: 100%;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 3rem 0 5rem 0;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 
 .card {
-  position: relative;
-  width: 300px;
-  overflow: hidden;
-  margin: 10px;
-  border: 1px solid #ccc;
+  background: var(--color-white);
   border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
   transition: transform 0.3s ease;
+  width: 300px;
+  margin: 20px;
+  min-height: 355px;
+  border: 1px solid #e6e3e3;
 }
 
 .card:hover {
-  transform: scale(1.02);
+  transform: translateY(-5px);
 }
 
-.image {
+.cardImage {
   width: 100%;
-  height: 200px;
+  height: 10rem;
   object-fit: cover;
 }
 
-.content {
-  padding: 15px;
-  text-align: center;
+.cardContent {
+  padding: 16px;
 }
 
-.title {
-  font-size: 18px;
-  margin: 10px 0;
+.cardTitle {
+  font-size: 1rem;
+  color: var(--color-button-1);
+  margin: 0;
+  font-weight: 600;
 }
 
-.platform {
-  font-size: 14px;
-  color: #888;
-  margin-bottom: 10px;
+.cardSubtitle {
+  font-size: 0.8rem;
+  color: grey;
+  margin: 3px 0;
 }
 
-.button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  text-decoration: none;
+.cardDescription {
+  font-size: 0.9rem;
+  color: #333;
+  margin-top: 10px;
+  text-transform: capitalize;
+  min-height: 50px;
 }
 
-.button:hover {
-  background-color: #0056b3;
-}
-
-.hoverContent {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #321532;
-  color: var(--color-white);
+.cardFooter {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  padding: 20px;
-  box-sizing: border-box;
-  text-align: center;
-  gap: 1rem;
+  margin-top: 2rem;
+
+  /* gap: 10px;
+  align-items: flex-end;
+  flex-direction: column; */
 }
 
-.card:hover .hoverContent {
-  opacity: 1;
+.cardDate {
+  font-size: 0.8em;
+  color: grey;
 }
 
-.blogList {
+.cardLink {
+  font-size: 0.8em;
+  color: var(--color-button-1);
+  text-decoration: none;
+  font-weight: bold;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px;
+  align-items: center;
+  gap: 5px;
+}
+
+.cardLink:hover {
+  text-decoration: underline;
 }

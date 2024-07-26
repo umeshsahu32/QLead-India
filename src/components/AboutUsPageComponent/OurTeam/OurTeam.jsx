@@ -20,21 +20,6 @@ const TeamMember = ({ name, role, image, description, socials }) => (
       <div className={styles.separator}></div>
       <p className={styles.description}>{description}</p>
       <div className={styles.socials}>
-        {socials.twitter && (
-          <a href={socials.twitter}>
-            <FaTwitter />
-          </a>
-        )}
-        {socials.facebook && (
-          <a href={socials.facebook}>
-            <FaFacebook />
-          </a>
-        )}
-        {socials.instagram && (
-          <a href={socials.instagram}>
-            <FaInstagram />
-          </a>
-        )}
         {socials.linkedin && (
           <a href={socials.linkedin}>
             <FaLinkedin />
@@ -135,7 +120,7 @@ const OurTeam = () => {
 
   return (
     <div className={styles.container}>
-      <SectionHeading heading="Our Leadership Team" />
+      <SectionHeading heading="Our Leadership" />
       <div className={styles.teamGrid}>
         {team.map((member, index) => (
           <TeamMember key={index} {...member} />

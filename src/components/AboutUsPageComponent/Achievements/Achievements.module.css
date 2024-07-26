@@ -12,7 +12,7 @@
 
 .image {
   width: 35rem;
-  height: 25rem;
+  height: 22rem;
   object-fit: cover;
   border-radius: 10px;
   transition: all 0.3s ease;
@@ -34,7 +34,8 @@
   align-items: center;
   padding: 15px;
   background-color: var(--color-white);
-  border: none;
+
+  border: 1px solid var(--color-button-1);
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;

@@ -10,12 +10,25 @@ import image6 from "../../../assets/images/SuccessStory/image-6.webp";
 import SectionHeading from "../../SectionHeading/SectionHeading";
 import LinkButton from "../../Buttons/LinkButton";
 
-const PlayIcon = ({ onClick }) => (
-  <svg viewBox="0 0 24 24" width="32" height="32" onClick={onClick}>
-    <path d="M8 5v14l11-7z" fill="#303030" />
-  </svg>
-);
+// const PlayIcon = ({ onClick }) => (
+//   <svg viewBox="0 0 24 24" width="32" height="32" onClick={onClick}>
+//     <path d="M8 5v14l11-7z" fill="#303030" />
+//   </svg>
+// );
 
+const PlayIcon = ({ onClick }) => {
+  return (
+    <Fragment>
+      <div className={styles.container}>
+        <div className={styles.playIconWrapper}>
+          <div className={styles.playIcon} onClick={onClick}>
+            <div className={styles.triangle}></div>
+          </div>
+        </div>
+      </div>
+    </Fragment>
+  );
+};
 const cardData = [
   {
     logo: image1,

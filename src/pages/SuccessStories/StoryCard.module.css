@@ -6,13 +6,11 @@
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
-  margin-top: 4rem;
-  margin-bottom: 3rem;
 }
 
 .card {
-  width: 280px;
-  height: 320px;
+  width: 320px;
+  height: 360px;
   /* background: linear-gradient(to bottom, #59d337 0%, #111827 60%); */
   border-radius: 10px;
   overflow: hidden;
@@ -21,15 +19,12 @@
   color: white;
   padding: 20px;
   transition: transform 0.3s ease;
+  position: relative;
 }
 
 .logoContainer {
   margin-bottom: 20px;
   position: relative;
-}
-
-.card:hover {
-  transform: translateY(-5px);
 }
 
 .logo {
@@ -94,64 +89,44 @@
   text-decoration: underline;
 }
 
-/* PLAY ICON WITH ANIMATION START */
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5rem;
-}
-
-/* PlayIcon.module.css */
-.playIconWrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 60px; /* Reduced from 100px */
-  height: 60px; /* Reduced from 100px */
-  border-radius: 50%;
-}
-
-.playIcon {
-  width: 48px; /* Reduced from 80px */
-  height: 48px; /* Reduced from 80px */
-  background-color: var(--color-button-1);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: pulse 1.5s ease-out infinite;
-  cursor: pointer;
-}
-
-.triangle {
-  width: 0;
-  height: 0;
-  border-top: 9px solid transparent; /* Reduced from 15px */
-  border-bottom: 9px solid transparent; /* Reduced from 15px */
-  border-left: 15px solid white; /* Reduced from 25px */
-  margin-left: 3px; /*Reduced from 5px */
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(0.95);
-    box-shadow: 0 0 0 0 rgba(71, 255, 80, 0.7);
-  }
-  70% {
-    transform: scale(1);
-    box-shadow: 0 0 0 9px rgba(255, 99, 71, 0); /* Reduced from 15px */
-  }
-  100% {
-    transform: scale(0.95);
-    box-shadow: 0 0 0 0 rgba(74, 255, 71, 0);
-  }
-}
-
-/* PLAY ICON WITH ANIMATION END */
-
 @media (max-width: 992px) {
   .playIconWrapper {
     opacity: 1;
   }
+}
+
+.cardContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0);
+  color: #fff;
+  transition: background 0.5s ease-in;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+}
+
+.cardDetails {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 0.5s ease-in, transform 0.5s ease-in;
+  text-align: left;
+}
+
+.card:hover .cardImage {
+  opacity: 0.4;
+}
+
+.card:hover .cardContent {
+  background: rgba(0, 0, 0, 0.788);
+}
+
+.card:hover .cardDetails {
+  opacity: 1;
+  transform: translateX(0);
 }

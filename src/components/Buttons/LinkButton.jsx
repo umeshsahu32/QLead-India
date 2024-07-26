@@ -6,7 +6,7 @@ const LinkButton = ({ path, text }) => {
   return (
     <Fragment>
       <div className={styles.btn_align}>
-        <Link to={"#"} className={styles.linkButton}>
+        <Link to={path} className={styles.linkButton}>
           {text}
         </Link>
       </div>

@@ -74,23 +74,23 @@ const Footer = () => {
 
       <div className={styles.footerColumn}>
         <h4>Useful Links</h4>
-        <Link to="/home" className={styles.footerLink}>
+        <Link to="/" className={styles.footerLink}>
           Home
         </Link>
         <br />
-        <Link to="/about" className={styles.footerLink}>
+        <Link to="/about-us" className={styles.footerLink}>
           About us
         </Link>{" "}
         <br />
-        <Link to="/services" className={styles.footerLink}>
+        <Link to="/our-packages" className={styles.footerLink}>
           Packages
         </Link>{" "}
         <br />
-        <Link to="/terms" className={styles.footerLink}>
+        <Link to="/terms-and-conditions" className={styles.footerLink}>
           Terms of service
         </Link>{" "}
         <br />
-        <Link to="/privacy" className={styles.footerLink}>
+        <Link to="/privacy-policy" className={styles.footerLink}>
           Privacy policy
         </Link>
       </div>
@@ -120,49 +120,26 @@ const Footer = () => {
 
       <div className={styles.footerColumn}>
         <h4>Know More</h4>
-        <Link to="/service1" className={styles.footerLink}>
+        <Link to="/faqs" className={styles.footerLink}>
           FAQs
         </Link>{" "}
         <br />
-        <Link to="/service2" className={styles.footerLink}>
+        <Link to="/success-stories" className={styles.footerLink}>
           Success Stories
         </Link>{" "}
         <br />
-        <Link to="/service3" className={styles.footerLink}>
+        <Link to="/blogs-and-media" className={styles.footerLink}>
           Blogs & Media
         </Link>{" "}
         <br />
-        <Link to="/service4" className={styles.footerLink}>
+        <Link to="/contact-us" className={styles.footerLink}>
           Contact Us
         </Link>{" "}
         <br />
-        <Link to="/service5" className={styles.footerLink}>
+        <Link to="https://aobsales.com/" className={styles.footerLink}>
           AOB India
         </Link>
       </div>
-
-      {/* <div className={styles.footerColumn}>
-        <h4>Nobis illum</h4>
-        <Link to="/item1" className={styles.footerLink}>
-          Ipsam
-        </Link>{" "}
-        <br />
-        <Link to="/item2" className={styles.footerLink}>
-          Laudantium dolorum
-        </Link>{" "}
-        <br />
-        <Link to="/item3" className={styles.footerLink}>
-          Dinera
-        </Link>{" "}
-        <br />
-        <Link to="/item4" className={styles.footerLink}>
-          Trodelas
-        </Link>{" "}
-        <br />
-        <Link to="/item5" className={styles.footerLink}>
-          Flexo
-        </Link>
-      </div> */}
     </footer>
   );
 };

@@ -9,11 +9,11 @@ import Achievements from "../../components/AboutUsPageComponent/Achievements/Ach
 const AboutUs = () => {
   return (
     <Fragment>
-      <SectionHeading
+      {/* <SectionHeading
         heading="Our Journey"
         para="AOB India's 10-Year Journey: A Decade of Excellence in Sales Outsourcing"
-      />
-      <div className={styles.secondary_head}>
+      /> */}
+      {/* <div className={styles.secondary_head}>
         <h3>
           AOB India: Celebrating 10 Years of Transforming Sales Strategies
         </h3>
@@ -24,9 +24,9 @@ const AboutUs = () => {
           journey is a testament to our commitment to excellence, innovation,
           and customer success.
         </p>
-      </div>
-      <Timeline />
+      </div> */}
       <Achievements />
+      <Timeline />
       <OurTeam />
     </Fragment>
   );

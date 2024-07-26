@@ -29,7 +29,7 @@ const achievementData = [
     id: 1,
     image:
       "https://images.unsplash.com/photo-1533750349088-cd871a92f312?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    title: "Our Key Milestones",
+    title: "Our Milestones:",
     icon: <FaFlag />,
     list: [
       {
@@ -43,6 +43,9 @@ const achievementData = [
       {
         subtitle: "200+ Sales Experts:",
         desc: "A dedicated team of sales professionals committed to driving your business growth.",
+      },
+      {
+        subtitle: "100+ Awards",
       },
     ],
   },

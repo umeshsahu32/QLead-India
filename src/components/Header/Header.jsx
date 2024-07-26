@@ -60,8 +60,8 @@ const Header = () => {
     // },
     {
       id: 7,
-      path: "/case-study",
-      text: "Case Study",
+      path: "/success-stories",
+      text: "Success Stories",
       icon: <MdEmail />,
     },
     {
@@ -112,7 +112,7 @@ const Header = () => {
         <div className={styles.navbar}>
           {/* @ NAV BAR FOR DEVICE WIDTH MORE THAN 768PX (DESKTOP, LAPTOP AND TAB )*/}
           <div className={styles.navBranding}>
-            <Link to="#">
+            <Link to="/">
               <img src={QLead_India_logo} alt="Icon" className={styles.icon} />
             </Link>
           </div>

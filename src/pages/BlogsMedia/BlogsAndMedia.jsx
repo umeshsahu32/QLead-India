@@ -1,25 +1,21 @@
-import React, { Fragment } from "react";
-import BlogCard from "./BlogCard";
-import { BlogData } from "./BlogsMediaData";
+import React, { Fragment, useState, useEffect } from "react";
 import styles from "./BlogsAndMedia.module.css";
+import { BlogData } from "./BlogsMediaData";
 import SectionHeading from "../../components/SectionHeading/SectionHeading";
+import BlogCard from "./BlogCard";
+import { useLocation } from "react-router-dom";
 
 const BlogsAndMedia = () => {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, [pathname]);
   return (
     <Fragment>
-      <div className={styles.blog_container}>
-        <SectionHeading heading="Blogs and Media" />
-        <div className={styles.blogList}>
-          {BlogData.map((blog, index) => (
-            <BlogCard
-              key={index}
-              image={blog.imageFront}
-              title={blog.title}
-              platform={blog.platform}
-              description={blog.description}
-              link={blog.link}
-            />
-          ))}
+      <SectionHeading heading="Blogs And Media" />
+      <div className={styles.sectionContainer}>
+        <div>
+          <BlogCard posts={BlogData} />
         </div>
       </div>
     </Fragment>

@@ -1,23 +1,38 @@
-import React from "react";
+import React, { Fragment } from "react";
 import styles from "./BlogsAndMedia.module.css";
-import { Link } from "react-router-dom";
+import { FaArrowRight } from "react-icons/fa";
 
-const BlogCard = ({ image, title, platform, description, link }) => {
-  console.log("http", image);
+const BlogCard = ({ posts }) => {
   return (
-    <div className={styles.card}>
-      <img src={image} alt={title} className={styles.image} />
-      <div className={styles.content}>
-        <h3 className={styles.title}>{title}</h3>
-        <p className={styles.platform}>{platform}</p>
+    <Fragment>
+      <div className={styles.container}>
+        {posts.map((item, index) => {
+          return (
+            <div className={styles.card} key={index}>
+              <img
+                src={item.image}
+                alt={item.title}
+                className={styles.cardImage}
+              />
+              <div className={styles.cardContent}>
+                <h3 className={styles.cardTitle}>{item.title}</h3>
+                <p className={styles.cardSubtitle}>{item.category}</p>
+                <p className={styles.cardDescription}>{item.description}</p>
+                <div className={styles.cardFooter}>
+                  <p className={styles.cardDate}>{item.date}</p>
+                  <a href={item.link} className={styles.cardLink}>
+                    <span>READ MORE </span>
+                    <span>
+                      <FaArrowRight />
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          );
+        })}
       </div>
-      <div className={styles.hoverContent}>
-        <p>{description}</p>
-        <Link to={link} className={styles.button}>
-          READ MORE
-        </Link>
-      </div>
-    </div>
+    </Fragment>
   );
 };
 

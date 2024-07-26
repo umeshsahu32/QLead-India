@@ -1,0 +1,221 @@
+.container {
+  position: relative;
+  display: flex;
+  /* height: 500px; */
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  /* border: 1px solid #e5e7eb; */
+  background-color: var(--color-white);
+  margin-top: 5rem;
+}
+
+.reviewCard {
+  position: relative;
+  width: 16rem;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  border: 1px solid var(--color-button-1);
+  background-color: var(--color-white);
+  padding: 1rem;
+  transition: background-color 0.3s;
+}
+
+.reviewCard:last-child {
+  margin-right: 1rem;
+}
+
+.reviewCard:hover {
+  background-color: var(--color-button-1);
+  color: var(--color-white);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border: 1px solid var(--color-button-1);
+  color: var(--color-button-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.username {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--color-tertiary);
+}
+
+.description {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--color-tertiary);
+}
+
+.reviewCard:hover .avatar {
+  border: 1px solid var(--color-white);
+  color: var(--color-white);
+}
+
+.reviewCard:hover .name,
+.reviewCard:hover .username,
+.reviewCard:hover .description {
+  color: var(--color-white);
+}
+
+.marquee {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.marqueeContent {
+  display: flex;
+  gap: 1rem;
+  animation: scroll 30s linear infinite;
+}
+
+.reverse .marqueeContent {
+  animation-direction: reverse;
+}
+
+.paused .marqueeContent {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.customDuration {
+  --duration: 20s;
+}
+
+.gradientLeft,
+.gradientRight {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 33.333333%;
+}
+
+/* .gradientLeft {
+    left: 0;
+    background: linear-gradient(to right, #ffffff, transparent);
+  }
+  
+  .gradientRight {
+    right: 0;
+    background: linear-gradient(to left, #ffffff, transparent);
+  } */
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  .container {
+    background-color: #1f2937;
+  }
+
+  .reviewCard {
+    border-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .reviewCard:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+
+  .name {
+    color: #ffffff;
+  }
+
+  .username {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .gradientLeft {
+    background: linear-gradient(to right, #1f2937, transparent);
+  }
+
+  .gradientRight {
+    background: linear-gradient(to left, #1f2937, transparent);
+  }
+}
+
+.playIconWrapper {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  background-color: #8fc0fc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.user_name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 568px) {
+  .reviewCard {
+    width: 14rem;
+    padding: 0.8rem;
+  }
+
+  .name {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .username {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+
+  .avatar {
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+  }
+}
