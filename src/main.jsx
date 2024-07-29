@@ -14,6 +14,7 @@ import {
 import Layout from "./routes/Layout.jsx";
 
 import ContactUs from "./pages/ContactUs/ContactUs.jsx";
+import ContactUs2 from "./pages/ContactUs2/ContactUs2.jsx";
 
 const router = createBrowserRouter([
   {
@@ -32,7 +33,7 @@ const router = createBrowserRouter([
         path: "contact-us",
         element: (
           <Suspense fallback={<PageLoader />}>
-            <ContactUs />
+            <ContactUs2 />
           </Suspense>
         ),
       },

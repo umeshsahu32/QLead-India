@@ -14,6 +14,9 @@ import IndustriesSection from "../../components/HomePageComponent/IndustriesSect
 import SuccessStory from "../../components/HomePageComponent/SuccessStory/SuccessStory";
 import Blogs from "../../components/HomePageComponent/Blogs/Blogs";
 import CustomerTestimonial from "../../components/HomePageComponent/CustomerTestimonials/CustomerTestimonials";
+import IntroSection2 from "../../components/HomePageComponent/IntroSection2/IntroSection2";
+import UniqueFeature from "../../components/HomePageComponent/UniqueFeature/UniqueFeature";
+import Industries2 from "../../components/HomePageComponent/Industries2/Industries2";
 
 const HomePage = () => {
   return (
@@ -21,13 +24,16 @@ const HomePage = () => {
       <Hero />
       <div className={styles.home}>
         {/* <IntroSection /> */}
-        <WhatWeStand />
-        <BenefitSection />
-        <IndustriesSection />
+        {/* <WhatWeStand /> */}
+        <IntroSection2 />
+        <UniqueFeature />
+        {/* <Industries2 /> */}
+        {/* <BenefitSection /> */}
+        {/* <IndustriesSection /> */}
         <SuccessStory />
         {/* <CaseStudy /> */}
         {/* <FeatureSection /> */}
-        <TeamSection />
+        {/* <TeamSection /> */}
         {/* <ParallaxSection /> */}
         {/* <Testimonial /> */}
         <CustomerTestimonial />

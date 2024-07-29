@@ -5,6 +5,7 @@ import styles from "./AboutUs.module.css";
 import Timeline from "../../components/AboutUsPageComponent/Timeline/Timeline";
 import OurTeam from "../../components/AboutUsPageComponent/OurTeam/OurTeam";
 import Achievements from "../../components/AboutUsPageComponent/Achievements/Achievements";
+import Milestones from "../../components/AboutUsPageComponent/Milestones/Milestones";
 
 const AboutUs = () => {
   return (
@@ -25,7 +26,8 @@ const AboutUs = () => {
           and customer success.
         </p>
       </div> */}
-      <Achievements />
+      {/* <Achievements /> */}
+      <Milestones />
       <Timeline />
       <OurTeam />
     </Fragment>

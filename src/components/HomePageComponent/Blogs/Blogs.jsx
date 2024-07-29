@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 import SectionHeading from "../../SectionHeading/SectionHeading";
 import image1 from "../../../assets/images/Blogs/media-front-1.png";
 import image2 from "../../../assets/images/Blogs/media-front-2.jpg";
-import image3 from "../../../assets/images/Blogs/media-front-3.jpg";
+import image3 from "../../../assets/images/Blogs/media-front-3.jpeg";
 import LinkButton from "../../Buttons/LinkButton";
 
 const Blogs = () => {

@@ -134,9 +134,9 @@ const SuccessStory = () => {
                   <span className={styles.percentage}>{item.percentage}</span>
                   <span className={styles.description}>{item.description}</span>
                 </div>
-                <a href="#" className={styles.link}>
+                {/* <a href="#" className={styles.link}>
                   {item.caseStudy}
-                </a>
+                </a> */}
               </div>
             </div>
             <VideoModal
