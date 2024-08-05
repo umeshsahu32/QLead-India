@@ -8,14 +8,14 @@ import styles from "./Milestones.module.css";
 const Milestones = () => {
   const stats = [
     { number: "500+", label: "Clients Served" },
-    { number: "1 Million+", label: "Leads Generated" },
+    { number: "1 M+", label: "Leads Generated" },
     { number: "200+", label: "Sales Expert" },
     { number: "100+", label: "Awards" },
   ];
 
   return (
     <Fragment>
-      <section className={styles.section}>
+      <div className={styles.section}>
         <div className={styles.container}>
           <div className={styles.content}>
             <h2 className={styles.heading}>
@@ -47,8 +47,16 @@ const Milestones = () => {
               ))}
             </Swiper>
           </div>
+          <div className={styles.gridContainer}>
+            {stats.map((stat, index) => (
+              <div key={index} className={styles.gridItem}>
+                <div className={styles.number}>{stat.number}</div>
+                <div className={styles.label}>{stat.label}</div>
+              </div>
+            ))}
+          </div>
         </div>
-      </section>
+      </div>
     </Fragment>
   );
 };

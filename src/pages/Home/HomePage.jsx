@@ -17,6 +17,7 @@ import CustomerTestimonial from "../../components/HomePageComponent/CustomerTest
 import IntroSection2 from "../../components/HomePageComponent/IntroSection2/IntroSection2";
 import UniqueFeature from "../../components/HomePageComponent/UniqueFeature/UniqueFeature";
 import Industries2 from "../../components/HomePageComponent/Industries2/Industries2";
+import AITools from "../../components/HomePageComponent/AITools/AITools";
 
 const HomePage = () => {
   return (
@@ -27,7 +28,8 @@ const HomePage = () => {
         {/* <WhatWeStand /> */}
         <IntroSection2 />
         <UniqueFeature />
-        {/* <Industries2 /> */}
+        <AITools />
+        <Industries2 />
         {/* <BenefitSection /> */}
         {/* <IndustriesSection /> */}
         <SuccessStory />

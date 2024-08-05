@@ -1,13 +1,19 @@
 import React from "react";
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import SectionHeading from "../../components/SectionHeading/SectionHeading";
 import styles from "./AboutUs.module.css";
 import Timeline from "../../components/AboutUsPageComponent/Timeline/Timeline";
 import OurTeam from "../../components/AboutUsPageComponent/OurTeam/OurTeam";
 import Achievements from "../../components/AboutUsPageComponent/Achievements/Achievements";
 import Milestones from "../../components/AboutUsPageComponent/Milestones/Milestones";
+import { useLocation } from "react-router-dom";
 
 const AboutUs = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, [pathname]);
   return (
     <Fragment>
       {/* <SectionHeading

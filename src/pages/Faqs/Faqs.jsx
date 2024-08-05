@@ -1,6 +1,7 @@
 import React, { Fragment, useState, useEffect } from "react";
 import styles from "./Faqs.module.css";
 import { useLocation } from "react-router-dom";
+import { IoIosArrowUp } from "react-icons/io";
 
 const Faqs = ({ data }) => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -17,7 +18,7 @@ const Faqs = ({ data }) => {
   //   @ JSX START
   return (
     <Fragment>
-      <div className={styles.faqContainer}>
+      {/* <div className={styles.faqContainer}>
         {data.map((question, index) => (
           <div key={index} className={styles.faqItem}>
             <div
@@ -29,6 +30,33 @@ const Faqs = ({ data }) => {
               {question.question}
               <span className={styles.icon}>
                 {activeIndex === index ? "-" : "+"}
+              </span>
+            </div>
+
+            <div
+              className={`${styles.faqAnswer} ${
+                activeIndex === index ? styles.active : ""
+              }`}
+            >
+              {question.answer}
+            </div>
+          </div>
+        ))}
+      </div> */}
+      <div className={styles.faqContainer}>
+        {data.map((question, index) => (
+          <div key={index} className={styles.faqItem}>
+            <div
+              className={styles.faqQuestion}
+              onClick={() => toggleAccordion(index)}
+            >
+              {question.question}
+              <span
+                className={`${styles.icon} ${
+                  activeIndex === index ? styles.rotated : styles.notRotated
+                }`}
+              >
+                <IoIosArrowUp size={14} />
               </span>
             </div>
 

@@ -10,6 +10,7 @@ import {
   Faqs,
   BlogsAndMedia,
   SuccessStories,
+  Industries,
 } from "./routes/routes.js";
 import Layout from "./routes/Layout.jsx";
 
@@ -66,6 +67,14 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback={<PageLoader />}>
             <SuccessStories />
+          </Suspense>
+        ),
+      },
+      {
+        path: "industries-served",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <Industries />
           </Suspense>
         ),
       },
