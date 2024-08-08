@@ -20,31 +20,33 @@ const StoryCard = ({ cardData }) => {
                 />
               </div>
               <div className={styles.content}>
-                <div className={styles.stats}>
-                  <span className={styles.percentage}>{item.percentage}</span>
-                  <span className={styles.description}>{item.description}</span>
-                </div>
-                <a href="#" className={styles.link}>
-                  {item.caseStudy}
-                </a>
+                <span className={styles.percentage}>{item.percentage}</span>
+                <span className={styles.description}>{item.description}</span>
               </div>
               {/* Hover card start */}
               <div className={styles.cardContent}>
                 <div className={styles.cardDetails}>
-                  <p>
-                    <strong>Challenge: </strong>
-                    {item.challenge}
-                  </p>
-                  <br />
-                  <p>
-                    <strong>Solution: </strong>
-                    {item.solution}
-                  </p>
-                  <br />
-                  <p>
-                    <strong>Result: </strong>
-                    {item.result}
-                  </p>
+                  {/* <div className={styles.info_content}> */}
+                  <div
+                    className={`${styles.info_content} ${styles.info_content_1}`}
+                  >
+                    <p>Challenge:</p>
+                    <span> {item.challenge}</span>
+                  </div>
+                  {/* <div className={styles.info_content}> */}
+                  <div
+                    className={`${styles.info_content} ${styles.info_content_2}`}
+                  >
+                    <p>Solution:</p>
+                    <span>{item.solution}</span>
+                  </div>
+                  {/* <div className={styles.info_content}> */}
+                  <div
+                    className={`${styles.info_content} ${styles.info_content_3}`}
+                  >
+                    <p>Result:</p>
+                    <span>{item.result}</span>
+                  </div>
                 </div>
               </div>
               {/* Hover card end */}

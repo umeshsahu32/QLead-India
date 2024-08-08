@@ -6,6 +6,7 @@
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
+  margin-top: 4rem;
 }
 
 .card {
@@ -53,29 +54,25 @@
 .playIcon {
   cursor: pointer;
 }
+
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  flex-grow: 1;
-  padding: 0 10px;
-}
-
-.stats {
-  margin-bottom: 15px;
-  display: flex;
+  justify-content: center;
   align-items: center;
+  padding: 1rem;
+  font-family: var(--font-family-2);
 }
 
 .percentage {
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: bold;
-  margin-right: 10px;
 }
 
 .description {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #e0e0e0;
+  text-transform: capitalize;
 }
 
 .link {
@@ -123,10 +120,72 @@
 }
 
 .card:hover .cardContent {
-  background: rgba(0, 0, 0, 0.788);
+  background: rgba(0, 0, 0, 0.884);
 }
 
 .card:hover .cardDetails {
   opacity: 1;
   transform: translateX(0);
+}
+
+/* DESIGN ONE */
+/* .cardDetails div:not(:last-child) {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #0e608f;
+}
+
+.cardDetails div:not(:first-child) {
+  margin-top: 5px;
+}
+
+.info_content p {
+  color: #188dd1;
+  font-size: 1rem;
+  font-weight: 600;
+} */
+
+/* DESIGN TWO */
+
+.cardContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background: rgba(0, 0, 0, 0);
+  color: #fff;
+  transition: background 0.5s ease-in;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 0.9rem;
+}
+
+.info_content {
+  padding: 1.1rem 1rem;
+}
+
+.info_content p {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.info_content span {
+  color: #f1f1f1;
+  font-size: 0.9rem;
+}
+
+.info_content_1 {
+  background-color: #313130;
+}
+
+.info_content_2 {
+  background-color: #474744;
+}
+
+.info_content_3 {
+  background-color: #66665f;
 }

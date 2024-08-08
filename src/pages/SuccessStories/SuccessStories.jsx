@@ -2,9 +2,8 @@ import React, { useEffect } from "react";
 import { Fragment, useState } from "react";
 import StoryCategoryCarousel from "./StoryCategoryCarousel";
 import styles from "./SuccessStories.module.css";
+import { successData } from "./SuccessStoryData";
 import StoryCard from "./StoryCard";
-import { successStoriesData } from "./SuccessStoryData";
-import SectionHeading from "../../components/SectionHeading/SectionHeading";
 import { useLocation } from "react-router-dom";
 
 const SuccessStories = () => {
@@ -13,30 +12,42 @@ const SuccessStories = () => {
   const { pathname } = useLocation();
 
   const fnGetActiveData = () => {
-    const res = successStoriesData.filter(
-      (item) => item.section_id === activeTab
-    );
+    const res = successData.filter((item) => item.category_id === activeTab);
     setActiveData(res);
   };
-
-  useEffect(() => {
-    fnGetActiveData();
-  }, [activeTab]);
 
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, [pathname]);
 
+  useEffect(() => {
+    fnGetActiveData();
+  }, [activeTab]);
+
   const pillClickHandler = (id) => {
     setActiveTab(id);
   };
 
+  const categories = [
+    {
+      category_id: 1,
+      category: "B2B",
+    },
+    {
+      category_id: 2,
+      category: "B2C",
+    },
+    {
+      category_id: 3,
+      category: "D2C",
+    },
+  ];
+
   return (
     <Fragment>
-      <SectionHeading heading="Success Stories" />
       <div className={styles.sectionContainer}>
         <StoryCategoryCarousel
-          categories={successStoriesData}
+          categories={categories}
           onClick={(id) => pillClickHandler(id)}
           active={activeTab}
         />

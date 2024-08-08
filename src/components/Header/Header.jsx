@@ -42,7 +42,7 @@ const Header = () => {
     },
     {
       id: 4,
-      path: "/packages",
+      path: "/our-packages",
       text: "Packages",
       icon: <MdEmail />,
     },

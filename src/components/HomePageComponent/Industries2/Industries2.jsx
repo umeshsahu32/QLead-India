@@ -6,7 +6,7 @@ import "animate.css";
 import { Link } from "react-router-dom";
 
 const Industries2 = () => {
-  const INDUSTRIES_COUNT = 42;
+  const INDUSTRIES_COUNT = 55;
 
   const { count, countRef } = useCountAnimation(INDUSTRIES_COUNT, 1000);
 

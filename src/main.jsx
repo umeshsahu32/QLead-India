@@ -11,11 +11,13 @@ import {
   BlogsAndMedia,
   SuccessStories,
   Industries,
+  Packages,
 } from "./routes/routes.js";
 import Layout from "./routes/Layout.jsx";
 
 import ContactUs from "./pages/ContactUs/ContactUs.jsx";
 import ContactUs2 from "./pages/ContactUs2/ContactUs2.jsx";
+import { NotificationProvider } from "./components/NotificationToaster/NotificationContext.jsx";
 
 const router = createBrowserRouter([
   {
@@ -79,6 +81,14 @@ const router = createBrowserRouter([
         ),
       },
       {
+        path: "our-packages",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <Packages />
+          </Suspense>
+        ),
+      },
+      {
         path: "*",
         element: (
           <Suspense fallback={<PageLoader />}>
@@ -92,6 +102,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <NotificationProvider>
+      <RouterProvider router={router} />
+    </NotificationProvider>
   </React.StrictMode>
 );

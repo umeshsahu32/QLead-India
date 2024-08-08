@@ -16,6 +16,8 @@ const ContactUs = lazy(() => import("../pages/ContactUs/ContactUs.jsx"));
 
 const Industries = lazy(() => import("../pages/Industries/Industries.jsx"));
 
+const Packages = lazy(() => import("../pages/Packages/Packages.jsx"));
+
 const PageNotFound = lazy(() =>
   import("../pages/PageNotFound/PageNotFound.jsx")
 );
@@ -27,5 +29,6 @@ export {
   PageNotFound,
   ContactUs,
   SuccessStories,
+  Packages,
   Industries,
 };
