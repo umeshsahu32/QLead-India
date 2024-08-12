@@ -4,6 +4,7 @@ import video1 from "../../../assets/video/video01.mp4";
 import video2 from "../../../assets/video/video02.mp4";
 import video3 from "../../../assets/video/video03.mp4";
 import SectionHeading from "../../SectionHeading/SectionHeading";
+import { Link } from "react-router-dom";
 
 const Section12 = () => {
   const data = [
@@ -42,6 +43,9 @@ const Section12 = () => {
             <div className={styles.content}>
               <h2>{item.heading}</h2>
               <p>{item.paragraph}</p>
+              <Link className={styles.get_started_btn} to="#">
+                Know More
+              </Link>
             </div>
             <div className={styles.videoContainer}>
               <video

@@ -36,7 +36,7 @@ const Header = () => {
     },
     {
       id: 3,
-      path: "/services",
+      path: "/our-services",
       text: "Services",
       icon: <FaHandshake />,
     },

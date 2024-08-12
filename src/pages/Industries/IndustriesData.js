@@ -7,12 +7,26 @@ import fashion from "../../assets/images/industries/fashion.webp";
 import food from "../../assets/images/industries/food.webp";
 import healthcare from "../../assets/images/industries/healthcare.webp";
 import logo1 from "../../assets/images/logos/download.jpeg";
+import agriculture from "../../assets/images/Industries-Images/Agriculture.jpg";
+import AppBasedServices from "../../assets/images/Industries-Images/App-based-service.jpg";
+import Automobile from "../../assets/images/Industries-Images/Automobile.jpg";
+import BeautyAndPersonalCare from "../../assets/images/Industries-Images/Beauty-and-Personal-Care.jpg";
+import ChannelSales from "../../assets/images/Industries-Images/Channel-Sales.jpg";
+import Chemical from "../../assets/images/Industries-Images/Chemical.jpg";
+import Construction from "../../assets/images/Industries-Images/Construction.jpg";
+import ConsultantServices from "../../assets/images/Industries-Images/Consultant-Services.jpg";
+import Dental from "../../assets/images/Industries-Images/Dental.jpg";
+import DigitalSales from "../../assets/images/Industries-Images/Digital-Sales.jpg";
+import DistributionNetwork from "../../assets/images/Industries-Images/Distribution-Network.jpg";
+import ECommerce from "../../assets/images/Industries-Images/E-Commerce.jpg";
+import EdTech from "../../assets/images/Industries-Images/Ed-tech.jpg";
+import Education from "../../assets/images/Industries-Images/Education.jpg";
 
 export const industriesData = [
   {
     id: 1,
     industry_name: "Agriculture",
-    image: automobile,
+    image: agriculture,
     description:
       "Reach farmers and agribusinesses in search of innovative agricultural products, technologies, and solutions to enhance their productivity.",
     brands: [logo1, logo1, logo1, logo1, logo1, logo1],
@@ -20,7 +34,7 @@ export const industriesData = [
   {
     id: 2,
     industry_name: "App Based Services",
-    image: corporate,
+    image: AppBasedServices,
     description:
       "Engage users seeking innovative app-based solutions across various sectors, from ride-sharing to food delivery, with targeted leads.",
     brands: [],
@@ -28,7 +42,7 @@ export const industriesData = [
   {
     id: 3,
     industry_name: "Automobile",
-    image: education,
+    image: Automobile,
     description:
       "Reach potential car buyers and dealers, ensuring your automotive offerings are presented to those actively seeking vehicles.",
     brands: [],
@@ -36,7 +50,7 @@ export const industriesData = [
   {
     id: 4,
     industry_name: "Beauty and Personal Care",
-    image: electronics,
+    image: BeautyAndPersonalCare,
     description:
       "Engage consumers seeking beauty and wellness products, enhancing your brand's reach in the personal care market.",
     brands: [],
@@ -44,7 +58,7 @@ export const industriesData = [
   {
     id: 5,
     industry_name: "Channel Sales",
-    image: entertainment,
+    image: ChannelSales,
     description:
       "Facilitate channel partner growth by identifying prospects interested in representing and selling your products through effective lead generation.",
     brands: [],
@@ -52,7 +66,7 @@ export const industriesData = [
   {
     id: 6,
     industry_name: "Chemical",
-    image: fashion,
+    image: Chemical,
     description:
       "Engage businesses seeking chemical solutions for industrial, commercial, and consumer applications, optimizing your market reach.",
     brands: [],
@@ -60,7 +74,7 @@ export const industriesData = [
   {
     id: 7,
     industry_name: "Construction",
-    image: food,
+    image: Construction,
     description:
       "Connect with contractors and developers seeking building materials, equipment, and services to complete their projects.",
     brands: [],
@@ -68,7 +82,7 @@ export const industriesData = [
   {
     id: 8,
     industry_name: "Consulting Services",
-    image: healthcare,
+    image: ConsultantServices,
     description:
       "Engage businesses looking for expert advice and solutions to drive growth and improve operational efficiency.",
     brands: [],
@@ -76,7 +90,7 @@ export const industriesData = [
   {
     id: 9,
     industry_name: "Dental Services (description not given)",
-    image: automobile,
+    image: Dental,
     description:
       "We are guided by technology where possibilities know no bounds, autonomous driving takes the wheel, guided by sophisticated IT systems, ushering in a new era of mobility. Connectivity weaves a mesmerising tapestry of smart features, seamlessly blending IT services into the very essence of the vehicles. Discover how we plan to kick off your brand identity to the next level",
     brands: [logo1, logo1, logo1, logo1, logo1, logo1],
@@ -84,7 +98,7 @@ export const industriesData = [
   {
     id: 10,
     industry_name: "Digital Sales",
-    image: corporate,
+    image: DigitalSales,
     description:
       "Boost your digital sales with high-quality leads that drive conversions across online platforms, maximizing your digital marketing efforts.",
     brands: [],
@@ -92,7 +106,7 @@ export const industriesData = [
   {
     id: 11,
     industry_name: "Distribution Network",
-    image: education,
+    image: DistributionNetwork,
     description:
       "Expand your distribution network by connecting with potential partners ready to carry and distribute your products across regions.",
     brands: [],
@@ -100,7 +114,7 @@ export const industriesData = [
   {
     id: 12,
     industry_name: "E-commerce",
-    image: electronics,
+    image: ECommerce,
     description:
       "Capture the attention of online shoppers looking for diverse products and services, increasing your e-commerce sales and market share.",
     brands: [],
@@ -108,7 +122,7 @@ export const industriesData = [
   {
     id: 13,
     industry_name: "Ed Tech",
-    image: entertainment,
+    image: EdTech,
     description:
       "Enhance student engagement and enrollment with our specialized leads, connecting you to educators, students, and institutions seeking innovative educational solutions.",
     brands: [],
@@ -116,7 +130,7 @@ export const industriesData = [
   {
     id: 14,
     industry_name: "Education",
-    image: fashion,
+    image: Education,
     description:
       "Reach students and parents exploring educational institutions, programs, and scholarships, optimizing your enrollment campaigns.",
     brands: [],

@@ -30,12 +30,18 @@
 
 .industryName {
   transition: transform 0.3s ease;
+  background: var(--background);
+  background-clip: text;
+  color: transparent;
 }
 
 .arrow {
   opacity: 0;
   transition: opacity 0.3s ease;
   transition: all 0.3s ease;
+  background: var(--background);
+  background-clip: text;
+  color: transparent;
   /* padding-right: 3rem; */
 }
 

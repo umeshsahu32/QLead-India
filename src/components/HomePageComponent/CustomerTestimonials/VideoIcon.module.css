@@ -17,7 +17,8 @@
 .playIcon {
   width: 28px; /* Reduced from 80px */
   height: 28px; /* Reduced from 80px */
-  background-color: var(--color-theme);
+  /* background-color: var(--color-theme); */
+  background: var(--background);
   border-radius: 50%;
   display: flex;
   justify-content: center;

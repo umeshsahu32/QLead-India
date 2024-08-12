@@ -40,6 +40,9 @@
   font-weight: 600;
   color: var(--color-primary);
   padding-bottom: 10px;
+  background: var(--background);
+  background-clip: text;
+  color: transparent;
 }
 
 .quality_box p {

@@ -24,6 +24,9 @@
   letter-spacing: 2px;
   line-height: 1.5;
   font-weight: normal;
+  background: var(--background);
+  color: transparent;
+  background-clip: text;
 }
 
 .description {

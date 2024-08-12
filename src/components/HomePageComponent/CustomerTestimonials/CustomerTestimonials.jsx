@@ -184,7 +184,7 @@ const CustomerTestimonial = () => {
 
   return (
     <Fragment>
-      <SectionHeading heading="Quotes from satisfied customers" />
+      <SectionHeading heading="Quotes From Satisfied Customers" />
       <div className={styles.container}>
         <Marquee className={styles.customDuration}>
           {firstRow.map((review) => (

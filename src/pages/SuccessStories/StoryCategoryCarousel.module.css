@@ -9,15 +9,15 @@
 }
 
 .pill {
-  padding: 12px 32px;
-  background: var(--background);
+  padding: 12px 22px;
+  background: transparent;
   border-radius: 40px;
   font-size: 24px;
   cursor: pointer;
   transition: all 0.3s ease;
   font-weight: 600;
-  color: var(--color-white);
-  border: none;
+  color: var(--color-theme);
+  border: 1px solid var(--color-theme);
   transition: transform 0.3s ease, box-shadow 0.2s ease;
   display: inline-block;
   will-change: transform;
@@ -25,8 +25,9 @@
 
 .active,
 .pill:hover {
-  box-shadow: 0 0 20px #157abd46;
-  transform: scale(1.1);
+  background: var(--background) !important;
+  background-clip: text !important;
+  color: transparent !important;
 }
 
 @media (max-width: 480px) {

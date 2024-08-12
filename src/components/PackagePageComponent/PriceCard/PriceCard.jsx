@@ -9,7 +9,7 @@ const Card = ({ title, price, clients, isCenter }) => (
   <div className={`${styles.card} ${isCenter ? styles.centerCard : ""}`}>
     {isCenter && <div className={styles.featuredStrip}>Best Selling</div>}
     <h3>{title}</h3>
-    <h2>₹{price}</h2>
+    <h2 className={`${isCenter ? styles.center_head : ""}`}>₹{price}</h2>
     <img
       src={isCenter ? handshakeIconWhite : handshakeIconBlue}
       alt="Handshake"

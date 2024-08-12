@@ -17,6 +17,7 @@ import Layout from "./routes/Layout.jsx";
 
 import ContactUs from "./pages/ContactUs/ContactUs.jsx";
 import ContactUs2 from "./pages/ContactUs2/ContactUs2.jsx";
+import Services from "./pages/Services/Services.jsx";
 import { NotificationProvider } from "./components/NotificationToaster/NotificationContext.jsx";
 
 const router = createBrowserRouter([
@@ -85,6 +86,14 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback={<PageLoader />}>
             <Packages />
+          </Suspense>
+        ),
+      },
+      {
+        path: "our-services",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <Services />
           </Suspense>
         ),
       },

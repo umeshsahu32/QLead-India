@@ -41,6 +41,15 @@
 .card h2 {
   font-size: 2rem;
   margin-top: 10px;
+  background: var(--background);
+  background-clip: text;
+  color: transparent;
+}
+
+.center_head {
+  font-size: 2rem;
+  margin-top: 10px;
+  color: #fff !important;
 }
 
 .featuredStrip {
@@ -96,9 +105,9 @@
 }
 
 .purchaseBtnCenter {
-  background: linear-gradient(45deg, var(--color-button-1), var(--color-theme));
+  background: #fff;
   border: none;
-  color: #fff;
+  color: var(--color-theme);
   padding: 10px 20px;
   font-weight: bold;
   cursor: pointer;

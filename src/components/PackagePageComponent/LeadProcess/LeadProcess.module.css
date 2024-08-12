@@ -107,6 +107,9 @@
   color: var(--color-primary);
   font-weight: 600;
   margin-bottom: 15px;
+  background: var(--background);
+  background-clip: text;
+  color: transparent;
 }
 
 .progress_inner__tabs .tab p {
