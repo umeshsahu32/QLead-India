@@ -195,7 +195,7 @@ const ContactUs2 = () => {
             </div>
           </div>
         </div>
-        <button
+        {/* <button
           onClick={(e) => submitBtnHandler(e)}
           className={styles.submitButton}
         >
@@ -203,6 +203,12 @@ const ContactUs2 = () => {
           <span>
             <FaLongArrowAltRight />
           </span>
+        </button> */}
+        <button
+          onClick={(e) => submitBtnHandler(e)}
+          className={styles.submitButton}
+        >
+          Submit
         </button>
       </div>
     </div>

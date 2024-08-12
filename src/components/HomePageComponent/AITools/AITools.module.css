@@ -61,7 +61,7 @@
   background: linear-gradient(to right, transparent, #fff);
 }
 
-.submitButton {
+/* .submitButton {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,4 +88,25 @@
 
 .submitButton:hover {
   transform: translateX(5px);
+} */
+
+.submitButton {
+  align-self: flex-end;
+  padding: 10px 20px;
+  background: var(--background);
+  border: none;
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer !important;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.2s ease;
+  display: inline-block;
+  will-change: transform;
+  font-size: 0.7rem;
+}
+
+.submitButton:hover {
+  box-shadow: 0 0 20px #157abd46;
+  transform: scale(1.1);
 }

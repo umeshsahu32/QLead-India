@@ -1,5 +1,5 @@
-import image11 from "../../../assets/images/feature/image11.jpg";
-import image22 from "../../../assets/images/feature/image22.jpg";
+import PredictiveLead from "../../../assets/images/feature/Predictive-Lead-Scoring.jpg";
+import HarmonicAnalysis from "../../../assets/images/feature/Harmonic-Analysis.jpg";
 
 export const AIToolsData = [
   {
@@ -7,7 +7,7 @@ export const AIToolsData = [
     primary_heading: "AOB Q-Lead Predictive Lead Scoring",
     secondary_heading:
       "Why Lead generated via Predictive Lead Score improves Sales",
-    image: image11,
+    image: PredictiveLead,
     desc: "Our Predictive lead scoring uses data, AI, and machine learning to evaluate and prioritize leads based on their likelihood to convert",
     primary_list: [
       "Our Predictive lead scoring uses data, AI, and machine learning to evaluate and prioritize leads based on their likelihood to convert.",
@@ -23,7 +23,7 @@ export const AIToolsData = [
     id: 1,
     primary_heading: "AOB Q-Lead Harmonic Analysis",
     secondary_heading: "Why Harmonic Analysis on Qualified Lead improves Sales",
-    image: image22,
+    image: HarmonicAnalysis,
     desc: "Enhanced Customer Insights: Provides deeper insights into customer sentiments by analyzing not just what customers say but how they say it.",
     primary_list: [
       "Enhanced Customer Insights: Provides deeper insights into customer sentiments by analyzing not just what customers say but how they say it.",

@@ -1,6 +1,27 @@
-.section {
+/* .section {
   background-color: #141414;
   padding: 0 3rem;
+} */
+.section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  color: var(--color-white);
+  background-color: #141414;
+}
+
+.videoBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .container {
@@ -11,6 +32,8 @@
   max-width: 1200px;
   margin: auto;
   height: 100vh;
+  position: absolute;
+  z-index: 2;
 }
 
 .content {
@@ -21,6 +44,7 @@
   font-size: 4.5rem;
   margin-bottom: 1rem;
   line-height: 1.45;
+  font-weight: normal;
 }
 
 .paragraph {

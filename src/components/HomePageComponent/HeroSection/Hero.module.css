@@ -39,6 +39,7 @@
 .heading h1 {
   font-size: 2.5rem;
   line-height: 1.5;
+  font-weight: normal;
 }
 
 .heroSubHeading {
@@ -56,19 +57,19 @@
 .get_started_btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: var(--color-button-1);
+  /* background-color: var(--color-button-1); */
+  background: var(--background);
   color: var(--color-white);
   text-decoration: none;
   font-weight: bold;
   cursor: pointer !important;
   border-radius: 20px;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition: transform 0.3s ease, transform 0.2s ease;
+  will-change: transform;
 }
 
 .get_started_btn:hover {
-  background-color: var(--color-button-2);
-  text-decoration: none;
-  box-shadow: 0 0 20px #05791e50;
+  box-shadow: 0 0 20px #157abd46;
   transform: scale(1.1);
 }
 

@@ -34,9 +34,10 @@
   overflow: hidden;
 }
 
-/* .card h3 {
-    margin-top: 20px;
-  } */
+.card h3 {
+  text-transform: uppercase;
+}
+
 .card h2 {
   font-size: 2rem;
   margin-top: 10px;
@@ -46,7 +47,7 @@
   position: absolute;
   top: 20px;
   left: -35px;
-  background-color: #ff4081;
+  background-color: var(--color-theme);
   color: white;
   padding: 3px 40px;
   font-size: 0.8rem;
@@ -55,28 +56,18 @@
 }
 
 .centerCard {
-  background-color: #1a237e;
+  background: var(--background);
   color: white;
   height: 350px;
   z-index: 2;
   position: relative;
 }
 
-.bestSelling {
-  position: absolute;
-  top: 20px;
-  right: -30px;
-  background-color: #ff4081;
-  color: white;
-  padding: 5px 10px;
-  font-size: 0.8rem;
-  transform: rotate(45deg);
-}
-
 .handshakeIcon {
   width: 80px;
   height: 80px;
   margin: 20px auto;
+  object-fit: contain;
 }
 
 .clientsText {
@@ -85,17 +76,43 @@
 }
 
 .purchaseBtn {
-  background-color: #ff4081;
-  color: white;
+  background: var(--background);
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  color: var(--color-white);
+  padding: 10px 10px;
+  font-weight: bold;
+  cursor: pointer !important;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.2s ease;
+  display: inline-block;
+  will-change: transform;
+  font-size: 0.9rem;
+  text-decoration: none;
 }
 
 .purchaseBtn:hover {
-  background-color: #f50057;
+  box-shadow: 0 0 20px #157abd46;
+  transform: scale(1.05);
+}
+
+.purchaseBtnCenter {
+  background: linear-gradient(45deg, var(--color-button-1), var(--color-theme));
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.2s ease;
+  display: inline-block;
+  will-change: transform;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.purchaseBtnCenter:hover {
+  box-shadow: 0 0 20px #157abd46;
+  transform: scale(1.05);
 }
 
 .sideCard {

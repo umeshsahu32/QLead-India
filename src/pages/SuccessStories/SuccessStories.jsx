@@ -5,6 +5,7 @@ import styles from "./SuccessStories.module.css";
 import { successData } from "./SuccessStoryData";
 import StoryCard from "./StoryCard";
 import { useLocation } from "react-router-dom";
+import SuccessPageHero from "./SuccessPageHero.jsx";
 
 const SuccessStories = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -45,6 +46,7 @@ const SuccessStories = () => {
 
   return (
     <Fragment>
+      <SuccessPageHero />
       <div className={styles.sectionContainer}>
         <StoryCategoryCarousel
           categories={categories}

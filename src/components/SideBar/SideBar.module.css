@@ -10,7 +10,8 @@
   box-sizing: border-box;
   transition: 0.5s;
   z-index: 1000;
-  background: var(--color-primary);
+  /* background: var(--background); */
+  background-color: var(--color-primary);
 }
 
 .hideSidebar {
@@ -21,13 +22,17 @@
   right: 0;
 }
 
+.scroll {
+  margin-top: 1rem;
+}
+
 .sidebarContact input,
 .sidebarContact textarea {
   width: 100%;
   padding: 15px;
   margin-bottom: 20px;
   box-sizing: border-box;
-  border: 1px solid var(--color-tertiary);
+  border: 1px solid var(--color-white);
   outline: none;
   background-color: transparent;
   color: var(--color-white);
@@ -43,10 +48,11 @@
 .sidebarContact h2 {
   color: var(--color-white);
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .horizontalLineForm {
-  border-bottom: 2px solid var(--color-primary);
+  border-bottom: 2px solid var(--color-white);
   width: 100px;
   margin: auto;
   margin-bottom: 20px;
@@ -65,7 +71,7 @@
 .sidebarContact button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: var(--color-button-1);
+  background: var(--background);
   color: var(--color-white);
   text-decoration: none;
   font-weight: bold;
@@ -88,7 +94,7 @@
   padding: 1rem 0;
   text-align: center;
   cursor: pointer;
-  background: var(--color-button-1);
+  background: var(--background);
   top: 0;
   right: 350px;
   border-top-left-radius: 15px;

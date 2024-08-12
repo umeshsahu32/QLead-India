@@ -28,22 +28,12 @@ const AITools = () => {
               <div className={styles.card_info}>
                 <h5>{item.primary_heading}</h5>
                 <p>{item.desc}</p>
-                {/* <button
-                  className={styles.know_more_button}
-                  onClick={(e) => openModalButtonHandler(e, item.id)}
-                >
-                  <span>Know More</span>
-                  <span className={styles.icon}>
-                    <FaLongArrowAltRight />
-                  </span>
-                </button> */}
 
                 <button
                   className={styles.submitButton}
                   onClick={(e) => openModalButtonHandler(e, item.id)}
                 >
                   <span>Know More</span>
-                  {/* <FaLongArrowAltRight className={styles.icon} /> */}
                 </button>
               </div>
             </div>

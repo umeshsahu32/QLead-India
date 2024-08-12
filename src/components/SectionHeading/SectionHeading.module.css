@@ -12,6 +12,7 @@
   position: relative;
   padding-bottom: 10px;
   color: var(--color-primary);
+  font-weight: normal;
 }
 
 .heading h3::after {
@@ -21,7 +22,7 @@
   bottom: 0;
   height: 2px;
   width: 50px;
-  background: var(--color-button-1);
+  background: var(--color-theme);
 }
 
 .heading p {

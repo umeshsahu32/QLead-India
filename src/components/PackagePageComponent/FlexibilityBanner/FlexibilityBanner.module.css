@@ -8,32 +8,20 @@
   /* background: linear-gradient(to bottom right, #1ddb4d 0%, #16bbbb 100%); */
   margin-top: 4rem;
   margin-bottom: 4rem;
-  background-image: linear-gradient(
-    130deg,
-    hsl(139deg 84% 48%) 0%,
-    hsl(149deg 100% 45%) 13%,
-    hsl(154deg 100% 45%) 23%,
-    hsl(159deg 100% 46%) 31%,
-    hsl(163deg 100% 47%) 39%,
-    hsl(167deg 100% 47%) 46%,
-    hsl(171deg 100% 47%) 54%,
-    hsl(174deg 100% 48%) 63%,
-    hsl(177deg 100% 48%) 76%,
-    hsl(179deg 91% 57%) 100%
-  );
+  background-image: linear-gradient(45deg, #1579bd, #8e44ad);
 }
 
 .content {
   position: relative;
   z-index: 1;
   text-align: center;
-  color: white;
+  color: #fff;
   /* transform: translateX(2000px); */
   animation: slideIn 0.8s ease;
 }
 
 .content h1 {
-  color: var(--color-primary);
+  color: var(--color-white);
   font-family: var(--font-family-2);
   font-size: 3rem;
   margin-bottom: 10px;
@@ -48,7 +36,7 @@
   text-align: center;
   font-family: var(--font-family-2);
   padding-bottom: 10px;
-  color: var(--color-primary);
+  color: var(--color-white);
   font-weight: 600;
 }
 

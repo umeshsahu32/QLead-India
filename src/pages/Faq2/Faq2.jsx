@@ -28,7 +28,9 @@ const Faq2 = () => {
       <div className={styles.heading_container}>
         {/* <h3>Frequently Asked Question</h3> */}
         <SectionHeading heading="Frequently Asked Question" />
-        <p>These Are the most commonly asked questions about Untitled UI.</p>
+        <p>
+          These Are the most commonly asked questions about AOB India Q-Lead.
+        </p>
         <p>
           Can't find what you're looking for?{" "}
           <Link to="/contact-us">Contact Our Team</Link>{" "}

@@ -4,6 +4,7 @@ import { Mousewheel, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/mousewheel";
 import styles from "./Milestones.module.css";
+import heroVideo from "../../../assets/video/about-us-hero.mp4";
 
 const Milestones = () => {
   const stats = [
@@ -16,6 +17,15 @@ const Milestones = () => {
   return (
     <Fragment>
       <div className={styles.section}>
+        <video
+          className={styles.videoBackground}
+          autoPlay
+          loop
+          muted
+          playsInline
+          src={heroVideo}
+          type="video/mp4"
+        />
         <div className={styles.container}>
           <div className={styles.content}>
             <h2 className={styles.heading}>

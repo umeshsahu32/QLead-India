@@ -37,7 +37,7 @@
   bottom: 0;
   height: 2px;
   width: 50px;
-  background: var(--color-button-1);
+  background: var(--color-theme);
 }
 
 .footerLink {
@@ -56,12 +56,12 @@
   bottom: 0;
   height: 2px;
   width: 0;
-  background: var(--color-button-1);
+  background: var(--color-theme);
   transition: width 0.3s ease-in-out;
 }
 
 .footerLink:hover {
-  color: var(--color-button-1);
+  color: var(--color-theme);
 }
 
 .footerLink:hover::after {
@@ -86,13 +86,13 @@
 }
 
 .socialIcon:hover {
-  color: var(--color-button-1);
+  color: var(--color-theme);
 }
 
 .footerBottom {
   text-align: center;
   margin-top: 20px;
-  border-top: 1px solid var(--color-button-1);
+  border-top: 1px solid var(--color-theme);
   padding-top: 10px;
   width: 100%;
 }

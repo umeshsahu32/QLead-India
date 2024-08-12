@@ -4,10 +4,13 @@
   --color-primary: #181c24;
   --color-secondary: #303030;
   --color-tertiary: #555;
-  --color-button-1: #00a859;
+  /* --color-button-1: #00a859; */
+  --color-button-1: #269e51;
   --color-button-2: #07864a;
   --color-button-3: #0d3422;
   --font-family-1: "Heltar Light";
+  --color-theme: #1579bd;
+  --background: linear-gradient(45deg, #1579bd, #8e44ad);
 }
 
 *,

@@ -5,12 +5,14 @@ import CostBanner from "../../components/PackagePageComponent/CostBanner/CostBan
 import InfoCards from "../../components/PackagePageComponent/InfoCards/InfoCards";
 import FlexibilityBanner from "../../components/PackagePageComponent/FlexibilityBanner/FlexibilityBanner";
 import LeadProcess from "../../components/PackagePageComponent/LeadProcess/LeadProcess";
+import PackageHero from "../../components/PackagePageComponent/PackageHero/PackageHero";
 
 const Packages = () => {
   return (
     <Fragment>
-      <InfoCards />
+      <PackageHero />
       <CostBanner />
+      <InfoCards />
       <LeadProcess />
       <PriceCard />
       <FlexibilityBanner />

@@ -1,16 +1,27 @@
 import React, { useEffect, useState } from "react";
 import styles from "./PriceCard.module.css";
-import handshakeIcon from "../../../assets/images/Unique/hand-image.png"; // Make sure to have this image
+import handshakeIconBlue from "../../../assets/images/Unique/Blue-Hand.png"; // Make sure to have this image
+import handshakeIconWhite from "../../../assets/images/Unique/White-Hand.png"; // Make sure to have this image
 import SectionHeading from "../../SectionHeading/SectionHeading";
+import { Link } from "react-router-dom";
 
 const Card = ({ title, price, clients, isCenter }) => (
   <div className={`${styles.card} ${isCenter ? styles.centerCard : ""}`}>
     {isCenter && <div className={styles.featuredStrip}>Best Selling</div>}
     <h3>{title}</h3>
     <h2>₹{price}</h2>
-    <img src={handshakeIcon} alt="Handshake" className={styles.handshakeIcon} />
-    <p className={styles.clientsText}>{clients} Clients</p>
-    <button className={styles.purchaseBtn}>PURCHASE</button>
+    <img
+      src={isCenter ? handshakeIconWhite : handshakeIconBlue}
+      alt="Handshake"
+      className={styles.handshakeIcon}
+    />
+    <p className={styles.clientsText}>{clients} Qualified Leads</p>
+    <Link
+      to="/contact-us"
+      className={`${!isCenter ? styles.purchaseBtn : styles.purchaseBtnCenter}`}
+    >
+      Book Now
+    </Link>
   </div>
 );
 
@@ -29,13 +40,13 @@ const PriceCard = () => {
         <div
           className={`${styles.sideCard} ${showSideCards ? styles.show : ""}`}
         >
-          <Card title="ACCELERATOR" price={25000} clients={200} />
+          <Card title="Accelerator" price={25000} clients={25} />
         </div>
-        <Card title="DIAMOND" price={50000} clients={260} isCenter={true} />
+        <Card title="Expansion" price={50000} clients={50} isCenter={true} />
         <div
           className={`${styles.sideCard} ${showSideCards ? styles.show : ""}`}
         >
-          <Card title="PLATINUM" price={75000} clients={350} />
+          <Card title="Enterprise" price={75000} clients={75} />
         </div>
       </div>
     </section>

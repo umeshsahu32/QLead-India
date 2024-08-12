@@ -16,7 +16,7 @@
 .leftColumn h1 {
   font-size: 5rem;
   color: var(--primary-color);
-  font-weight: 600;
+  font-weight: normal;
 }
 
 .leftColumn p {
@@ -93,7 +93,7 @@
   font-size: 2rem;
   font-family: var(--font-family-2);
   padding-bottom: 1rem;
-  border-bottom: 2px solid var(--color-button-1);
+  border-bottom: 2px solid var(--color-theme);
 }
 
 .form {
@@ -162,13 +162,13 @@
   color: red;
 }
 
-.submitButton {
+/* .submitButton {
   align-self: flex-end;
   padding: 5px 20px;
-  background-color: transparent;
-  color: var(--color-button-1);
-  border: 1px solid var(--color-button-1);
+  background: var(--background);
+  color: var(--color-white);
   cursor: pointer;
+  border: none;
   font-weight: 600;
   letter-spacing: 2px;
   transition: all 0.3s ease;
@@ -177,6 +177,7 @@
   align-items: center;
   gap: 8px;
   font-size: 1.2rem;
+  border-radius: 5px;
 }
 
 .submitButton span {
@@ -189,7 +190,29 @@
 }
 
 .submitButton:hover span:last-child {
-  transform: translateX(10px);
+  transform: translateX(5px);
+} */
+
+.submitButton {
+  align-self: flex-end;
+  padding: 10px 20px;
+  /* background-color: var(--color-button-1); */
+  background: var(--background);
+  border: none;
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer !important;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.2s ease;
+  display: inline-block;
+  will-change: transform;
+  font-size: 1.2rem;
+}
+
+.submitButton:hover {
+  box-shadow: 0 0 20px #157abd46;
+  transform: scale(1.1);
 }
 
 .inputContainer {

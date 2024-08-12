@@ -26,21 +26,18 @@ const StoryCard = ({ cardData }) => {
               {/* Hover card start */}
               <div className={styles.cardContent}>
                 <div className={styles.cardDetails}>
-                  {/* <div className={styles.info_content}> */}
                   <div
                     className={`${styles.info_content} ${styles.info_content_1}`}
                   >
                     <p>Challenge:</p>
                     <span> {item.challenge}</span>
                   </div>
-                  {/* <div className={styles.info_content}> */}
                   <div
                     className={`${styles.info_content} ${styles.info_content_2}`}
                   >
                     <p>Solution:</p>
                     <span>{item.solution}</span>
                   </div>
-                  {/* <div className={styles.info_content}> */}
                   <div
                     className={`${styles.info_content} ${styles.info_content_3}`}
                   >

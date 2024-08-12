@@ -29,17 +29,17 @@ const Footer = () => {
     },
     {
       id: 4,
-      path: "#",
+      path: "https://www.linkedin.com/in/dr-praveen-kumar",
       icon: <FaLinkedin />,
     },
     {
       id: 5,
-      path: "#",
+      path: "https://theaobway.blogspot.com",
       icon: <FaBlogger />,
     },
     {
       id: 6,
-      path: "#",
+      path: "https://kosin.academia.edu/PraveenKumar",
       icon: <FaA />,
     },
   ];

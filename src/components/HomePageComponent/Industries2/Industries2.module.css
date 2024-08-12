@@ -23,6 +23,7 @@
   margin-bottom: 1rem;
   letter-spacing: 2px;
   line-height: 1.5;
+  font-weight: normal;
 }
 
 .description {
@@ -30,7 +31,7 @@
   margin-bottom: 2rem;
 }
 
-.submitButton {
+/* .submitButton {
   align-self: flex-end;
   padding: 15px 30px;
   background-color: transparent;
@@ -63,6 +64,28 @@
 
 .submitButton:hover span:last-child {
   transform: translateX(10px);
+} */
+
+.submitButton {
+  align-self: flex-end;
+  padding: 10px 20px;
+  /* background-color: var(--color-button-1); */
+  background: var(--background);
+  border: none;
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer !important;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.2s ease;
+  display: inline-block;
+  will-change: transform;
+  font-size: 1.2rem;
+}
+
+.submitButton:hover {
+  box-shadow: 0 0 20px #157abd46;
+  transform: scale(1.1);
 }
 
 .btnEnable {
@@ -76,13 +99,13 @@
 }
 
 .count {
-  background: linear-gradient(45deg, #4a90e2, #8e44ad);
+  background: var(--background);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .plus {
-  background: linear-gradient(45deg, #4a90e2, #8e44ad);
+  background: var(--background);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;

@@ -1,5 +1,6 @@
 .header {
   background-color: var(--bg-light);
+  /* background-color: var(--background); */
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   width: 100%;
@@ -51,7 +52,7 @@
 }
 
 .social_icons svg:hover {
-  color: var(--color-button-1);
+  color: var(--color-theme);
 }
 
 /* Header.module.css */
@@ -72,32 +73,33 @@
   bottom: 0;
   width: 0;
   height: 2px;
-  background-color: var(--color-button-1);
+  background-color: var(--color-theme);
   transition: width 0.3s ease-in-out;
 }
 
 .navLink:hover {
-  color: var(--color-button-1);
+  color: var(--color-theme);
 }
 
 .navLink:hover::after {
   width: 100%;
-  background-color: var(--color-button-1);
+  background-color: var(--color-theme);
 }
 
 .active {
   text-decoration: none;
-  color: var(--color-button-1);
+  color: var(--color-theme);
   position: relative;
   padding-bottom: 5px;
   transition: all 0.3s ease;
   font-size: 0.9rem;
-  border-bottom: 2px solid var(--color-button-1);
+  border-bottom: 2px solid var(--color-theme);
+  font-weight: 600;
 }
 
 .active::after {
   width: 100%;
-  background-color: var(--color-button-1);
+  background-color: var(--color-theme);
 }
 
 .hamburger {

@@ -23,18 +23,14 @@ const Industries2 = () => {
             Serving across a variety of industries and leaving our mark in every
             one of them
           </p>
-
-          {/* <button className={styles.submitButton}>
+          {/* <Link to="/industries-served" className={styles.submitButton}>
             <span>Let's Talk</span>
             <span>
               <FaLongArrowAltRight />
             </span>
-          </button> */}
+          </Link> */}
           <Link to="/industries-served" className={styles.submitButton}>
-            <span>Let's Talk</span>
-            <span>
-              <FaLongArrowAltRight />
-            </span>
+            Let's Talk
           </Link>
         </div>
         <div className={`${styles.countContainer}`}>
