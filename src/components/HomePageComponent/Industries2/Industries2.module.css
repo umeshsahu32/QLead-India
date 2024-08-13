@@ -182,6 +182,12 @@
   }
 }
 
+@media (max-width: 840px) {
+  .countContainer {
+    font-size: 10rem;
+  }
+}
+
 @media (max-width: 768px) {
   .section15 {
     padding: 4rem 1rem;
@@ -220,6 +226,11 @@
   }
 }
 
+@media (max-width: 710px) {
+  .countContainer {
+    font-size: 7rem;
+  }
+}
 @media (max-width: 668px) {
   .section15 {
     padding: 4rem 2rem;

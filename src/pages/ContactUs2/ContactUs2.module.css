@@ -322,6 +322,10 @@
   .formGroup {
     flex-direction: column;
   }
+
+  .rightColumn {
+    margin-top: 4rem;
+  }
 }
 
 @media (max-width: 600px) {
@@ -349,6 +353,7 @@
 
   .rightColumn {
     margin-bottom: 4rem;
+    margin-top: 0;
   }
 
   .downloadButton {

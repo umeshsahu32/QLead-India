@@ -11,8 +11,15 @@ import {
   FaYoutube,
   FaLinkedin,
   FaBlogger,
+  FaInfoCircle,
+  FaClipboardList,
+  FaIndustry,
+  FaTrophy,
 } from "react-icons/fa";
 import { FaA } from "react-icons/fa6";
+import { GiLaurelCrown } from "react-icons/gi";
+import { RiCustomerService2Line } from "react-icons/ri";
+import { FiPackage } from "react-icons/fi";
 
 const Header = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -32,7 +39,7 @@ const Header = () => {
       id: 2,
       path: "/about-us",
       text: "About Us",
-      icon: <AiFillHome />,
+      icon: <FaInfoCircle />,
     },
     {
       id: 3,
@@ -44,37 +51,25 @@ const Header = () => {
       id: 4,
       path: "/our-packages",
       text: "Packages",
-      icon: <MdEmail />,
+      icon: <FiPackage />,
     },
     {
       id: 5,
       path: "/industries-served",
       text: "Industries",
-      icon: <MdEmail />,
+      icon: <FaIndustry />,
     },
-    // {
-    //   id: 5,
-    //   path: "/faqs",
-    //   text: "FAQs",
-    //   icon: <MdEmail />,
-    // },
-    // {
-    //   id: 6,
-    //   path: "/blogs-and-media",
-    //   text: "Media & Blogs",
-    //   icon: <MdEmail />,
-    // },
     {
       id: 7,
       path: "/success-stories",
       text: "Success Stories",
-      icon: <MdEmail />,
+      icon: <GiLaurelCrown />,
     },
     {
       id: 8,
       path: "/contact-us",
       text: "Contact Us",
-      icon: <MdEmail />,
+      icon: <RiCustomerService2Line />,
     },
   ];
 
@@ -122,6 +117,7 @@ const Header = () => {
               <img src={QLead_India_logo} alt="Icon" className={styles.icon} />
             </Link>
           </div>
+
           <div className={styles.navMenu}>
             {NavigationLinks.map((item) => {
               return (
@@ -168,13 +164,14 @@ const Header = () => {
                     to={item.path}
                     className={styles.drawerItem}
                     key={item.id}
+                    onClick={toggleDrawer}
                   >
                     {item.icon}&nbsp;&nbsp;&nbsp;{item.text}
                   </Link>
                 );
               })}
             </div>
-            <div className={styles.social_icons}>
+            <div className={styles.social_icons_mobile}>
               {SocialLink.map((item) => {
                 return (
                   <Link to={item.path} key={item.id}>

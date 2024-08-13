@@ -43,9 +43,9 @@ const Industries2 = () => {
         </div>
         <button className={`${styles.submitButton} ${styles.btnEnable}`}>
           <span>Let's Talk</span>
-          <span>
-            <FaLongArrowAltRight />
-          </span>
+          <Link to="/industries-served" className={styles.submitButton}>
+            Let's Talk
+          </Link>
         </button>
       </div>
     </section>
