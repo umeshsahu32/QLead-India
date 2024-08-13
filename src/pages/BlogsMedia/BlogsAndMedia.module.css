@@ -24,7 +24,7 @@
   transition: transform 0.3s ease;
   width: 300px;
   margin: 20px;
-  min-height: 355px;
+  min-height: 385px;
   border: 1px solid #e6e3e3;
 }
 
@@ -44,7 +44,7 @@
 
 .cardTitle {
   font-size: 1rem;
-  color: var(--color-button-1);
+  color: var(--color-theme);
   margin: 0;
   font-weight: 600;
 }
@@ -68,10 +68,9 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 2rem;
-
-  /* gap: 10px;
+  gap: 10px;
   align-items: flex-end;
-  flex-direction: column; */
+  flex-direction: column;
 }
 
 .cardDate {
@@ -81,7 +80,7 @@
 
 .cardLink {
   font-size: 0.8em;
-  color: var(--color-button-1);
+  color: var(--color-theme);
   text-decoration: none;
   font-weight: bold;
   display: flex;

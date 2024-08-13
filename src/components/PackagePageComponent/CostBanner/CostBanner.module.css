@@ -57,8 +57,8 @@
   align-items: flex-start;
   height: 100%;
   background: var(--background);
-  padding: 2rem 4rem;
-  gap: 2rem;
+  padding: 4rem 4rem;
+  gap: 4rem;
 }
 
 .image_text h1 {
@@ -71,8 +71,8 @@
 
 .image_text p {
   font-size: 1.5rem;
-  max-width: 100%;
+  max-width: 80%;
   font-family: var(--font-family-2);
   color: #fff;
-  line-height: 1.5;
+  line-height: 1.8;
 }

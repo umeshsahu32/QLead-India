@@ -20,11 +20,14 @@ const BlogCard = ({ posts }) => {
                 <p className={styles.cardDescription}>{item.description}</p>
                 <div className={styles.cardFooter}>
                   <p className={styles.cardDate}>{item.date}</p>
-                  <a href={item.link} className={styles.cardLink}>
+                  {/* <a href={item.link} className={styles.cardLink}>
                     <span>READ MORE </span>
                     <span>
                       <FaArrowRight />
                     </span>
+                  </a> */}
+                  <a href={item.link} className={styles.cardLink}>
+                    READ MORE
                   </a>
                 </div>
               </div>

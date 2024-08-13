@@ -24,6 +24,8 @@
   font-family: var(--font-family-1);
   margin-bottom: 10px;
   font-size: 2rem;
+  color: var(--color-tertiary);
+  font-weight: normal;
 }
 
 .heading_container p {

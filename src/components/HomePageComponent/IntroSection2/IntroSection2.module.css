@@ -35,22 +35,13 @@
   margin-bottom: 20px;
 }
 
-.imageContainer {
-  flex: 1;
-}
-
-.imageContainer img {
-  max-width: 100%;
-  height: auto;
-}
-
 .reverse {
   flex-direction: row-reverse;
 }
 
 .videoContainer {
   width: 500px;
-  padding-top: 500px; /* This creates a square aspect ratio */
+  padding-top: 380px; /* This creates a square aspect ratio */
   position: relative;
   overflow: hidden;
 }
@@ -60,7 +51,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 60%;
+  height: 80%;
   object-fit: cover;
 }
 
