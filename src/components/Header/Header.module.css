@@ -41,18 +41,24 @@
   gap: 1rem;
 }
 
-.social_icons svg {
+.social_icons a {
   font-size: 1rem;
   color: var(--color-white);
   cursor: pointer;
   border-radius: 50%;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2rem;
+  height: 2rem;
   transition: all 0.3s ease;
+  background: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
 }
 
-.social_icons svg:hover {
-  color: var(--color-theme);
+.social_icons a:hover {
+  transform: scale(1.15);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /* Header.module.css */

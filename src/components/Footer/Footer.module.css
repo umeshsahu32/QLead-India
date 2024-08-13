@@ -79,14 +79,21 @@
 }
 
 .socialIcon {
-  width: 30px;
-  height: 30px;
-  color: var(--color-white);
-  font-size: 1.6rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: var(--background);
+  font-size: 1.5rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in;
 }
 
 .socialIcon:hover {
-  color: var(--color-theme);
+  transform: scale(1.15);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .footerBottom {
