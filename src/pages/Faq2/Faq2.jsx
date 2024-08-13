@@ -26,7 +26,6 @@ const Faq2 = () => {
   return (
     <Fragment>
       <div className={styles.heading_container}>
-        {/* <h3>Frequently Asked Question</h3> */}
         <SectionHeading heading="Frequently Asked Question" />
         <p>
           These Are the most commonly asked questions about AOB India Q-Lead.

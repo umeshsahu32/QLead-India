@@ -8,12 +8,12 @@
   margin-bottom: 4rem;
 }
 
-.heading_container h3 {
+/* .heading_container h3 {
   font-size: 2.5rem;
   font-weight: 600;
   color: var(--color-primary);
   margin-bottom: 15px;
-}
+} */
 
 .heading_container p {
   font-size: 1.2rem;

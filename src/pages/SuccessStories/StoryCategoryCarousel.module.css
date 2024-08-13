@@ -25,9 +25,9 @@
 
 .active,
 .pill:hover {
-  background: var(--background) !important;
-  background-clip: text !important;
-  color: transparent !important;
+  background: var(--background);
+  border: 1px solid transparent;
+  color: #fff;
 }
 
 @media (max-width: 480px) {
