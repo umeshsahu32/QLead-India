@@ -21,6 +21,40 @@ import DistributionNetwork from "../../assets/images/Industries-Images/Distribut
 import ECommerce from "../../assets/images/Industries-Images/E-Commerce.jpg";
 import EdTech from "../../assets/images/Industries-Images/Ed-tech.jpg";
 import Education from "../../assets/images/Industries-Images/Education.jpg";
+import Furniture from "../../assets/images/Industries-Images/Furniture.jpg";
+import Gifting from "../../assets/images/Industries-Images/Gifting.jpg";
+import HRAndRecruitment from "../../assets/images/Industries-Images/HR-and-Recruitment.jpg";
+import HomeImprovement from "../../assets/images/Industries-Images/Home-Improvement.jpg";
+import HealthcareTechnology from "../../assets/images/Industries-Images/Healthcare-Technology.jpg";
+import Hospital from "../../assets/images/Industries-Images/Hospital.jpg";
+import Hotel from "../../assets/images/Industries-Images/Hotel.jpg";
+import IVFClinic from "../../assets/images/Industries-Images/IVF-Clinic.jpg";
+import Jewelry from "../../assets/images/Industries-Images/Jewelry.jpg";
+import Insurance from "../../assets/images/Industries-Images/Insurance.jpg";
+import LegalService from "../../assets/images/Industries-Images/Legal-Service.jpg";
+import Leisure from "../../assets/images/Industries-Images/Leisure.jpg";
+import Loans from "../../assets/images/Industries-Images/Loans.jpg";
+import Logistics from "../../assets/images/Industries-Images/Logistics.jpg";
+import LuxuryGoods from "../../assets/images/Industries-Images/Luxury-Goods.jpg";
+import Manufacturing from "../../assets/images/Industries-Images/Manufacturing.jpg";
+import MediaAndEntertainment from "../../assets/images/Industries-Images/Media-and-Entertainment.jpg";
+import ModularKitchen from "../../assets/images/Industries-Images/Modular-Kitchen.jpg";
+import NonprofitOrganization from "../../assets/images/Industries-Images/Nonprofit-Organization.jpg";
+import PetProductAndServices from "../../assets/images/Industries-Images/Pet-Products-and-Services.jpg";
+import Pharma from "../../assets/images/Industries-Images/Pharma.jpg";
+import TrainingAndDevelopment from "../../assets/images/Industries-Images/Professional-Training-and-Development.jpg";
+import RealEstate from "../../assets/images/Industries-Images/Real-Estate.jpg";
+import RenewableEnergy from "../../assets/images/Industries-Images/Renewable-Energy.jpg";
+import Restaurant from "../../assets/images/Industries-Images/Restaurant.jpg";
+import Retail from "../../assets/images/Industries-Images/Retail.jpg";
+import SkinHairServices from "../../assets/images/Industries-Images/Skin-Hair-Services.jpg";
+import SoftwareSaas from "../../assets/images/Industries-Images/Software-Saas.jpg";
+import SpecialtyChemical from "../../assets/images/Industries-Images/Specialty-Chemical.jpg";
+import SpecialtyProduct from "../../assets/images/Industries-Images/Specialty-Product.jpg";
+import Telecommunication from "../../assets/images/Industries-Images/Telecommunication.jpg";
+import Timeshare from "../../assets/images/Industries-Images/Timeshare.jpg";
+import Travel from "../../assets/images/Industries-Images/Travel.jpg";
+import Wellness from "../../assets/images/Industries-Images/Wellness.jpg";
 
 export const industriesData = [
   {
@@ -137,7 +171,7 @@ export const industriesData = [
   },
   {
     id: 15,
-    industry_name: "Electrical",
+    industry_name: "Electrical (image not given)",
     image: food,
     description:
       "Connect with businesses and consumers in need of electrical equipment, components, and services to power their operations.",
@@ -145,7 +179,7 @@ export const industriesData = [
   },
   {
     id: 16,
-    industry_name: "Electronics",
+    industry_name: "Electronics (image not given)",
     image: healthcare,
     description:
       "Capture the attention of tech-savvy consumers seeking the latest electronic gadgets and appliances through effective lead generation.",
@@ -153,7 +187,7 @@ export const industriesData = [
   },
   {
     id: 17,
-    industry_name: "FMCG",
+    industry_name: "FMCG (image not given)",
     image: automobile,
     description:
       "Drive sales of fast-moving consumer goods by reaching a broad audience interested in everyday products and essentials.",
@@ -161,7 +195,7 @@ export const industriesData = [
   },
   {
     id: 18,
-    industry_name: "Fashion",
+    industry_name: "Fashion (image not given)",
     image: corporate,
     description:
       "Engage fashion-forward consumers looking for the latest trends, styles, and designers, enhancing your brand's visibility and sales.",
@@ -169,7 +203,7 @@ export const industriesData = [
   },
   {
     id: 19,
-    industry_name: "Finance",
+    industry_name: "Finance (image not given)",
     image: education,
     description:
       "Drive growth in the financial sector by targeting qualified prospects interested in banking, investments, and financial advisory services.",
@@ -177,7 +211,7 @@ export const industriesData = [
   },
   {
     id: 20,
-    industry_name: "Fintech",
+    industry_name: "Fintech (image not given)",
     image: electronics,
     description:
       "Tap into the tech-savvy audience looking for cutting-edge financial technology solutions to transform their financial operations.",
@@ -185,7 +219,7 @@ export const industriesData = [
   },
   {
     id: 21,
-    industry_name: "Fitness",
+    industry_name: "Fitness (image not given)",
     image: entertainment,
     description:
       "Engage fitness enthusiasts looking for gyms, personal training, and wellness solutions to enhance their health and fitness journeys.",
@@ -193,7 +227,7 @@ export const industriesData = [
   },
   {
     id: 22,
-    industry_name: "Food",
+    industry_name: "Food (image not given)",
     image: fashion,
     description:
       "Connect with food lovers seeking culinary experiences, gourmet products, and dining options, boosting your brand's presence.",
@@ -201,7 +235,7 @@ export const industriesData = [
   },
   {
     id: 23,
-    industry_name: "Franchise",
+    industry_name: "Franchise (image not given)",
     image: food,
     description:
       "Identify potential franchisees eager to invest in and expand your brand, supported by leads that match your franchise model and growth goals.",
@@ -210,7 +244,7 @@ export const industriesData = [
   {
     id: 24,
     industry_name: "Furniture/Furnishing (description not given)",
-    image: healthcare,
+    image: Furniture,
     description:
       "Innovations pulse with transformative potential. Mobile apps enable remote consultations and pulse healthcare management. AI-driven diagnostics inject precision and speed while creating a steady flow of patient data. Data analytics breathe new life into treatment outcomes. The future beats with promise as wearable devices, and precision medicine radiate to redefine the rhythm of healthcare delivery. Experience the blueprint that will catapult your healthcare brand to the next level with WAC.",
     brands: [],
@@ -218,7 +252,7 @@ export const industriesData = [
   {
     id: 25,
     industry_name: "Gifting",
-    image: automobile,
+    image: Gifting,
     description:
       "Engage consumers seeking unique gifts for various occasions, ensuring your products become the go-to choice for gift-giving",
     brands: [logo1, logo1, logo1, logo1, logo1, logo1],
@@ -226,7 +260,7 @@ export const industriesData = [
   {
     id: 26,
     industry_name: "HR and Recruitment",
-    image: corporate,
+    image: HRAndRecruitment,
     description:
       "Facilitate connections with businesses in need of talent acquisition and HR solutions to build their workforce.",
     brands: [],
@@ -234,7 +268,7 @@ export const industriesData = [
   {
     id: 27,
     industry_name: "Healthcare Technology (description not given)",
-    image: education,
+    image: HealthcareTechnology,
     description:
       "In a world where knowledge is power, education is undergoing a transformative shift. Technology enables personalised and accessible learning experiences. Online platforms and digital resources offer flexibility and remote education. Adaptive systems cater to individual needs, while virtual and augmented reality enhance engagement. The future of education holds immense potential, empowering learners and nurturing lifelong knowledge in a dynamic world. Discover how we will revolutionise your education brand to a new dimension.",
     brands: [],
@@ -242,7 +276,7 @@ export const industriesData = [
   {
     id: 28,
     industry_name: "Home Improvement",
-    image: electronics,
+    image: HomeImprovement,
     description:
       "Connect with homeowners looking for renovation and improvement solutions, driving sales for your home products and services.",
     brands: [],
@@ -250,7 +284,7 @@ export const industriesData = [
   {
     id: 29,
     industry_name: "Hospital",
-    image: entertainment,
+    image: Hospital,
     description:
       "Engage with healthcare professionals and institutions in need of medical equipment, supplies, and services through focused lead generation.",
     brands: [],
@@ -258,7 +292,7 @@ export const industriesData = [
   {
     id: 30,
     industry_name: "Hotel",
-    image: fashion,
+    image: Hotel,
     description:
       "The fashion industry leads as a trendsetter, evolving through technology's influence on creation, showcase, and consumption. E-commerce and social media platforms grant easy access to trends. Ethical practices driven by sustainability and inclusivity are on the rise. AI and virtual reality redefine the industry. The future brings limitless possibilities as fashion, technology, and personal expression intertwine. Discover how we weave the ultimate strategy to fabricate an unparalleled online experience at WAC.",
     brands: [],
@@ -266,7 +300,7 @@ export const industriesData = [
   {
     id: 31,
     industry_name: "IVF Clinic (description not given)",
-    image: food,
+    image: IVFClinic,
     description:
       "IT innovations have unleashed a culinary revolution. Mobile apps tantalize taste buds, offering seamless food ordering and delivery. AI-powered recommendation engines cater to individual palates. QR code-based menus satiate our hunger for convenience. Data analytics optimize cooking techniques. The future holds tantalizing possibilities with augmented reality and voice assistants, transforming the way we savor, create, and experience food. Uncover the pathway to success for your brand's remarkable journey with WAC.",
     brands: [],
@@ -274,7 +308,7 @@ export const industriesData = [
   {
     id: 32,
     industry_name: "Insurance",
-    image: healthcare,
+    image: Insurance,
     description:
       "Reach policy seekers in need of life, health, property, and casualty insurance with leads tailored to your specific offerings.",
     brands: [],
@@ -282,7 +316,7 @@ export const industriesData = [
   {
     id: 33,
     industry_name: "Jewelry",
-    image: automobile,
+    image: Jewelry,
     description:
       "Drive sales with leads interested in luxury and custom jewelry, enhancing your brand's reach and customer base in the jewelry market.",
     brands: [logo1, logo1, logo1, logo1, logo1, logo1],
@@ -290,7 +324,7 @@ export const industriesData = [
   {
     id: 34,
     industry_name: "Legal Service",
-    image: corporate,
+    image: LegalService,
     description:
       "Identify potential clients in need of legal advice and representation, ensuring your services reach those seeking legal expertise.",
     brands: [],
@@ -298,7 +332,7 @@ export const industriesData = [
   {
     id: 35,
     industry_name: "Leisure",
-    image: education,
+    image: Leisure,
     description:
       "Attract leisure seekers looking for relaxation and entertainment, providing them with tailored experiences through your offerings.",
     brands: [],
@@ -306,7 +340,7 @@ export const industriesData = [
   {
     id: 36,
     industry_name: "Loans",
-    image: electronics,
+    image: Loans,
     description:
       "Connect with individuals and businesses actively seeking loan options, ensuring a seamless matchmaking process for lenders and borrowers.",
     brands: [],
@@ -314,7 +348,7 @@ export const industriesData = [
   {
     id: 37,
     industry_name: "Logistics (description not given)",
-    image: entertainment,
+    image: Logistics,
     description:
       "Picture the future of entertainment as a journey crafted just for you. In this tale, technology and AI join forces to create personalised adventures. Your experience unfolds seamlessly, like pages in a book that you control. Finding the chapter you love is a piece of cake now. Our commitment is to intensify enjoyment through open experiences for your users. Each moment of entertainment is a unique chapter in your own story, and we're here to make it happen.",
     brands: [],
@@ -322,7 +356,7 @@ export const industriesData = [
   {
     id: 38,
     industry_name: "Luxury Goods",
-    image: fashion,
+    image: LuxuryGoods,
     description:
       "Reach affluent consumers interested in high-end products, enhancing your brand's presence in the luxury market.",
     brands: [],
@@ -330,7 +364,7 @@ export const industriesData = [
   {
     id: 39,
     industry_name: "Manufacturing",
-    image: food,
+    image: Manufacturing,
     description:
       "Identify businesses needing manufacturing services, equipment, and solutions, supporting their production and operational goals.",
     brands: [],
@@ -338,7 +372,7 @@ export const industriesData = [
   {
     id: 40,
     industry_name: "Media and Entertainment",
-    image: healthcare,
+    image: MediaAndEntertainment,
     description:
       "Reach audiences seeking diverse content, from film and television to digital media and live events.",
     brands: [],
@@ -346,7 +380,7 @@ export const industriesData = [
   {
     id: 41,
     industry_name: "Modular Kitchen (description not given)",
-    image: healthcare,
+    image: ModularKitchen,
     description:
       "Innovations pulse with transformative potential. Mobile apps enable remote consultations and pulse healthcare management. AI-driven diagnostics inject precision and speed while creating a steady flow of patient data. Data analytics breathe new life into treatment outcomes. The future beats with promise as wearable devices, and precision medicine radiate to redefine the rhythm of healthcare delivery. Experience the blueprint that will catapult your healthcare brand to the next level with WAC.",
     brands: [],
@@ -354,7 +388,7 @@ export const industriesData = [
   {
     id: 42,
     industry_name: "Nonprofit Organization",
-    image: healthcare,
+    image: NonprofitOrganization,
     description:
       "Engage donors and volunteers interested in supporting charitable causes, expanding your organization's impact.",
     brands: [],
@@ -362,7 +396,7 @@ export const industriesData = [
   {
     id: 43,
     industry_name: "Pet Products and Services",
-    image: healthcare,
+    image: PetProductAndServices,
     description:
       "Reach pet owners seeking quality products and services for their furry friends, enhancing your brand's visibility in the pet industry.",
     brands: [],
@@ -370,7 +404,7 @@ export const industriesData = [
   {
     id: 44,
     industry_name: "Pharma",
-    image: automobile,
+    image: Pharma,
     description:
       "Connect with healthcare providers and distributors in the pharmaceutical industry, ensuring they find the medications and solutions they need.",
     brands: [logo1, logo1, logo1, logo1, logo1, logo1],
@@ -378,7 +412,7 @@ export const industriesData = [
   {
     id: 45,
     industry_name: "Professional Training and Development ",
-    image: corporate,
+    image: TrainingAndDevelopment,
     description:
       "Reach individuals and organizations seeking educational programs and workshops to enhance skills and career growth.",
     brands: [],
@@ -386,7 +420,7 @@ export const industriesData = [
   {
     id: 46,
     industry_name: "Real Estate",
-    image: education,
+    image: RealEstate,
     description:
       "Attract buyers and investors looking for residential and commercial properties, with leads that match their investment criteria.",
     brands: [],
@@ -394,7 +428,7 @@ export const industriesData = [
   {
     id: 47,
     industry_name: "Renewable Energy",
-    image: electronics,
+    image: RenewableEnergy,
     description:
       "Connect with businesses and consumers interested in sustainable energy solutions, from solar panels to wind turbines.",
     brands: [],
@@ -402,7 +436,7 @@ export const industriesData = [
   {
     id: 48,
     industry_name: "Restaurant",
-    image: entertainment,
+    image: Restaurant,
     description:
       "Drive diners to your establishment by reaching food enthusiasts interested in unique dining experiences and culinary delights.",
     brands: [],
@@ -410,7 +444,7 @@ export const industriesData = [
   {
     id: 49,
     industry_name: "Retail",
-    image: fashion,
+    image: Retail,
     description:
       "Drive foot traffic and online sales by reaching consumers interested in diverse retail products and shopping experiences.",
     brands: [],
@@ -418,7 +452,7 @@ export const industriesData = [
   {
     id: 50,
     industry_name: "Skin / Hair Services (description not given)",
-    image: food,
+    image: SkinHairServices,
     description:
       "IT innovations have unleashed a culinary revolution. Mobile apps tantalize taste buds, offering seamless food ordering and delivery. AI-powered recommendation engines cater to individual palates. QR code-based menus satiate our hunger for convenience. Data analytics optimize cooking techniques. The future holds tantalizing possibilities with augmented reality and voice assistants, transforming the way we savor, create, and experience food. Uncover the pathway to success for your brand's remarkable journey with WAC.",
     brands: [],
@@ -427,7 +461,7 @@ export const industriesData = [
   {
     id: 51,
     industry_name: "Software / Saas",
-    image: healthcare,
+    image: SoftwareSaas,
     description:
       "Generate leads for businesses in need of software and SaaS solutions, connecting you with decision-makers ready to enhance their tech stack.",
     brands: [],
@@ -435,7 +469,7 @@ export const industriesData = [
   {
     id: 52,
     industry_name: "Specialty Chemical",
-    image: healthcare,
+    image: SpecialtyChemical,
     description:
       "Connect with industries requiring specialized chemical formulations and solutions, ensuring your expertise meets their unique needs.",
     brands: [],
@@ -443,7 +477,7 @@ export const industriesData = [
   {
     id: 53,
     industry_name: "Specialty Product",
-    image: healthcare,
+    image: SpecialtyProduct,
     description:
       "Target niche markets seeking unique and specialized products, ensuring your offerings reach the right audience.",
     brands: [],
@@ -451,7 +485,7 @@ export const industriesData = [
   {
     id: 54,
     industry_name: "Telecommunication",
-    image: healthcare,
+    image: Telecommunication,
     description:
       "Target businesses and consumers seeking advanced communication solutions, from mobile networks to broadband services.",
     brands: [],
@@ -459,7 +493,7 @@ export const industriesData = [
   {
     id: 55,
     industry_name: "Timeshare",
-    image: healthcare,
+    image: Timeshare,
     description:
       "Connect with vacation enthusiasts interested in timeshare opportunities, ensuring they find the perfect getaway through your offerings.",
     brands: [],
@@ -467,7 +501,7 @@ export const industriesData = [
   {
     id: 56,
     industry_name: "Travel",
-    image: healthcare,
+    image: Travel,
     description:
       "Engage travelers seeking unique experiences, from leisure to business trips, with leads tailored to the travel and tourism industry.",
     brands: [],
@@ -475,7 +509,7 @@ export const industriesData = [
   {
     id: 57,
     industry_name: "Wellness",
-    image: healthcare,
+    image: Wellness,
     description:
       "Reach individuals seeking wellness products and services, from holistic therapies to nutritional supplements, with targeted leads.",
     brands: [],
