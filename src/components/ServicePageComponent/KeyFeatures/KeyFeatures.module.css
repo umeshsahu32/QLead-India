@@ -57,3 +57,34 @@
   font-weight: normal;
   font-size: 1.1rem;
 }
+
+@media (max-width: 992px) {
+  .head {
+    font-size: 2rem;
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 871px) {
+  .feature_list {
+    grid-template-columns: 2fr 3fr;
+  }
+}
+@media (max-width: 526px) {
+  .head {
+    font-size: 1.6rem;
+  }
+  .feature_list {
+    display: grid;
+    grid-template-columns: 1fr;
+    min-width: 100%;
+    align-items: center;
+    /* background: var(--background); */
+  }
+}
+
+@media (max-width: 395px) {
+  .head {
+    font-size: 1.4rem;
+  }
+}

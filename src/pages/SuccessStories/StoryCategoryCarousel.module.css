@@ -30,9 +30,9 @@
   color: #fff;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 380px) {
   .pill {
-    padding: 6px 12px;
-    font-size: 12px;
+    padding: 8px 18px;
+    font-size: 24px;
   }
 }

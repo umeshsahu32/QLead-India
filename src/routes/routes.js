@@ -20,6 +20,10 @@ const Packages = lazy(() => import("../pages/Packages/Packages.jsx"));
 
 const Services = lazy(() => import("../pages/Services/Services.jsx"));
 
+const TermsCondition = lazy(() =>
+  import("../pages/TermsCondition/TermsCondition.jsx")
+);
+
 const PageNotFound = lazy(() =>
   import("../pages/PageNotFound/PageNotFound.jsx")
 );
@@ -34,4 +38,5 @@ export {
   Packages,
   Industries,
   Services,
+  TermsCondition,
 };

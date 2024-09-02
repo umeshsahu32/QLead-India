@@ -26,12 +26,14 @@
   font-size: 2rem;
   color: var(--color-tertiary);
   font-weight: normal;
+  text-align: center;
 }
 
 .heading_container p {
   text-align: center;
   max-width: 80%;
   color: var(--color-tertiary);
+  font-size: 1rem;
 }
 
 .process_container {
@@ -76,16 +78,28 @@
     font-size: 2.5rem;
     max-width: 90%;
     margin: auto;
+    margin-bottom: 10px;
   }
 
   .heading_container h4 {
     font-size: 1.6rem;
     max-width: 90%;
     margin: auto;
+    margin-bottom: 10px;
   }
 
   .process_box {
     width: 40%;
+  }
+}
+
+@media (max-width: 992px) {
+  .heading_container h3 {
+    font-size: 2rem;
+  }
+
+  .heading_container h4 {
+    font-size: 1.8rem;
   }
 }
 
@@ -98,11 +112,22 @@
   .process_box p {
     font-size: 1.2rem;
   }
+}
 
+@media (max-width: 526px) {
   .heading_container h3 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
+  .heading_container h4 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 395px) {
+  .heading_container h3 {
+    font-size: 1.4rem;
+  }
   .heading_container h4 {
     font-size: 1.2rem;
   }

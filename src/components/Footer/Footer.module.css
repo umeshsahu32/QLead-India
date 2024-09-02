@@ -20,6 +20,7 @@
 
 .footerColumn p {
   color: var(--color-white);
+  font-size: 1rem;
 }
 
 .footerColumn h4 {
@@ -47,6 +48,7 @@
   margin-bottom: 8px;
   position: relative;
   display: inline-block;
+  font-size: 1rem;
 }
 
 .footerLink::after {

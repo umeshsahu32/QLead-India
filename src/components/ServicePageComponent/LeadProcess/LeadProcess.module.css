@@ -81,6 +81,11 @@
 }
 
 /* Mobile responsiveness */
+@media (max-width: 992px) {
+  .sectionWrapper h3 {
+    font-size: 2rem;
+  }
+}
 @media (max-width: 730px) {
   .breadcrumb {
     display: flex;
@@ -115,5 +120,17 @@
   .overlay_mob {
     text-align: left;
     display: block;
+  }
+}
+
+@media (max-width: 526px) {
+  .sectionWrapper h3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 395px) {
+  .sectionWrapper h3 {
+    font-size: 1.4rem;
   }
 }

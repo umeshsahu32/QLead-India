@@ -13,31 +13,45 @@ import image12 from "../../assets/images/Blogs/media-front-12.webp";
 import image13 from "../../assets/images/Blogs/media-front-13.jpg";
 import image14 from "../../assets/images/Blogs/media-front-14.jpg";
 import image15 from "../../assets/images/Blogs/media-front-15.png";
+import image16 from "../../assets/images/Blogs/media-front-16.webp";
+import image17 from "../../assets/images/Blogs/media-front-17.webp";
 
 const BlogData = [
   {
-    id: 1,
-    image: image1,
-    date: "December 12, 2024",
+    id: 16,
+    image: image16,
+    date: "August 30, 2024 ",
     title: "AOB India",
-    category: "Economics Times",
-    link: "https://economictimes.indiatimes.com/aob-india-the-most-reliable-sales-outsourcing-partner-for-any-business/articleshow/76499205.cms?from=mdr",
-    description: "The Most Reliable Sales Outsourcing Partner For Any Business",
+    category: "Fox Story India",
+    link: "https://foxstoryindia.com/2024/08/30/aob-india-revolutionizes-the-fb-industry-with-innovative-sales-marketing-strategies/",
+    description:
+      "AOB India Revolutionizes the F&B Industry with Innovative Sales & Marketing Strategies",
+  },
+  {
+    id: 17,
+    image: image17,
+    date: "August 28, 2024 ",
+    title: "AOB India",
+    category: "Daily Hunt",
+    link: "https://m.dailyhunt.in/news/india/english/attention+india-epaper-dh70afb931d2334d9fbcf878fa57765042/aob+india+elevates+rameshwaram+caf+with+strategic+sales+marketing-newsid-dh70afb931d2334d9fbcf878fa57765042_323c9af066ae11efb7f92990272f5303?sm=Y",
+    description:
+      "AOB India Elevates Rameshwaram Café with Strategic Sales & Marketing",
   },
   {
     id: 2,
     image: image2,
-    date: "July 17, 2023",
+    date: "July 17, 2024",
     title: "AOB India",
     category: "Prime View",
     link: "https://primeview.co/aob-india-a-pathbreaking-initiative-efficiently-delivering-outsourcing-service-in-sales/",
     description:
       "A pathbreaking initiative, efficiently delivering outsourcing service in sales",
   },
+
   {
     id: 3,
     image: image3,
-    date: "March 05, 2024",
+    date: "July 02, 2020",
     title: "AOB India",
     category: "Your Story",
     link: "https://yourstory.com/2020/07/sales-outsourcing-reliable-startups",
@@ -47,7 +61,7 @@ const BlogData = [
   {
     id: 4,
     image: image4,
-    date: "March 05, 2024",
+    date: "June 23, 2020",
     title: "AOB India",
     category: "Vijaya Karnataka",
     description: "Founder of online events in india",
@@ -56,16 +70,25 @@ const BlogData = [
   {
     id: 5,
     image: image5,
-    date: "March 05, 2024",
+    date: "June 22, 2020",
     title: "AOB Events",
     category: "Asianet News",
     description: " India's leader in online events",
     link: "https://www.asianetnews.com/companies/aob-events-first-online-event-platform-launched-in-india-qcbm3t",
   },
   {
+    id: 1,
+    image: image1,
+    date: "Jun 22, 2020",
+    title: "AOB India",
+    category: "Economics Times",
+    link: "https://economictimes.indiatimes.com/aob-india-the-most-reliable-sales-outsourcing-partner-for-any-business/articleshow/76499205.cms?from=mdr",
+    description: "The Most Reliable Sales Outsourcing Partner For Any Business",
+  },
+  {
     id: 6,
     image: image6,
-    date: "March 05, 2024",
+    date: "December 05, 2023",
     title: "Phygital",
     category: "Academia",
     description:
@@ -75,7 +98,7 @@ const BlogData = [
   {
     id: 7,
     image: image7,
-    date: "December 12, 2024",
+    date: "December 12, 2023",
     title: "AOB India",
     category: "Academia",
     link: "https://www.academia.edu/109873424/AI_Belongs_to_Humanity",
@@ -93,7 +116,7 @@ const BlogData = [
   {
     id: 9,
     image: image9,
-    date: "March 05, 2024",
+    date: "March 25, 2023",
     title: "AOB India",
     category: "Academia",
     link: "https://www.academia.edu/111174431/AI_based_prediction_model_for_sports_exchanges",
@@ -102,7 +125,7 @@ const BlogData = [
   {
     id: 10,
     image: image10,
-    date: "March 05, 2024",
+    date: "May 19, 2021",
     title: "AOB India",
     category: "Academia",
     description:
@@ -112,7 +135,7 @@ const BlogData = [
   {
     id: 11,
     image: image11,
-    date: "March 05, 2024",
+    date: "June 02, 2024",
     title: "AOB India",
     category: "Academia",
     description:
@@ -122,7 +145,7 @@ const BlogData = [
   {
     id: 12,
     image: image12,
-    date: "March 05, 2024",
+    date: "May 18, 2024",
     title: "AOB India",
     category: "Blogspot",
     description: "Learn How Not to Sell, to Actually Sell the Right Way",
@@ -131,7 +154,7 @@ const BlogData = [
   {
     id: 13,
     image: image13,
-    date: "March 05, 2024",
+    date: "December 31, 2020",
     title: "AOB India",
     category: "Media Wire",
     description:
@@ -141,7 +164,7 @@ const BlogData = [
   {
     id: 14,
     image: image14,
-    date: "March 05, 2024",
+    date: "March 26, 2021",
     title: "AOB India",
     category: "Mensxp",
     description:
@@ -151,7 +174,7 @@ const BlogData = [
   {
     id: 15,
     image: image15,
-    date: "August 05, 2023",
+    date: "December 25, 2020",
     title: "AOB India",
     category: "The Economics Times",
     description:

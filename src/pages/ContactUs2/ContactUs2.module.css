@@ -310,6 +310,7 @@
   .section14 {
     flex-direction: column;
     padding: 0 4rem;
+    margin-top: 2rem;
   }
 
   .form {

@@ -12,6 +12,7 @@ import {
   SuccessStories,
   Industries,
   Packages,
+  TermsCondition,
 } from "./routes/routes.js";
 import Layout from "./routes/Layout.jsx";
 
@@ -94,6 +95,14 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback={<PageLoader />}>
             <Services />
+          </Suspense>
+        ),
+      },
+      {
+        path: "terms-and-conditions",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <TermsCondition />
           </Suspense>
         ),
       },
