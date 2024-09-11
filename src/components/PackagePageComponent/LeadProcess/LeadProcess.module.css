@@ -203,7 +203,59 @@
   content: none;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 810px) {
+  .progress_inner {
+    width: 600px;
+  }
+
+  .progress_inner__tabs .tab h1 {
+    font-size: 1.4rem;
+  }
+
+  .progress_inner__tabs .tab p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .progress_inner {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .progress_inner {
+    width: 400px;
+  }
+
+  .progress_inner__step .step_number {
+    font-size: 12px;
+  }
+
+  .abc1 {
+    font-size: 0.8rem;
+  }
+
+  .progress_inner__tabs .tab h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .progress_inner {
+    width: 360px;
+  }
+
+  .progress_inner__step .step_number {
+    font-size: 12px;
+  }
+
+  .abc1 {
+    font-size: 0.7rem;
+  }
+}
+
+/* @media (max-width: 620px) {
   .progress_inner__tabs .tab {
     margin-top: 15rem;
   }
@@ -234,4 +286,4 @@
     height: 300px;
     padding: 0 2rem;
   }
-}
+} */

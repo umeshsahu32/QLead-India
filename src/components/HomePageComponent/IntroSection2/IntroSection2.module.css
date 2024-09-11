@@ -75,9 +75,21 @@
 }
 
 @media (max-width: 768px) {
+  .section12 {
+    margin-top: 2rem;
+  }
+
   .row,
   .reverse {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
   }
 
   .content,
@@ -96,13 +108,15 @@
 
   .row {
     gap: 2rem;
-    margin-bottom: 4rem;
+  }
+
+  .videoContainer {
   }
 }
 
 @media (max-width: 568px) {
   .content h2 {
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 600;
     margin-bottom: 10px;
   }

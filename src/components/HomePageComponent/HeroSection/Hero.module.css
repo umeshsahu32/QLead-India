@@ -73,12 +73,20 @@
   transform: scale(1.1);
 }
 
-@media (max-width: 768px) {
-  .heroHeading {
-    font-size: 1.8rem;
+@media (max-width: 568px) {
+  .hero {
+    height: 60vh;
+  }
+
+  .heroContent {
+    left: 0rem;
+  }
+
+  .heading h1 {
+    font-size: 2rem;
   }
 
   .heroSubHeading {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }

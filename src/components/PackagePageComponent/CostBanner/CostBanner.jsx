@@ -6,18 +6,6 @@ import SectionVideo from "../../../assets/video/why-cost-is-high.mp4";
 const CostBanner = () => {
   return (
     <Fragment>
-      {/* <div className={styles.image_container}>
-        <div className={styles.image_text}>
-          <h1>Why the Higher Cost is Worth It</h1>
-          <p>
-            While our leads may be more expensive, they offer unparalleled value
-            by eliminating the need for initial screening and reducing the time
-            and resources required to close a sale. By focusing on quality over
-            quantity, we ensure that you connect with prospects who are most
-            likely to convert, ultimately driving higher ROI for your business.
-          </p>
-        </div>
-      </div> */}
       <div className={styles.section}>
         <div className={styles.video_section}>
           <video

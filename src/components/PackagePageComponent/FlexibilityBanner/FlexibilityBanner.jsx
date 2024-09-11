@@ -7,7 +7,7 @@ const FlexibilityBanner = () => {
       <div className={styles.gradientBackground}>
         <div className={styles.content}>
           <h1>Flexibility & Scalability </h1>
-          <p>
+          <p className={styles.first_para}>
             Flexibility to start small and scale up as you see the results and
             refine your campaign strategies.
           </p>

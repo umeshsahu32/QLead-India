@@ -24,7 +24,7 @@
   color: var(--color-white);
   font-family: var(--font-family-2);
   font-size: 3rem;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-weight: 600;
 }
 
@@ -39,7 +39,9 @@
   color: var(--color-white);
   font-weight: 600;
 }
-
+.first_para {
+  margin-bottom: 20px !important  ;
+}
 .gradientBackground::before {
   content: "";
   position: absolute;
@@ -72,5 +74,26 @@
 
   100% {
     transform: translateY(0px);
+  }
+}
+
+@media (max-width: 720px) {
+  .content h1 {
+    font-size: 2.4rem;
+  }
+
+  .content p {
+    max-width: 90%;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .content h1 {
+    font-size: 1.8rem;
+  }
+
+  .content p {
+    max-width: 100%;
   }
 }

@@ -154,3 +154,9 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 568px) {
+  .cardSection {
+    margin-top: 2rem;
+  }
+}

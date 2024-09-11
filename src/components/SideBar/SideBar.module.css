@@ -118,14 +118,17 @@
 
 @media (max-width: 568px) {
   .sidebarContact {
-    width: 250px;
-    right: -250px;
+    width: 280px;
+    right: -280px;
     padding: 20px;
     top: 55%;
   }
+  .active {
+    right: 0;
+  }
 
   .sidebarContact .toggle {
-    right: 250px;
+    right: 280px;
   }
 
   .toggle {
@@ -152,17 +155,5 @@
     width: 100%;
     padding: 5px;
     margin-bottom: 10px;
-  }
-}
-
-@media (max-width: 350px) {
-  .sidebarContact {
-    width: 270px;
-    right: -270px;
-    padding: 20px;
-  }
-
-  .sidebarContact .toggle {
-    right: 270px;
   }
 }

@@ -37,12 +37,12 @@
     height: 200px;
   }
 
-  h2 {
-    font-size: 20px;
+  .overlay h2 {
+    font-size: 30px;
   }
 
-  p {
-    font-size: 14px;
+  .overlay p {
+    font-size: 18px;
   }
 }
 
@@ -51,11 +51,10 @@
     height: 150px;
   }
 
-  h2 {
+  .overlay h2 {
     font-size: 18px;
   }
-
-  p {
-    font-size: 12px;
+  .overlay p {
+    font-size: 14px;
   }
 }
