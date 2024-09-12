@@ -4,6 +4,7 @@ import styles from "./SideBar.module.css";
 const SideBar = () => {
   const [showSidebar, setShowSidebar] = useState(false);
   const [active, setActive] = useState(false);
+  const [result, setResult] = React.useState("");
 
   useEffect(() => {
     const controlSidebar = () => {
@@ -22,6 +23,30 @@ const SideBar = () => {
 
   const toggleSidebar = () => {
     setActive(!active);
+    setResult();
+  };
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "e7ebfe3b-4e06-4498-83d8-dd7fe07bbe4e");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
   };
 
   return (
@@ -38,13 +63,7 @@ const SideBar = () => {
       <h2>Contact Us</h2>
       <div className={styles.horizontalLineForm}></div>
       <div className={styles.scroll}>
-        <form action="https://api.web3forms.com/submit" method="POST">
-          <input
-            type="hidden"
-            name="access_key"
-            value="e7ebfe3b-4e06-4498-83d8-dd7fe07bbe4e"
-          />
-          <input type="hidden" name="subject" value="Inquiry" />
+        <form onSubmit={onSubmit}>
           <input
             type="text"
             id="name"
@@ -76,6 +95,12 @@ const SideBar = () => {
             style={{ height: "80px" }}
             required
           ></textarea>
+          <p className={styles.disclaimer}>
+            I authorise QLead Sales Entreprise & its representatives to contact
+            me with updates and notifications via Email/SMS/What'sApp/Call. This
+            will override DND/NDNC .
+          </p>
+          <p className={styles.responseMessage}>{result}</p>
           <div className={styles.btn}>
             <button type="submit">Submit</button>
           </div>

@@ -61,6 +61,7 @@
 .sidebarContact textarea {
   height: 60px;
   resize: none;
+  margin-bottom: 0;
 }
 
 .btn {
@@ -114,6 +115,20 @@
 
 .toggle.active:before {
   content: "CLOSE";
+}
+
+.disclaimer {
+  color: #fff;
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+
+.responseMessage {
+  color: #fff;
+  font-size: 0.9rem;
+  margin: 14px 0;
+  font-weight: bold;
+  letter-spacing: 1.2px;
 }
 
 @media (max-width: 568px) {

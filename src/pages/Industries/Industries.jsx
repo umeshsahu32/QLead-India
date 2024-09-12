@@ -3,24 +3,9 @@ import { MdClose } from "react-icons/md";
 import styles from "./Industries.module.css";
 
 import Industries2 from "../../components/HomePageComponent/Industries2/Industries2";
-import { useLocation } from "react-router-dom";
 import { industriesData } from "./IndustriesData";
 
 const Industries = () => {
-  const { pathname } = useLocation();
-
-  //   const [selectedIndustry, setSelectedIndustry] = useState(null);
-  //   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-
-  //   const openDrawer = (industry) => {
-  //     setSelectedIndustry(industry);
-  //     setIsDrawerOpen(true);
-  //   };
-
-  //   const closeDrawer = () => {
-  //     setIsDrawerOpen(false);
-  //   };
-
   const [selectedIndustry, setSelectedIndustry] = useState(null);
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [isOverlayVisible, setIsOverlayVisible] = useState(false);
@@ -41,10 +26,6 @@ const Industries = () => {
   const closeDrawer = () => {
     setIsDrawerOpen(false);
   };
-
-  useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-  }, [pathname]);
 
   return (
     <Fragment>

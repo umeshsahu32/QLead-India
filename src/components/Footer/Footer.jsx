@@ -95,32 +95,34 @@ const Footer = () => {
             Terms of service
           </Link>{" "}
           <br />
-          <Link to="/terms-and-conditions" className={styles.footerLink}>
+          <Link to="/privacy-policy" className={styles.footerLink}>
             Privacy policy
           </Link>
         </div>
 
         <div className={styles.footerColumn}>
           <h4>Our Services</h4>
-          <Link to="/web-design" className={styles.footerLink}>
-            Service 1
+          <Link to="/our-services" className={styles.footerLink}>
+            Services
           </Link>{" "}
           <br />
-          <Link to="/web-development" className={styles.footerLink}>
-            Service 2
+          <Link
+            to="/our-services#lead-generation-process"
+            className={styles.footerLink}
+          >
+            Lead Generation Process
           </Link>{" "}
           <br />
-          <Link to="/product-management" className={styles.footerLink}>
-            Service 3
+          <Link
+            to="/our-services#lead-scoring-enhancing"
+            className={styles.footerLink}
+          >
+            Lead Scoring Enhancing
           </Link>{" "}
           <br />
-          <Link to="/marketing" className={styles.footerLink}>
-            Service 4
+          <Link to="/our-services#key-features" className={styles.footerLink}>
+            Key Features
           </Link>{" "}
-          <br />
-          <Link to="/graphic-design" className={styles.footerLink}>
-            Service 5
-          </Link>
         </div>
 
         <div className={styles.footerColumn}>

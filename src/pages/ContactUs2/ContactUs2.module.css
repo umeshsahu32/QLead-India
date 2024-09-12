@@ -288,6 +288,11 @@
   width: 320px !important;
 }
 
+.disclaimer {
+  color: var(--primary-color);
+  font-size: 1rem;
+}
+
 @media (max-width: 1100px) {
   .section14 {
     gap: 10px;

@@ -24,6 +24,10 @@ const TermsCondition = lazy(() =>
   import("../pages/TermsCondition/TermsCondition.jsx")
 );
 
+const PrivacyPolicy = lazy(() =>
+  import("../pages/PrivacyPolicy/PrivacyPolicy.jsx")
+);
+
 const PageNotFound = lazy(() =>
   import("../pages/PageNotFound/PageNotFound.jsx")
 );
@@ -39,4 +43,5 @@ export {
   Industries,
   Services,
   TermsCondition,
+  PrivacyPolicy,
 };

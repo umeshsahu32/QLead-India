@@ -23,8 +23,6 @@ const ContactUs2 = () => {
   const FormValidation = (formData, setError) => {
     let newErrors = {};
 
-    console.log("formData-->", formData);
-
     const isValidEmail = () => {
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       return emailRegex.test(formData.email);
@@ -58,22 +56,55 @@ const ContactUs2 = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const submitBtnHandler = (e) => {
+  const submitBtnHandler = async (e) => {
     e.preventDefault();
     formData.phoneNumber = phone;
     const isValid = FormValidation(formData, setError);
     if (isValid) {
-      localStorage.setItem("formSubmit", true);
-      addNotification(
-        "Form is Submitted. Our team will contact you soon.",
-        "success",
-        3000
-      );
+      const something = new FormData();
+
+      Object.keys(formData).forEach((key) => {
+        something.append(key, formData[key]);
+      });
+
+      something.append("access_key", "e7ebfe3b-4e06-4498-83d8-dd7fe07bbe4e");
+
+      const object = Object.fromEntries(something);
+      const json = JSON.stringify(object);
+
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: json,
+      }).then((res) => res.json());
+
+      console.log("res", res);
+
+      if (res.success) {
+        localStorage.setItem("formSubmit", true);
+        addNotification(
+          "Form is Submitted. QLead team will contact you soon.",
+          "success",
+          3000
+        );
+        setFormData({
+          firstName: "",
+          lastName: "",
+          email: "",
+          phoneNumber: "",
+          message: "",
+        });
+        setPhone("");
+      } else {
+        addNotification("Something went wrong.", "error", 3000);
+      }
     }
   };
 
   const isFormSubmitted = localStorage.getItem("formSubmit");
-  console.log("isFormSubmitted", isFormSubmitted);
 
   const handleDownload = (e) => {
     if (!isFormSubmitted) {
@@ -123,6 +154,7 @@ const ContactUs2 = () => {
                 type="text"
                 placeholder="Enter First Name"
                 name="firstName"
+                value={formData.firstName}
                 id="firstName"
                 onChange={handleInputChange}
                 className={`${error?.firstName ? styles.error_border : ""}`}
@@ -138,6 +170,7 @@ const ContactUs2 = () => {
                 placeholder="Enter Last Name"
                 name="lastName"
                 id="lastName"
+                value={formData.lastName}
                 onChange={handleInputChange}
               />
             </div>
@@ -150,6 +183,7 @@ const ContactUs2 = () => {
                 placeholder="Enter First Name"
                 id="email"
                 name="email"
+                value={formData.email}
                 onChange={handleInputChange}
                 className={`${error?.email ? styles.error_border : ""}`}
               />
@@ -195,6 +229,11 @@ const ContactUs2 = () => {
             </div>
           </div>
         </div>
+        <p className={styles.disclaimer}>
+          I authorise QLead Sales Entreprise & its representatives to contact me
+          with updates and notifications via Email/SMS/What'sApp/Call. This will
+          override DND/NDNC .
+        </p>
         {/* <button
           onClick={(e) => submitBtnHandler(e)}
           className={styles.submitButton}

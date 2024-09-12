@@ -1,11 +1,24 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
 import styles from "./LeadScoring.module.css";
 import { LeadScoringData } from "./LeadScoringData";
+import { useLocation } from "react-router-dom";
 
 const LeadScoring = () => {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const element = document.querySelector(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [hash]);
+
+  // @ JSX START
   return (
     <Fragment>
-      <div className={styles.section_container}>
+      <div className={styles.section_container} id="lead-scoring-enhancing">
         <div className={styles.heading_container}>
           <h3>
             Predictive Lead Scoring <br /> Enhancing Your Sales Efficiency

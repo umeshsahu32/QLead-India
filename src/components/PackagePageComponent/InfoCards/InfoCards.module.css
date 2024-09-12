@@ -67,3 +67,13 @@
     padding: 0 2rem;
   }
 }
+
+@media (max-width: 528px) {
+  .page_heading p {
+    padding: 0 2rem;
+  }
+
+  .quality_container {
+    gap: 1rem;
+  }
+}

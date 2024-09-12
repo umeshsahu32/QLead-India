@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
+  z-index: 2000;
 }
 
 .modal {
@@ -81,4 +81,50 @@
   font-family: var(--font-family-1);
   line-height: 1.5rem;
   margin-bottom: 10px;
+}
+
+@media (max-width: 1200px) {
+  .modalOverlay {
+    padding: 0 2rem;
+  }
+
+  .closeButton {
+    top: 0;
+    right: 1rem;
+  }
+
+  .modalBody img {
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 992px) {
+  .modal {
+    max-width: 700px;
+    max-height: 600px;
+    overflow-y: scroll;
+    margin-top: 4rem;
+  }
+
+  .closeButton {
+    top: 0rem;
+    right: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .modalBody {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding-bottom: 0;
+  }
+
+  .modalBody img {
+    object-fit: cover;
+  }
+
+  .modal_text ul {
+    list-style: disc;
+    margin-bottom: 15px;
+    margin-left: 20px;
+  }
 }

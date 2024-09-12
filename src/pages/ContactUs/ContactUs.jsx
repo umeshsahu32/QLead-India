@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from "react";
+import React, { Fragment } from "react";
 import styles from "./ContactUs.module.css";
 import {
   IoLocationOutline,
@@ -6,7 +6,6 @@ import {
   IoMailOutline,
 } from "react-icons/io5";
 import SectionHeading from "../../components/SectionHeading/SectionHeading";
-import { useLocation } from "react-router-dom";
 
 const ContactInfo = ({ icon, title, content, location }) => (
   <div className={styles.infoCard}>
@@ -22,12 +21,6 @@ const address = "79/5,6,7, Capital Building, 7-1-79, Swathi Avenue";
 const location = "Ameerpet, Hyderabad, Telangana 500016";
 
 const ContactUs = () => {
-  const { pathname } = useLocation();
-
-  useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-  }, [pathname]);
-
   return (
     <Fragment>
       <SectionHeading heading="Contact Us" />

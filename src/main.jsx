@@ -13,6 +13,7 @@ import {
   Industries,
   Packages,
   TermsCondition,
+  PrivacyPolicy,
 } from "./routes/routes.js";
 import Layout from "./routes/Layout.jsx";
 
@@ -20,11 +21,17 @@ import ContactUs from "./pages/ContactUs/ContactUs.jsx";
 import ContactUs2 from "./pages/ContactUs2/ContactUs2.jsx";
 import Services from "./pages/Services/Services.jsx";
 import { NotificationProvider } from "./components/NotificationToaster/NotificationContext.jsx";
+import ScrollToTop from "./routes/ScrollToTop.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Layout />,
+    element: (
+      <>
+        <ScrollToTop />
+        <Layout />
+      </>
+    ),
     children: [
       {
         path: "/",
@@ -103,6 +110,14 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback={<PageLoader />}>
             <TermsCondition />
+          </Suspense>
+        ),
+      },
+      {
+        path: "privacy-policy",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <PrivacyPolicy />
           </Suspense>
         ),
       },

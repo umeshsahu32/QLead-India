@@ -168,3 +168,19 @@
     height: 330px;
   }
 }
+
+@media (max-width: 528px) {
+  .section21 {
+    margin-top: 8rem;
+  }
+  .cardContainer {
+    gap: 40px;
+    margin-top: 4rem;
+  }
+
+  .card {
+    padding: 30px;
+    width: 280px;
+    height: 330px;
+  }
+}

@@ -1,19 +1,13 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { Fragment, useState } from "react";
 import styles from "./Faqs.module.css";
-import { useLocation } from "react-router-dom";
 import { IoIosArrowUp } from "react-icons/io";
 
 const Faqs = ({ data }) => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const { pathname } = useLocation();
 
   const toggleAccordion = (index) => {
     setActiveIndex(index === activeIndex ? null : index);
   };
-
-  useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-  }, [pathname]);
 
   //   @ JSX START
   return (
