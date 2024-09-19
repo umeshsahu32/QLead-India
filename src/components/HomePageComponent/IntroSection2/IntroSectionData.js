@@ -1,6 +1,6 @@
-import video1 from "../../../assets/video/video01.mp4";
-import video2 from "../../../assets/video/video02.mp4";
-import video3 from "../../../assets/video/video03.mp4";
+import video1 from "../../../assets/video/intro-section-1.mp4";
+import video2 from "../../../assets/video/intro-section-2.mp4";
+import video3 from "../../../assets/video/intro-section-3.mp4";
 
 export const introSectionData = [
   {
