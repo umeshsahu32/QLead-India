@@ -9,201 +9,162 @@ const PrivacyPolicy = () => {
       <section className={styles.sectionContainer}>
         <div className={styles.terms_heading}>
           <SectionHeading
-            heading="Terms and Conditions"
-            para='Welcome to www.qlead.ai, a website operated by Q-Lead, a brand of AOB Sales Enterprise ("we," "our," "us"). By accessing or using this website, you agree to comply with and be bound by the following
-            terms and conditions. Please read these terms carefully before using
-            our website. If you do not agree with any part of these terms, you
-            must not use our website.'
+            heading="Privacy Policy"
+            para='Q-Lead, a brand of AOB Sales Enterprise ("we," "our," "us"), respects your privacy and is committed to protecting your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your data when you visit our website www.qlead.ai and use our services.'
           />
         </div>
 
         <div className={styles.terms_section}>
-          <h5>1. Acceptance of Terms</h5>
+          <h5>1. Information We Collect</h5>
+          <h6>1.1 Personal Information</h6>
           <p>
-            By using this website, you acknowledge that you have read,
-            understood, and agree to be bound by these Terms and Conditions, as
-            well as our Privacy Policy. These terms apply to all visitors,
-            users, and others who access or use the website.
+            We may collect personal information that you voluntarily provide to
+            us when you register on our website, fill out forms, or communicate
+            with us. This information may include your name, email address,
+            phone number, company name, and other relevant details.
+          </p>
+          <h6>1.2 Automatically Collected Information</h6>
+          <p>
+            When you access our website, we may automatically collect certain
+            information about your device, browsing actions, and usage patterns.
+            This may include your IP address, browser type, operating system,
+            access times, and the pages you have viewed directly before and
+            after accessing the website.
+          </p>
+          <h6>1.3 Cookies and Similar Technologies</h6>
+          <p>
+            We may use cookies, web beacons, and other tracking technologies to
+            collect information about your interactions with our website and to
+            enhance your experience. You can choose to disable cookies through
+            your browser settings, but this may affect your ability to use
+            certain features of our website.
           </p>
         </div>
 
         <div className={styles.terms_section}>
-          <h5>2. Use of Website</h5>
-          <h6>2.1 License</h6>
+          <h5>2. How We Use Your Information</h5>
+          <h6>2.1 To Provide and Manage Services</h6>
           <p>
-            Q-Lead grants you a limited, non-exclusive, non-transferable, and
-            revocable license to access and use the website for your personal or
-            business purposes, subject to these Terms and Conditions.
+            We use your personal information to provide, manage, and improve our
+            lead generation services. This includes processing your requests,
+            managing your account, and delivering qualified leads to you.
           </p>
-          <h6>2.2 Prohibited Conduct</h6>
+          <h6>2.2 To Communicate with You</h6>
           <p>
-            You agree not to engage in any of the following prohibited
-            activities:
+            We may use your contact information to send you updates, marketing
+            communications, and other information related to our services. You
+            can opt-out of receiving marketing communications at any time.
           </p>
-          <ul>
-            <li>
-              Using the website for any unlawful purpose or in violation of any
-              applicable laws or regulations.
-            </li>
-            <li>
-              Attempting to interfere with, disrupt, or disable the website's
-              functionality, including through the use of viruses, bots, or
-              other malicious code.
-            </li>
-            <li>
-              Accessing or using the website to collect any personally
-              identifiable information, including account names or email
-              addresses, for commercial purposes.
-            </li>
-            <li>
-              Attempting to gain unauthorized access to any part of the website,
-              other users' accounts, or any computer systems or networks
-              connected to the website.
-            </li>
-            <li>
-              Impersonating any person or entity, or falsely stating or
-              otherwise misrepresenting your affiliation with a person or
-              entity.
-            </li>
-          </ul>
-          <h6>2.3 Modifications to the Website</h6>
+          <h6>2.3 To Improve Our Services</h6>
           <p>
-            We reserve the right to modify, suspend, or discontinue any part of
-            the website at any time without notice. We will not be liable to you
-            or any third party for any modification, suspension, or
-            discontinuance of the website or any part thereof.
+            We may use the information we collect to analyze usage trends,
+            monitor the performance of our website, and improve the
+            effectiveness of our services.
+          </p>
+          <h6>2.4 To Ensure Compliance</h6>
+          <p>
+            We use your information to ensure compliance with our legal
+            obligations, such as maintaining the confidentiality of your data
+            and adhering to relevant laws and regulations.
           </p>
         </div>
 
         <div className={styles.terms_section}>
-          <h5>3. Intellectual Property</h5>
-          <h6>3.1 Ownership</h6>
+          <h5>3. Data Security</h5>
+          <h6>3.1 Protection Measures</h6>
           <p>
-            All content on the website, including text, graphics, logos, images,
-            and software, is the property of Q-Lead or its content suppliers and
-            is protected by copyright, trademark, and other intellectual
-            property laws. You may not reproduce, distribute, modify, or create
-            derivative works based on any content without our express written
-            permission.
+            We implement appropriate technical and organizational measures to
+            protect your personal information from unauthorized access,
+            alteration, disclosure, or destruction. Our data servers are located
+            in India and are secured in accordance with the guidelines of the
+            Government of India.
           </p>
-          <h6>3.2 Trademarks</h6>
+          <h6>3.2 Restricted Access</h6>
           <p>
-            "Q-Lead," "AOB Sales Enterprise," and all related logos, product
-            names, and services mentioned on the website are trademarks of
-            Q-Lead or its affiliates. You may not use any of these trademarks
-            without our prior written consent.
-          </p>
-        </div>
-
-        <div className={styles.terms_section}>
-          <h5>4. User Content</h5>
-          <h6>4.1 User Submissions</h6>
-          <p>
-            You may have the opportunity to post, submit, or otherwise make
-            available content, such as comments, feedback, or other information
-            ("User Content") on the website. By submitting User Content, you
-            grant Q-Lead a non-exclusive, worldwide, royalty-free, perpetual,
-            and irrevocable license to use, reproduce, modify, adapt, publish,
-            translate, create derivative works from, distribute, and display
-            such content.
-          </p>
-          <h6>4.2 Responsibility</h6>
-          <p>
-            You are solely responsible for the content you submit and agree that
-            your User Content will not violate any applicable law, infringe upon
-            any third-party rights, or contain any defamatory, obscene, or
-            otherwise objectionable material.
-          </p>
-        </div>
-        <div className={styles.terms_section}>
-          <h5>5. Disclaimers</h5>
-          <h6>5.1 No Warranties</h6>
-          <p>
-            The website is provided on an "as-is" and "as-available" basis.
-            Q-Lead makes no warranties, express or implied, regarding the
-            website's operation, content, or the information provided. To the
-            fullest extent permitted by law, we disclaim all warranties,
-            including but not limited to implied warranties of merchantability,
-            fitness for a particular purpose, and non-infringement.
-          </p>
-          <h6>5.2 Limitation of Liability</h6>
-          <p>
-            Q-Lead shall not be liable for any damages, including but not
-            limited to direct, indirect, incidental, punitive, and consequential
-            damages, arising out of or in connection with your use of the
-            website, even if we have been advised of the possibility of such
-            damages. Your sole remedy for dissatisfaction with the website is to
-            stop using it.
+            Access to your personal information is restricted to authorized
+            personnel who require it to perform their job functions. We take all
+            reasonable steps to ensure that your data is treated securely and in
+            accordance with this Privacy Policy.
           </p>
         </div>
 
         <div className={styles.terms_section}>
-          <h5> 6. Indemnification</h5>
+          <h5>4. Data Sharing and Disclosure</h5>
+          <h6>4.1 Third-Party Service Providers</h6>
           <p>
-            You agree to indemnify, defend, and hold harmless Q-Lead, its
-            affiliates, officers, directors, employees, and agents from and
-            against any and all claims, damages, losses, liabilities, costs, and
-            expenses (including reasonable attorneys' fees) arising out of or in
-            connection with your use of the website, your violation of these
-            Terms and Conditions, or your violation of any rights of another.
+            We may share your information with third-party service providers who
+            assist us in providing our services, such as email marketing
+            platforms, tele-sales executives, and digital marketing experts.
+            These third parties are contractually obligated to keep your
+            information confidential and use it only for the purposes for which
+            it was disclosed.
+          </p>
+          <h6>4.2 Legal Requirements</h6>
+          <p>
+            We may disclose your information if required to do so by law or in
+            response to valid requests by public authorities (e.g., a court or
+            government agency).
+          </p>
+          <h6>4.3 Business Transfers</h6>
+          <p>
+            We may disclose your information if required to do so by law or in
+            In the event of a merger, acquisition, or sale of all or a portion
+            of our assets, your personal information may be transferred as part
+            of that transaction.
+          </p>
+        </div>
+        <div className={styles.terms_section}>
+          <h5>5. Data Retention</h5>
+          <p>
+            We retain your personal information for as long as necessary to
+            fulfill the purposes outlined in this Privacy Policy or as required
+            by law. Once your data is no longer needed, we will securely delete
+            or anonymize it.
           </p>
         </div>
 
         <div className={styles.terms_section}>
-          <h5>7. Termination</h5>
+          <h5> 6. Your Rights</h5>
+          <h6>6.1 Access and Correction</h6>
           <p>
-            We reserve the right to terminate or suspend your access to the
-            website, without notice, for conduct that we believe violates these
-            Terms and Conditions or is harmful to other users, us, or third
-            parties, or for any other reason at our sole discretion.
+            You have the right to access and correct any personal information we
+            hold about you. If you wish to update or correct your data, please
+            contact us.
+          </p>
+          <h6>6.2 Opt-Out</h6>
+          <p>
+            You have the right to opt-out of receiving marketing communications
+            from us at any time. To do so, please follow the unsubscribe
+            instructions in the emails you receive or contact us directly.
           </p>
         </div>
 
         <div className={styles.terms_section}>
-          <h5>8. Governing Law</h5>
+          <h5>7. No Sale of Data</h5>
           <p>
-            These Terms and Conditions are governed by and construed in
-            accordance with the laws of India. You agree to submit to the
-            exclusive jurisdiction of the courts located in New Hyderabad,
-            India, for the resolution of any disputes arising out of or relating
-            to these terms or your use of the website.
+            Q-Lead does not sell your personal information to any third parties.
+            We use your data solely to provide our services and improve your
+            experience.
           </p>
         </div>
 
         <div className={styles.terms_section}>
-          <h5>8. Governing Law</h5>
+          <h5>8. Changes to This Privacy Policy</h5>
           <p>
-            These Terms and Conditions are governed by and construed in
-            accordance with the laws of India. You agree to submit to the
-            exclusive jurisdiction of the courts located in New Hyderabad,
-            India, for the resolution of any disputes arising out of or relating
-            to these terms or your use of the website.
+            We may update this Privacy Policy from time to time to reflect
+            changes in our practices or for other operational, legal, or
+            regulatory reasons. We will notify you of any significant changes by
+            posting the new Privacy Policy on our website and updating the
+            effective date.
           </p>
         </div>
 
         <div className={styles.terms_section}>
-          <h5>9. Changes to These Terms</h5>
+          <h5>9. Contact Us</h5>
           <p>
-            Q-Lead may update these Terms and Conditions from time to time. We
-            will notify you of any changes by posting the new terms on this page
-            and updating the effective date. Your continued use of the website
-            after any changes indicates your acceptance of the revised terms.
-          </p>
-        </div>
-
-        <div className={styles.terms_section}>
-          <h5>10. Contact Us</h5>
-          <p>
-            If you have any questions or concerns about these Terms and
-            Conditions, please <Link to="/contact-us">Contact us</Link>
-          </p>
-        </div>
-
-        <div className={styles.terms_section}>
-          <p>
-            This Terms and Conditions document outlines the rules and
-            responsibilities for using the Q-Lead website, ensuring both legal
-            protection and clarity for users.
+            If you have any questions or concerns about this Privacy Policy or
+            our data practices, please contact us at{" "}
+            <a href="mailto:digital@qlead.ai">digital@qlead.ai</a>
           </p>
         </div>
       </section>
