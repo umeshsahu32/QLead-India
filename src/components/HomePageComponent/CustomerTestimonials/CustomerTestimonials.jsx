@@ -6,102 +6,58 @@ import SectionHeading from "../../SectionHeading/SectionHeading";
 
 const reviews = [
   {
-    name: "Jack Sharma",
-    username: "@jack",
+    name: "Venkata Ramesh",
+    username: "Real Estate Agent",
     description:
-      "I've never seen anything like this before. It's amazing. I love it.",
+      "QLead helped me to find right buyer at right time in a quick span of time",
     img: "https://api.dicebear.com/9.x/initials/svg?seed=Patches",
-    videoId: "1VqVWx3rYfM",
+    videoId: "ls4xRwekWgU",
   },
   {
-    name: "Chaavi Gupta",
-    username: "@jack",
+    name: "Ramesh Reddy",
+    username: "Property Consultant",
     description:
-      "I've never seen anything like this before. It's amazing. I love it.",
+      "QLead has transform my approach to sales and its a game changer",
     img: "https://api.dicebear.com/9.x/initials/svg?seed=Patches",
-    videoId: "1VqVWx3rYfM",
+    videoId: "s1p9Wd0F660",
   },
   {
-    name: "Vikas Gupta",
-    username: "@jack",
-    description:
-      "I've never seen anything like this before. It's amazing. I love it.",
+    name: "Chetan Sharma",
+    username: "Photographer",
+    description: "I've never seen anything like this before. It's amazing.",
     img: "https://api.dicebear.com/9.x/initials/svg?seed=Patches",
-    videoId: "1VqVWx3rYfM",
+    videoId: "zo1GNuwD5sA",
   },
   {
-    name: "Shivam Yadav",
-    username: "@jack",
-    description:
-      "I've never seen anything like this before. It's amazing. I love it.",
+    name: "Satish Govind",
+    username: "Real Estate Agent ",
+    description: "Thanks to QLead predicting scoring my sales increase by 35%.",
     img: "https://api.dicebear.com/9.x/initials/svg?seed=Patches",
-    videoId: "1VqVWx3rYfM",
+    videoId: "2xdykyqgpZI",
   },
   {
-    name: "Umesh Sahu",
-    username: "@jack",
-    description:
-      "I've never seen anything like this before. It's amazing. I love it.",
+    name: "Sailaja Kumari",
+    username: "Event Planner",
+    description: "QLead Delivers qualified leads that works.",
     img: "https://api.dicebear.com/9.x/initials/svg?seed=Patches",
-    videoId: "1VqVWx3rYfM",
+    videoId: "KI8O_d7TkBA",
   },
   {
-    name: "Jatin Shukla",
-    username: "@jack",
+    name: "Surya Pavan",
+    username: "Realtor",
     description:
-      "I've never seen anything like this before. It's amazing. I love it.",
+      "QLead AI technology helps make sure that i only deal with the people who are seriously looking for properties.",
     img: "https://api.dicebear.com/9.x/initials/svg?seed=Patches",
-    videoId: "1VqVWx3rYfM",
+    videoId: "DgYU9a7MyGo",
   },
   {
-    name: "Tushar Shetiya",
-    username: "@jack",
+    name: "Shefali Shaik",
+    username: "Event Planner",
     description:
-      "I've never seen anything like this before. It's amazing. I love it.",
+      "QLead predictive scoring help us on client who were actually looking for event planning.",
     img: "https://api.dicebear.com/9.x/initials/svg?seed=Patches",
-    videoId: "1VqVWx3rYfM",
+    videoId: "ID7qzlu54No",
   },
-  {
-    name: "Shuhana Khan",
-    username: "@jack",
-    description:
-      "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://api.dicebear.com/9.x/initials/svg?seed=Patches",
-    videoId: "1VqVWx3rYfM",
-  },
-  {
-    name: "Deepak Sahu",
-    username: "@jack",
-    description:
-      "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://api.dicebear.com/9.x/initials/svg?seed=Patches",
-    videoId: "1VqVWx3rYfM",
-  },
-  {
-    name: "Pradeep Jain",
-    username: "@jack",
-    description:
-      "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://api.dicebear.com/9.x/initials/svg?seed=Patches",
-    videoId: "1VqVWx3rYfM",
-  },
-  {
-    name: "Sapna Shah",
-    username: "@jack",
-    description:
-      "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://api.dicebear.com/9.x/initials/svg?seed=Patches",
-    videoId: "1VqVWx3rYfM",
-  },
-  {
-    name: "Vivek Soni",
-    username: "@jack",
-    description:
-      "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://api.dicebear.com/9.x/initials/svg?seed=Patches",
-    videoId: "1VqVWx3rYfM",
-  },
-  // ... (include all the reviews from the original code)
 ];
 
 const GetUserNameInitials = (full_name) => {
@@ -114,8 +70,8 @@ const GetUserNameInitials = (full_name) => {
   return initials;
 };
 
-const firstRow = reviews.slice(0, reviews.length / 2);
-const secondRow = reviews.slice(reviews.length / 2);
+// const firstRow = reviews.slice(0, reviews.length / 2);
+// const secondRow = reviews.slice(reviews.length / 2);
 
 const ReviewCard = ({ img, name, username, description, onClick, videoId }) => {
   return (
@@ -187,7 +143,14 @@ const CustomerTestimonial = () => {
       <SectionHeading heading="Quotes From Satisfied Customers" />
       <div className={styles.container}>
         <Marquee className={styles.customDuration}>
-          {firstRow.map((review) => (
+          {/* {firstRow.map((review) => (
+            <ReviewCard
+              key={Math.random()}
+              {...review}
+              onClick={videoIconBtnClickHandler}
+            />
+          ))} */}
+          {reviews.map((review) => (
             <ReviewCard
               key={Math.random()}
               {...review}
@@ -195,7 +158,7 @@ const CustomerTestimonial = () => {
             />
           ))}
         </Marquee>
-        <Marquee reverse className={styles.customDuration}>
+        {/* <Marquee reverse className={styles.customDuration}>
           {secondRow.map((review) => (
             <ReviewCard
               key={Math.random()}
@@ -203,7 +166,7 @@ const CustomerTestimonial = () => {
               onClick={videoIconBtnClickHandler}
             />
           ))}
-        </Marquee>
+        </Marquee> */}
         {/* <div className={styles.gradientLeft}></div>
         <div className={styles.gradientRight}></div> */}
       </div>

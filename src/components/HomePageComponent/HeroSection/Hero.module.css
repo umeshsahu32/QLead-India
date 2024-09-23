@@ -74,20 +74,63 @@
   transform: scale(1.1);
 }
 
+.sectionMobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .heroContent {
+    display: none;
+  }
+
+  .sectionMobile {
+    display: block;
+    padding: 2rem 4rem;
+    background-color: #000000;
+  }
+
+  .heroMobileHeading {
+    color: #fff;
+    font-size: 1.6rem;
+  }
+
+  .heroMobileSubHeading {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+}
+
 @media (max-width: 568px) {
   .hero {
     height: 60vh;
   }
 
   .heroContent {
-    left: 0rem;
+    top: 20rem;
+    left: 2rem;
   }
 
   .heading h1 {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
 
   .heroSubHeading {
+    font-size: 1rem;
+  }
+
+  .sectionMobile {
+    padding: 1rem 2rem;
+    background-color: #000000;
+  }
+
+  .heroMobileHeading {
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .heroMobileSubHeading {
+    color: #fff;
     font-size: 1rem;
   }
 }
