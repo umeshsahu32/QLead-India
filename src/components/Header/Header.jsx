@@ -76,22 +76,22 @@ const Header = () => {
   const SocialLink = [
     {
       id: 1,
-      path: "#",
+      path: "https://www.facebook.com/profile.php?id=61562755720045&mibextid=ZbWKwL",
       icon: <FaFacebook />,
     },
     {
       id: 2,
-      path: "#",
+      path: "https://www.instagram.com/qleads.ai?igsh=MTVzeHA3Njg2NmVvZQ==",
       icon: <FaInstagram />,
     },
     {
       id: 3,
-      path: "#",
+      path: "https://youtube.com/@aobqlead?si=DPL6qSpmUNcsi7p2",
       icon: <FaYoutube />,
     },
     {
       id: 4,
-      path: "https://www.linkedin.com/in/dr-praveen-kumar",
+      path: "https://www.linkedin.com/company/qlead-ai/",
       icon: <FaLinkedin />,
     },
     {

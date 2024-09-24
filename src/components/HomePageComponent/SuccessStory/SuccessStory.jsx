@@ -1,12 +1,6 @@
 import React, { Fragment, useState } from "react";
 import styles from "./SuccessStory.module.css";
 import VideoModal from "./VideoModal";
-import image1 from "../../../assets/images/SuccessStory/image-1.webp";
-import image2 from "../../../assets/images/SuccessStory/image-2.webp";
-import image3 from "../../../assets/images/SuccessStory/image-3.webp";
-import image4 from "../../../assets/images/SuccessStory/image-4.webp";
-import image5 from "../../../assets/images/SuccessStory/image-5.webp";
-import image6 from "../../../assets/images/SuccessStory/image-6.webp";
 import SectionHeading from "../../SectionHeading/SectionHeading";
 import LinkButton from "../../Buttons/LinkButton";
 import { successStoryHomeData } from "./successStoryHomeData";

@@ -42,13 +42,13 @@ const SuccessStories = () => {
     <Fragment>
       <SuccessPageHero />
       <div className={styles.sectionContainer}>
-        <StoryCategoryCarousel
+        {/* <StoryCategoryCarousel
           categories={categories}
           onClick={(id) => pillClickHandler(id)}
           active={activeTab}
-        />
+        /> */}
         <div>
-          <StoryCard cardData={activeData} />
+          <StoryCard cardData={successData} />
         </div>
       </div>
     </Fragment>

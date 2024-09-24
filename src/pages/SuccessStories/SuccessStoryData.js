@@ -114,20 +114,20 @@ export const successData = [
     gradient: "linear-gradient(to bottom, #088395 0%, #111827 60%)",
   },
 
-  {
-    id: 6,
-    category_id: 1,
-    image: image6,
-    challenge:
-      "A real estate developer, Ridhira Zen, wanted to attract potential buyers for their luxury apartment project.",
-    solution:
-      "We identified high-net-worth individuals and conducted personalized outreach to engage them with the project details.",
-    result:
-      "The developer saw a 40% increase in sales and successfully sold out the project ahead of schedule.",
-    percentage: "40%",
-    description: "increase in sales",
-    gradient: "linear-gradient(to bottom, #3C5B6F 0%, #111827 60%)",
-  },
+  // {
+  //   id: 6,
+  //   category_id: 1,
+  //   image: image6,
+  //   challenge:
+  //     "A real estate developer, Ridhira Zen, wanted to attract potential buyers for their luxury apartment project.",
+  //   solution:
+  //     "We identified high-net-worth individuals and conducted personalized outreach to engage them with the project details.",
+  //   result:
+  //     "The developer saw a 40% increase in sales and successfully sold out the project ahead of schedule.",
+  //   percentage: "40%",
+  //   description: "increase in sales",
+  //   gradient: "linear-gradient(to bottom, #3C5B6F 0%, #111827 60%)",
+  // },
 
   {
     id: 7,

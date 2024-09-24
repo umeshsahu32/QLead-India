@@ -87,6 +87,7 @@ const ReviewCard = ({ img, name, username, description, onClick, videoId }) => {
           .closest(`.${styles.marquee}`)
           .classList.remove(styles.paused);
       }}
+      onClick={(e) => onClick(e, name, videoId)}
     >
       <div className={styles.cardHeader}>
         <div>
