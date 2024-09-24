@@ -15,7 +15,7 @@ const Card = ({ title, price, clients, isCenter }) => (
       alt="Handshake"
       className={styles.handshakeIcon}
     />
-    <p className={styles.clientsText}>{clients} Qualified Leads</p>
+    {/* <p className={styles.clientsText}>{clients} Qualified Leads</p> */}
     <Link
       to="/contact-us"
       className={`${!isCenter ? styles.purchaseBtn : styles.purchaseBtnCenter}`}

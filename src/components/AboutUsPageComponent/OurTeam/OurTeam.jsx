@@ -14,13 +14,13 @@ const TeamMember = ({ name, role, image, description, socials }) => (
       <p className={styles.role}>{role}</p>
       <div className={styles.separator}></div>
       <p className={styles.description}>{description}</p>
-      <div className={styles.socials}>
+      {/* <div className={styles.socials}>
         {socials.linkedin && (
           <a href={socials.linkedin}>
             <FaLinkedin />
           </a>
         )}
-      </div>
+      </div> */}
     </div>
   </div>
 );

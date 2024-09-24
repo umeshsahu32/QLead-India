@@ -48,6 +48,7 @@ const SuccessStories = () => {
           active={activeTab}
         /> */}
         <div>
+          {/* <StoryCard cardData={activeData} /> */}
           <StoryCard cardData={successData} />
         </div>
       </div>
