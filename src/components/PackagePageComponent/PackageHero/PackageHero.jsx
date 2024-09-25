@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import styles from "./PackageHero.module.css";
-import SuccessStoryVideo from "../../../assets/video/package-funnel-2.mp4";
+import SuccessStoryVideo from "../../../assets/video/package-funnel-1.mp4";
 
 const PackageHero = () => {
   return (
