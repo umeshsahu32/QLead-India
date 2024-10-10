@@ -38,6 +38,46 @@ import image37 from "../../assets/images/success-story-logo/37.png";
 import image38 from "../../assets/images/success-story-logo/38.png";
 import image39 from "../../assets/images/success-story-logo/39.png";
 import image40 from "../../assets/images/success-story-logo/40.png";
+import image41 from "../../assets/images/success-story-logo/41.png";
+import image42 from "../../assets/images/success-story-logo/42.png";
+import image43 from "../../assets/images/success-story-logo/43.png";
+import image44 from "../../assets/images/success-story-logo/44.png";
+import image45 from "../../assets/images/success-story-logo/45.png";
+import image46 from "../../assets/images/success-story-logo/46.png";
+import image47 from "../../assets/images/success-story-logo/47.png";
+import image48 from "../../assets/images/success-story-logo/48.png";
+import image49 from "../../assets/images/success-story-logo/49.png";
+import image50 from "../../assets/images/success-story-logo/50.png";
+import image51 from "../../assets/images/success-story-logo/51.png";
+import image52 from "../../assets/images/success-story-logo/52.png";
+import image53 from "../../assets/images/success-story-logo/53.png";
+import image54 from "../../assets/images/success-story-logo/54.png";
+import image55 from "../../assets/images/success-story-logo/55.png";
+import image56 from "../../assets/images/success-story-logo/56.png";
+import image57 from "../../assets/images/success-story-logo/57.png";
+import image58 from "../../assets/images/success-story-logo/58.png";
+import image59 from "../../assets/images/success-story-logo/59.png";
+import image60 from "../../assets/images/success-story-logo/60.png";
+import image61 from "../../assets/images/success-story-logo/61.png";
+import image62 from "../../assets/images/success-story-logo/62.png";
+import image63 from "../../assets/images/success-story-logo/63.png";
+import image64 from "../../assets/images/success-story-logo/64.png";
+import image65 from "../../assets/images/success-story-logo/65.png";
+import image66 from "../../assets/images/success-story-logo/66.png";
+import image67 from "../../assets/images/success-story-logo/67.png";
+import image68 from "../../assets/images/success-story-logo/68.png";
+import image69 from "../../assets/images/success-story-logo/69.png";
+import image70 from "../../assets/images/success-story-logo/70.png";
+import image71 from "../../assets/images/success-story-logo/71.png";
+import image72 from "../../assets/images/success-story-logo/72.png";
+import image73 from "../../assets/images/success-story-logo/73.png";
+import image74 from "../../assets/images/success-story-logo/74.png";
+import image75 from "../../assets/images/success-story-logo/75.png";
+import image76 from "../../assets/images/success-story-logo/76.png";
+import image77 from "../../assets/images/success-story-logo/77.png";
+import image78 from "../../assets/images/success-story-logo/78.png";
+import image79 from "../../assets/images/success-story-logo/79.png";
+import image80 from "../../assets/images/success-story-logo/80.png";
 
 export const successData = [
   {
@@ -637,19 +677,597 @@ export const successData = [
     description: "increase in new projects",
     gradient: "linear-gradient(to bottom, #9B86BD 0%, #111827 60%)",
   },
+  {
+    id: 41,
+    category_id: 3,
+    image: image41,
+    challenge:
+      "A textile manufacturer wanted to connect with fashion designers and retailers for their fabrics",
+    solution:
+      "We conducted targeted campaigns to identify and engage with potential buyers, highlighting the manufacturer's quality and unique offerings.",
+    result:
+      "The manufacturer saw a 40% increase in sales and significantly expanded their client base.",
+    percentage: "40%",
+    description: "increase in sales",
+    gradient: "linear-gradient(to bottom, #088395 0%, #111827 60%)",
+  },
 
-  // {
-  //   id: 41,
-  //   category_id: 3,
-  //   image: image5,
-  //   challenge:
-  //     " A textile manufacturer, Mohan Spintex, wanted to connect with fashion designers and retailers for their fabrics.",
-  //   solution:
-  //     "We conducted targeted campaigns to identify and engage with potential buyers, highlighting the manufacturer's quality and unique offerings.",
-  //   result:
-  //     "The manufacturer saw a 40% increase in sales and significantly expanded their client base. ",
-  //   percentage: "200%",
-  //   description: "Case Study 40 detailed description.",
-  //   gradient: "linear-gradient(to bottom, #088395 0%, #111827 60%)",
-  // },
+  {
+    id: 42,
+    category_id: 3,
+    image: image42,
+    challenge:
+      "A toy manufacturer wanted to attract retailers and distributors for their new product line.",
+    solution:
+      "We identified and engaged with buyers in the toy industry, showcasing the manufacturer's products through personalized outreach.",
+    result:
+      "The manufacturer saw a 35% increase in sales and established long-term contracts with major retailers.",
+    percentage: "35%",
+    description: "increase in sales",
+    gradient: "linear-gradient(to bottom, #3C5B6F 0%, #111827 60%)",
+  },
+
+  {
+    id: 43,
+    category_id: 3,
+    image: image43,
+    challenge:
+      "A chemical manufacturer needed to reach industrial clients for their specialized products.",
+    solution:
+      "We identified and engaged with procurement managers in relevant industries, delivering highly qualified leads.",
+    result:
+      "The manufacturer saw a 45% increase in sales and secured long-term contracts with major industrial clients.",
+    percentage: "45%",
+    description: "increase in sales",
+    gradient: "linear-gradient(to bottom, #59d337 0%, #111827 60%)",
+  },
+
+  {
+    id: 44,
+    category_id: 3,
+    image: image44,
+    challenge:
+      "A construction materials manufacturer wanted to connect with builders and contractors for their products.",
+    solution:
+      "We conducted targeted campaigns to identify and engage with potential buyers, highlighting the manufacturer's quality and reliability.",
+    result:
+      "The manufacturer saw a 40% increase in sales and significantly expanded their client base.",
+    percentage: "40%",
+    description: "increase in sales",
+    gradient: "linear-gradient(to bottom, #E3A5C7 0%, #111827 60%)",
+  },
+
+  {
+    id: 45,
+    category_id: 3,
+    image: image45,
+    challenge:
+      "A cosmetics manufacturer wanted to attract beauty salons and retailers for their new product line.",
+    solution:
+      "We identified and engaged with buyers in the beauty industry, showcasing the manufacturer's products through personalized outreach.",
+    result:
+      "The manufacturer saw a 50% increase in sales and significantly boosted their market presence.",
+    percentage: "50%",
+    description: "increase in sales",
+    gradient: "linear-gradient(to bottom, #2E236C 0%, #111827 60%)",
+  },
+
+  {
+    id: 46,
+    category_id: 3,
+    image: image46,
+    challenge:
+      "A sports equipment manufacturer wanted to connect with retailers and sports clubs for their products.",
+    solution:
+      "We identified and engaged with procurement managers in the sports industry, delivering highly qualified leads.",
+    result:
+      "The manufacturer saw a 35% increase in sales and established long-term contracts with major clients.",
+    percentage: "35%",
+    description: "increase in sales",
+    gradient: "linear-gradient(to bottom, #9B86BD 0%, #111827 60%)",
+  },
+  {
+    id: 47,
+    category_id: 3,
+    image: image47,
+    challenge:
+      "A stationery manufacturer wanted to attract schools, colleges, and retailers for their products.",
+    solution:
+      "We conducted targeted campaigns to identify and engage with potential buyers, highlighting the manufacturer's quality and unique offerings.",
+    result:
+      "The manufacturer saw a 40% increase in sales and significantly expanded their client base.",
+    percentage: "40%",
+    description: "increase in sales",
+    gradient: "linear-gradient(to bottom, #088395 0%, #111827 60%)",
+  },
+
+  {
+    id: 48,
+    category_id: 3,
+    image: image48,
+    challenge:
+      "A fintech startup wanted to attract small businesses for their innovative payment solutions.",
+    solution:
+      "We identified and engaged with small business owners through targeted campaigns, highlighting the benefits of the payment solution.",
+    result:
+      "The startup saw a 50% increase in client sign-ups and significantly boosted their revenue.",
+    percentage: "50%",
+    description: "increase in client sign-ups",
+    gradient: "linear-gradient(to bottom, #59d337 0%, #111827 60%)",
+  },
+
+  {
+    id: 49,
+    category_id: 3,
+    image: image49,
+    challenge:
+      "A health tech startup needed to connect with clinics and hospitals for their telemedicine platform.",
+    solution:
+      "We identified key decision-makers in the healthcare sector and engaged them through personalized outreach.",
+    result:
+      "The startup saw a 45% increase in platform adoption and expanded their client base significantly.",
+    percentage: "45%",
+    description: "increase in platform adoption",
+    gradient: "linear-gradient(to bottom, #3C5B6F 0%, #111827 60%)",
+  },
+
+  {
+    id: 50,
+    category_id: 3,
+    image: image50,
+    challenge:
+      "An edtech startup wanted to attract schools and educational institutions for their digital learning platform.",
+    solution:
+      "We conducted targeted campaigns to engage with school administrators and educators, showcasing the platform's benefits.",
+    result:
+      "The startup experienced a 60% increase in platform subscriptions and significantly boosted their market presence.",
+    percentage: "60%",
+    description: "increase in platform subscriptions",
+    gradient: "linear-gradient(to bottom, #E3A5C7 0%, #111827 60%)",
+  },
+
+  {
+    id: 51,
+    category_id: 3,
+    image: image51,
+    challenge:
+      "A SaaS startup needed to attract SMEs for their project management software.",
+    solution:
+      "We identified and engaged with decision-makers in SMEs through personalized email and social media campaigns.",
+    result:
+      "The startup saw a 50% increase in software subscriptions and expanded their customer base significantly.",
+    percentage: "50%",
+    description: "increase in software subscriptions",
+    gradient: "linear-gradient(to bottom, #2E236C 0%, #111827 60%)",
+  },
+
+  {
+    id: 52,
+    category_id: 3,
+    image: image52,
+    challenge:
+      "A food tech startup wanted to attract restaurants and cafes for their food delivery platform.",
+    solution:
+      "We identified and engaged with restaurant owners and managers, highlighting the platform's unique features and benefits.",
+    result:
+      "The startup saw a 40% increase in platform sign-ups and significantly boosted their revenue.",
+    percentage: "40%",
+    description: "increase in platform sign-ups",
+    gradient: "linear-gradient(to bottom, #9B86BD 0%, #111827 60%)",
+  },
+  {
+    id: 53,
+    category_id: 3,
+    image: image53,
+    challenge:
+      "A travel tech startup needed to connect with travel agencies and tour operators for their booking platform.",
+    solution:
+      "We conducted targeted campaigns to engage with travel industry professionals, showcasing the platform's capabilities.",
+    result:
+      "The startup experienced a 55% increase in platform adoption and expanded their market reach.",
+    percentage: "55%",
+    description: "increase in  platform adoption",
+    gradient: "linear-gradient(to bottom, #088395 0%, #111827 60%)",
+  },
+
+  {
+    id: 54,
+    category_id: 3,
+    image: image54,
+    challenge:
+      "A proptech startup wanted to attract real estate agents and property managers for their property management software.",
+    solution:
+      "We identified and engaged with real estate professionals through personalized outreach, highlighting the software's benefits.",
+    result:
+      "The startup saw a 45% increase in software subscriptions and significantly boosted their market presence.",
+    percentage: "45%",
+    description: "increase in software subscriptions",
+    gradient: "linear-gradient(to bottom, #3C5B6F 0%, #111827 60%)",
+  },
+
+  {
+    id: 55,
+    category_id: 3,
+    image: image55,
+    challenge:
+      "An e-commerce startup needed to attract online shoppers for their niche product marketplace.",
+    solution:
+      "We conducted targeted digital marketing campaigns to engage potential customers, showcasing the unique products available on the platform.",
+    result:
+      "The startup saw a 50% increase in sales and significantly expanded their customer base.",
+    percentage: "50%",
+    description: "increase in sales",
+    gradient: "linear-gradient(to bottom, #59d337 0%, #111827 60%)",
+  },
+
+  {
+    id: 56,
+    category_id: 3,
+    image: image56,
+    challenge:
+      "A cleantech startup wanted to attract businesses for their sustainable energy solutions.",
+    solution:
+      "We identified and engaged with decision-makers in relevant industries, showcasing the benefits of the sustainable energy solutions.",
+    result:
+      "The startup saw a 40% increase in client acquisitions and significantly boosted their market presence.",
+    percentage: "40%",
+    description: "increase in client acquisitions",
+    gradient: "linear-gradient(to bottom, #E3A5C7 0%, #111827 60%)",
+  },
+
+  {
+    id: 57,
+    category_id: 3,
+    image: image57,
+    challenge:
+      "An HR tech startup needed to attract companies for their employee engagement and performance management platform.",
+    solution:
+      "We conducted targeted campaigns to engage HR professionals and decision-makers, highlighting the platform's unique features.",
+    result:
+      "The startup saw a 50% increase in platform subscriptions and significantly expanded their client base.",
+    percentage: "50%",
+    description: "increase in platform subscriptions",
+    gradient: "linear-gradient(to bottom, #2E236C 0%, #111827 60%)",
+  },
+
+  {
+    id: 58,
+    category_id: 3,
+    image: image58,
+    challenge:
+      "An industrial cleaning company wanted to attract factories and warehouses for their specialized cleaning services.",
+    solution:
+      "We identified and engaged with facility managers and operations heads through targeted campaigns, showcasing the company's expertise.",
+    result:
+      "The company saw a 35% increase in contract sign-ups and significantly expanded their client base.",
+    percentage: "35%",
+    description: "increase in contract sign-ups",
+    gradient: "linear-gradient(to bottom, #9B86BD 0%, #111827 60%)",
+  },
+  {
+    id: 59,
+    category_id: 3,
+    image: image59,
+    challenge:
+      "An IT consulting firm needed to connect with mid-sized businesses for their cybersecurity solutions.",
+    solution:
+      "We conducted targeted campaigns to engage IT managers and decision-makers, highlighting the firm's cybersecurity services.",
+    result:
+      "The firm saw a 45% increase in client acquisitions and significantly boosted their revenue.",
+    percentage: "45%",
+    description: "increase in client acquisitions",
+    gradient: "linear-gradient(to bottom, #088395 0%, #111827 60%)",
+  },
+
+  {
+    id: 60,
+    category_id: 3,
+    image: image60,
+    challenge:
+      "A logistics company wanted to attract businesses needing reliable transportation and warehousing solutions.",
+    solution:
+      "We identified and engaged with supply chain managers and decision-makers in relevant industries, delivering highly qualified leads.",
+    result:
+      "The company saw a 30% increase in new contracts and expanded their client base significantly.",
+    percentage: "30%",
+    description: "increase in new contracts",
+    gradient: "linear-gradient(to bottom, #3C5B6F 0%, #111827 60%)",
+  },
+
+  {
+    id: 61,
+    category_id: 3,
+    image: image61,
+    challenge:
+      "A commercial real estate firm wanted to attract businesses looking for office spaces.",
+    solution:
+      "We conducted targeted campaigns to engage business owners and decision-makers, showcasing available office spaces.",
+    result:
+      "The firm saw a 40% increase in leasing agreements and significantly boosted their revenue.",
+    percentage: "40%",
+    description: "increase in leasing agreements",
+    gradient: "linear-gradient(to bottom, #59d337 0%, #111827 60%)",
+  },
+
+  {
+    id: 62,
+    category_id: 3,
+    image: image62,
+    challenge:
+      "An office supplies distributor needed to connect with businesses for bulk orders.",
+    solution:
+      "We identified and engaged with procurement managers in various industries, highlighting the distributor's product range and competitive pricing.",
+    result:
+      "The distributor saw a 50% increase in sales and significantly expanded their client base.",
+    percentage: "50%",
+    description: "increase in sales",
+    gradient: "linear-gradient(to bottom, #E3A5C7 0%, #111827 60%)",
+  },
+
+  {
+    id: 63,
+    category_id: 3,
+    image: image63,
+    challenge:
+      "A corporate training provider wanted to attract businesses for their leadership development programs.",
+    solution:
+      "We conducted targeted campaigns to engage HR managers and decision-makers, showcasing the benefits of the training programs.",
+    result:
+      "The provider saw a 45% increase in client sign-ups and significantly boosted their market presence.",
+    percentage: "45%",
+    description: "increase in client sign-ups",
+    gradient: "linear-gradient(to bottom, #2E236C 0%, #111827 60%)",
+  },
+
+  {
+    id: 64,
+    category_id: 3,
+    image: image64,
+    challenge:
+      "A business software provider wanted to connect with SMEs for their ERP solutions.",
+    solution:
+      "We identified and engaged with decision-makers in SMEs through personalized email and social media campaigns.",
+    result:
+      "The provider saw a 40% increase in software subscriptions and significantly expanded their customer base.",
+    percentage: "40%",
+    description: "increase in software subscriptions",
+    gradient: "linear-gradient(to bottom, #9B86BD 0%, #111827 60%)",
+  },
+  {
+    id: 65,
+    category_id: 3,
+    image: image65,
+    challenge:
+      "A corporate catering company needed to attract businesses for their event catering services.",
+    solution:
+      "We conducted targeted campaigns to engage office managers and event planners, showcasing the company's catering expertise.",
+    result:
+      "The company saw a 50% increase in bookings and significantly boosted their revenue.",
+    percentage: "50%",
+    description: "increase in bookings",
+    gradient: "linear-gradient(to bottom, #088395 0%, #111827 60%)",
+  },
+
+  {
+    id: 66,
+    category_id: 3,
+    image: image66,
+    challenge:
+      "A commercial printing company wanted to attract businesses needing printing services.",
+    solution:
+      "We identified and engaged with procurement managers and marketing teams, highlighting the company's printing capabilities.",
+    result:
+      "The company saw a 35% increase in contract sign-ups and significantly expanded their client base.",
+    percentage: "35%",
+    description: "increase in contract sign-ups",
+    gradient: "linear-gradient(to bottom, #3C5B6F 0%, #111827 60%)",
+  },
+
+  {
+    id: 67,
+    category_id: 3,
+    image: image67,
+    challenge:
+      "A facility management company wanted to attract businesses needing comprehensive facility management solutions.",
+    solution:
+      "We conducted targeted campaigns to engage facility managers and operations heads, showcasing the company's services.",
+    result:
+      "The company saw a 40% increase in client acquisitions and significantly boosted their revenue.",
+    percentage: "40%",
+    description: "increase in client acquisitions",
+    gradient: "linear-gradient(to bottom, #59d337 0%, #111827 60%)",
+  },
+
+  {
+    id: 68,
+    category_id: 3,
+    image: image68,
+    challenge:
+      "A wholesale electronics distributor needed to connect with retailers and resellers for bulk orders.",
+    solution:
+      "We identified and engaged with procurement managers in the electronics sector, delivering highly qualified leads.",
+    result:
+      "The distributor saw a 45% increase in sales and established long-term contracts with major clients.",
+    percentage: "45%",
+    description: "increase in sales",
+    gradient: "linear-gradient(to bottom, #E3A5C7 0%, #111827 60%)",
+  },
+
+  {
+    id: 69,
+    category_id: 3,
+    image: image69,
+    challenge:
+      "A renewable energy solutions provider wanted to attract businesses interested in sustainable energy.",
+    solution:
+      "We conducted targeted campaigns to engage decision-makers in various industries, showcasing the benefits of renewable energy solutions.",
+    result:
+      "The provider saw a 50% increase in new projects and significantly expanded their market presence.",
+    percentage: "50%",
+    description: "increase in new project",
+    gradient: "linear-gradient(to bottom, #2E236C 0%, #111827 60%)",
+  },
+
+  {
+    id: 70,
+    category_id: 3,
+    image: image70,
+    challenge:
+      "A corporate travel agency needed to connect with businesses for their travel management services.",
+    solution:
+      "We identified and engaged with decision-makers in the energy sector, delivering highly qualified leads ready to discuss partnerships.",
+    result:
+      "The agency saw a 40% increase in client sign-ups and significantly boosted their revenue.",
+    percentage: "40%",
+    description: "increase in client sign-ups",
+    gradient: "linear-gradient(to bottom, #9B86BD 0%, #111827 60%)",
+  },
+  {
+    id: 71,
+    category_id: 3,
+    image: image71,
+    challenge:
+      "A legal process outsourcing firm wanted to attract law firms and corporate legal departments.",
+    solution:
+      "We conducted targeted campaigns to engage legal professionals, showcasing the firm's outsourcing capabilities.",
+    result:
+      "The firm saw a 35% increase in client acquisitions and significantly expanded their client base.",
+    percentage: "35%",
+    description: "increase in client acquisitions",
+    gradient: "linear-gradient(to bottom, #088395 0%, #111827 60%)",
+  },
+
+  {
+    id: 72,
+    category_id: 3,
+    image: image72,
+    challenge:
+      "A commercial HVAC company wanted to attract businesses needing heating, ventilation, and air conditioning services.",
+    solution:
+      "We identified and engaged with facility managers and operations heads, highlighting the company's expertise.",
+    result:
+      "The company saw a 45% increase in contract sign-ups and significantly boosted their revenue.",
+    percentage: "45%",
+    description: "increase in contract sign-ups",
+    gradient: "linear-gradient(to bottom, #3C5B6F 0%, #111827 60%)",
+  },
+
+  {
+    id: 73,
+    category_id: 3,
+    image: image73,
+    challenge:
+      "An event management company needed to attract businesses for their corporate event services.",
+    solution:
+      "We conducted targeted campaigns to engage office managers and event planners, showcasing the company's event management expertise.",
+    result:
+      "The company saw a 50% increase in bookings and significantly boosted their revenue.",
+    percentage: "50%",
+    description: "increase in bookings",
+    gradient: "linear-gradient(to bottom, #59d337 0%, #111827 60%)",
+  },
+
+  {
+    id: 74,
+    category_id: 3,
+    image: image74,
+    challenge:
+      "An industrial equipment leasing company wanted to connect with businesses needing equipment for short-term projects.",
+    solution:
+      "We identified and engaged with procurement managers and project managers, delivering highly qualified leads.",
+    result:
+      "The company saw a 40% increase in new contracts and significantly expanded their client base.",
+    percentage: "40%",
+    description: "increase in new contracts",
+    gradient: "linear-gradient(to bottom, #E3A5C7 0%, #111827 60%)",
+  },
+
+  {
+    id: 75,
+    category_id: 3,
+    image: image75,
+    challenge:
+      "A wellness company wanted to attract businesses for their corporate wellness programs.",
+    solution:
+      "We conducted targeted campaigns to engage HR managers and decision-makers, highlighting the benefits of the wellness programs.",
+    result:
+      "The company saw a 45% increase in client sign-ups and significantly boosted their market presence.",
+    percentage: "45%",
+    description: "increase in client sign-ups",
+    gradient: "linear-gradient(to bottom, #2E236C 0%, #111827 60%)",
+  },
+
+  {
+    id: 76,
+    category_id: 3,
+    image: image76,
+    challenge:
+      "An industrial safety solutions provider needed to attract businesses for their safety equipment and training services.",
+    solution:
+      "We identified and engaged with safety managers and decision-makers in various industries, showcasing the company's offerings",
+    result:
+      "The provider saw a 40% increase in sales and significantly expanded their client base.",
+    percentage: "40%",
+    description: "increase in sales",
+    gradient: "linear-gradient(to bottom, #9B86BD 0%, #111827 60%)",
+  },
+  {
+    id: 77,
+    category_id: 3,
+    image: image77,
+    challenge:
+      "A commercial landscaping company wanted to attract businesses needing professional landscaping services.",
+    solution:
+      "We conducted targeted campaigns to engage facility managers and operations heads, highlighting the company's expertise.",
+    result:
+      "The company saw a 50% increase in contract sign-ups and significantly boosted their revenue.",
+    percentage: "50%",
+    description: "increase in contract sign-ups",
+    gradient: "linear-gradient(to bottom, #088395 0%, #111827 60%)",
+  },
+
+  {
+    id: 78,
+    category_id: 3,
+    image: image78,
+    challenge:
+      "An industrial automation company wanted to connect with manufacturers for their automation solutions.",
+    solution:
+      "We identified and engaged with decision-makers in the manufacturing sector, delivering highly qualified leads.",
+    result:
+      "The company saw a 45% increase in sales and established long-term contracts with major clients.",
+    percentage: "45%",
+    description: "increase in sales",
+    gradient: "linear-gradient(to bottom, #3C5B6F 0%, #111827 60%)",
+  },
+
+  {
+    id: 79,
+    category_id: 3,
+    image: image79,
+    challenge:
+      "A commercial cleaning company needed to attract businesses for their janitorial and cleaning services.",
+    solution:
+      "We conducted targeted campaigns to engage facility managers and office managers, showcasing the company's cleaning capabilities.",
+    result:
+      "The company saw a 40% increase in contract sign-ups and significantly expanded their client base.",
+    percentage: "40%",
+    description: "increase in contract sign-ups",
+    gradient: "linear-gradient(to bottom, #59d337 0%, #111827 60%)",
+  },
+
+  {
+    id: 80,
+    category_id: 3,
+    image: image80,
+    challenge:
+      "A corporate relocation company wanted to attract businesses needing employee relocation services.",
+    solution:
+      "We identified and engaged with HR managers and office managers, highlighting the company's relocation solutions.",
+    result:
+      "The company saw a 50% increase in client sign-ups and significantly boosted their revenue.",
+    percentage: "50%",
+    description: "increase in client sign-ups",
+    gradient: "linear-gradient(to bottom, #E3A5C7 0%, #111827 60%)",
+  },
 ];
