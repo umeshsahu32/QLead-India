@@ -10,7 +10,7 @@ const LeadProcess = () => {
     <section className={styles.section}>
       <SectionHeading
         heading="Initial Setup Fee"
-        para="Our one-time platform setup fee is Rs. 15000. This comprehensive fee includes:"
+        para="Our one-time platform setup fee is Rs. 25000. This comprehensive fee includes:"
       />
       <div className={styles.progress}>
         <div className={styles.progress_inner}>

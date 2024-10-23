@@ -78,6 +78,46 @@ import image77 from "../../assets/images/success-story-logo/77.png";
 import image78 from "../../assets/images/success-story-logo/78.png";
 import image79 from "../../assets/images/success-story-logo/79.png";
 import image80 from "../../assets/images/success-story-logo/80.png";
+import image81 from "../../assets/images/success-story-logo/81.png";
+import image82 from "../../assets/images/success-story-logo/82.png";
+import image83 from "../../assets/images/success-story-logo/83.png";
+import image84 from "../../assets/images/success-story-logo/84.png";
+import image85 from "../../assets/images/success-story-logo/85.png";
+import image86 from "../../assets/images/success-story-logo/86.png";
+import image87 from "../../assets/images/success-story-logo/87.png";
+import image88 from "../../assets/images/success-story-logo/88.png";
+import image89 from "../../assets/images/success-story-logo/89.png";
+import image90 from "../../assets/images/success-story-logo/90.png";
+import image91 from "../../assets/images/success-story-logo/91.png";
+import image92 from "../../assets/images/success-story-logo/92.png";
+import image93 from "../../assets/images/success-story-logo/93.png";
+import image94 from "../../assets/images/success-story-logo/94.png";
+import image95 from "../../assets/images/success-story-logo/95.png";
+import image96 from "../../assets/images/success-story-logo/96.png";
+import image97 from "../../assets/images/success-story-logo/97.png";
+import image98 from "../../assets/images/success-story-logo/98.png";
+import image99 from "../../assets/images/success-story-logo/99.png";
+import image100 from "../../assets/images/success-story-logo/100.png";
+import image101 from "../../assets/images/success-story-logo/101.png";
+import image102 from "../../assets/images/success-story-logo/102.png";
+import image103 from "../../assets/images/success-story-logo/103.png";
+// import image104 from "../../assets/images/success-story-logo/104.png";
+import image105 from "../../assets/images/success-story-logo/105.png";
+// import image106 from "../../assets/images/success-story-logo/106.png";
+import image107 from "../../assets/images/success-story-logo/107.png";
+import image108 from "../../assets/images/success-story-logo/108.png";
+// import image109 from "../../assets/images/success-story-logo/109.png";
+// import image110 from "../../assets/images/success-story-logo/110.png";
+// import image111 from "../../assets/images/success-story-logo/111.png";
+import image112 from "../../assets/images/success-story-logo/112.png";
+import image113 from "../../assets/images/success-story-logo/113.png";
+import image114 from "../../assets/images/success-story-logo/114.png";
+// import image115 from "../../assets/images/success-story-logo/115.png";
+import image116 from "../../assets/images/success-story-logo/116.png";
+import image117 from "../../assets/images/success-story-logo/117.png";
+import image118 from "../../assets/images/success-story-logo/118.png";
+import image119 from "../../assets/images/success-story-logo/119.png";
+// import image120 from "../../assets/images/success-story-logo/120.png";
 
 export const successData = [
   {
@@ -1270,4 +1310,598 @@ export const successData = [
     description: "increase in client sign-ups",
     gradient: "linear-gradient(to bottom, #E3A5C7 0%, #111827 60%)",
   },
+  {
+    id: 81,
+    category_id: 3,
+    image: image81,
+    challenge:
+      "A fitness center wanted to attract new members interested in health and wellness programs",
+    solution:
+      "We conducted targeted social media and email campaigns, engaging potential members with personalized offers and promotions.",
+    result:
+      "The fitness center saw a 50% increase in new memberships and significantly boosted their revenue.",
+    percentage: "50%",
+    description: "increase in new memberships",
+    gradient: "linear-gradient(to bottom, #59d337 0%, #111827 60%)",
+  },
+
+  {
+    id: 82,
+    category_id: 3,
+    image: image82,
+    challenge:
+      "An online retailer needed to boost sales by reaching fashion-conscious consumers in urban areas.",
+    solution:
+      "We conducted targeted social media and email campaigns, engaging potential customers with personalized offers and promotions.",
+    result:
+      "The retailer saw a 35% increase in sales and significantly expanded their customer base.",
+    percentage: "35%",
+    description: "increase in sales",
+    gradient: "linear-gradient(to bottom, #E3A5C7 0%, #111827 60%)",
+  },
+
+  {
+    id: 83,
+    category_id: 3,
+    image: image83,
+    challenge:
+      "A home cleaning service provider wanted to attract busy professionals and families needing regular cleaning services.",
+    solution:
+      "We identified and engaged with potential customers through targeted online ads and social media campaigns, highlighting the convenience and quality of the services.",
+    result:
+      "The service provider saw a 40% increase in bookings and significantly expanded their client base.",
+    percentage: "40%",
+    description: "increase in bookings",
+    gradient: "linear-gradient(to bottom, #2E236C 0%, #111827 60%)",
+  },
+
+  {
+    id: 84,
+    category_id: 3,
+    image: image84,
+    challenge:
+      "A beauty salon wanted to attract new clients for their premium beauty treatments.",
+    solution:
+      "We conducted targeted social media and email campaigns, engaging potential clients with personalized offers and showcasing before-and-after transformations.",
+    result:
+      "The salon saw a 45% increase in client bookings and significantly boosted their revenue.",
+    percentage: "45%",
+    description: "increase in client bookings",
+    gradient: "linear-gradient(to bottom, #9B86BD 0%, #111827 60%)",
+  },
+
+  {
+    id: 85,
+    category_id: 3,
+    image: image85,
+    challenge:
+      "A private tutoring service wanted to attract parents looking for personalized education solutions for their children.",
+    solution:
+      " We identified and engaged with parents through targeted online ads and email campaigns, highlighting the benefits of one-on-one tutoring.",
+    result:
+      "The tutoring service saw a 50% increase in enrollments and significantly expanded their client base.",
+    percentage: "50%",
+    description: "increase in enrollments",
+    gradient: "linear-gradient(to bottom, #088395 0%, #111827 60%)",
+  },
+
+  {
+    id: 86,
+    category_id: 3,
+    image: image86,
+    challenge:
+      "A subscription box company needed to attract customers interested in curated monthly product deliveries.",
+    solution:
+      "We conducted targeted social media and email campaigns, engaging potential customers with personalized offers and unboxing videos.",
+    result:
+      "The company saw a 40% increase in subscriptions and significantly boosted their revenue.",
+    percentage: "45%",
+    description: "increase in subscriptions",
+    gradient: "linear-gradient(to bottom, #3C5B6F 0%, #111827 60%)",
+  },
+
+  {
+    id: 87,
+    category_id: 3,
+    image: image87,
+    challenge:
+      "A travel agency wanted to attract vacationers interested in customized travel packages.",
+    solution:
+      "We conducted targeted social media and email campaigns, engaging potential customers with personalized travel offers and showcasing exotic destinations.",
+    result:
+      "The agency saw a 35% increase in bookings and significantly expanded their customer base.",
+    percentage: "35%",
+    description: "increase in bookings",
+    gradient: "linear-gradient(to bottom, #59d337 0%, #111827 60%)",
+  },
+
+  {
+    id: 88,
+    category_id: 3,
+    image: image88,
+    challenge:
+      "A pet care company wanted to attract pet owners needing grooming and boarding services.",
+    solution:
+      " We identified and engaged with pet owners through targeted online ads and social media campaigns, highlighting the company's services and care standards.",
+    result:
+      "The company saw a 50% increase in bookings and significantly boosted their revenue.",
+    percentage: "50%",
+    description: "increase in bookings",
+    gradient: "linear-gradient(to bottom, #E3A5C7 0%, #111827 60%)",
+  },
+
+  {
+    id: 89,
+    category_id: 3,
+    image: image89,
+    challenge:
+      "A home renovation company wanted to attract homeowners looking to upgrade their living spaces.",
+    solution:
+      "We conducted targeted online ads and email campaigns, engaging potential customers with personalized offers and showcasing renovation projects.",
+    result:
+      "The company saw a 45% increase in project sign-ups and significantly boosted their revenue.",
+    percentage: "45%",
+    description: "increase in project sign-ups",
+    gradient: "linear-gradient(to bottom, #2E236C 0%, #111827 60%)",
+  },
+
+  {
+    id: 90,
+    category_id: 3,
+    image: image90,
+    challenge:
+      "A meal kit delivery service wanted to attract busy professionals and families interested in convenient, healthy meals.",
+    solution:
+      "We identified and engaged with potential customers through targeted social media and email campaigns, highlighting the convenience and quality of the meal kits.",
+    result:
+      "The service saw a 40% increase in subscriptions and significantly expanded their customer base.",
+    percentage: "40%",
+    description: "increase in subscriptions",
+    gradient: "linear-gradient(to bottom, #9B86BD 0%, #111827 60%)",
+  },
+  {
+    id: 91,
+    category_id: 3,
+    image: image91,
+    challenge:
+      "An art gallery wanted to attract art collectors and enthusiasts for their exhibitions and sales.",
+    solution:
+      "We conducted targeted online ads and email campaigns, engaging potential customers with personalized invites and showcasing featured artworks.",
+    result:
+      "The gallery saw a 50% increase in attendance and sales at exhibitions, significantly boosting their revenue.",
+    percentage: "50%",
+    description: "increase in attendance",
+    gradient: "linear-gradient(to bottom, #088395 0%, #111827 60%)",
+  },
+
+  {
+    id: 92,
+    category_id: 3,
+    image: image92,
+    challenge:
+      "A specialty coffee shop wanted to attract coffee enthusiasts and increase foot traffic.",
+    solution:
+      "We identified and engaged with potential customers through targeted social media campaigns and email newsletters, highlighting unique coffee blends and in-store events.",
+    result:
+      "The coffee shop saw a 45% increase in foot traffic and a significant boost in sales.",
+    percentage: "45%",
+    description: "increase in foot traffic",
+    gradient: "linear-gradient(to bottom, #3C5B6F 0%, #111827 60%)",
+  },
+
+  {
+    id: 93,
+    category_id: 3,
+    image: image93,
+    challenge:
+      "A music school wanted to attract students for their music lessons and courses.",
+    solution:
+      "We conducted targeted online ads and social media campaigns, engaging potential students and parents with personalized offers and showcasing success stories.",
+    result:
+      "The school saw a 40% increase in enrollments and significantly expanded their student base.",
+    percentage: "40%",
+    description: "increase in enrollments",
+    gradient: "linear-gradient(to bottom, #59d337 0%, #111827 60%)",
+  },
+
+  {
+    id: 94,
+    category_id: 3,
+    image: image94,
+    challenge:
+      "An independent bookstore wanted to attract book lovers and increase sales.",
+    solution:
+      "We conducted targeted social media and email campaigns, engaging potential customers with personalized offers, book recommendations, and event invitations.",
+    result:
+      "The bookstore saw a 35% increase in sales and significantly boosted their customer base.",
+    percentage: "35%",
+    description: "increase in sales",
+    gradient: "linear-gradient(to bottom, #E3A5C7 0%, #111827 60%)",
+  },
+
+  {
+    id: 95,
+    category_id: 3,
+    image: image95,
+    challenge:
+      "A language learning center wanted to attract students for their language courses.",
+    solution:
+      "We identified and engaged with potential students through targeted online ads and social media campaigns, highlighting course benefits and success stories.",
+    result:
+      "The center saw a 50% increase in enrollments and significantly expanded their student base.",
+    percentage: "50%",
+    description: "increase in enrollments",
+    gradient: "linear-gradient(to bottom, #2E236C 0%, #111827 60%)",
+  },
+
+  {
+    id: 96,
+    category_id: 3,
+    image: image96,
+    challenge:
+      "A craft brewery wanted to attract beer enthusiasts and increase taproom visits.",
+    solution:
+      "We conducted targeted social media and email campaigns, engaging potential customers with personalized offers and showcasing new beer releases and events.",
+    result:
+      "The brewery saw a 40% increase in taproom visits and significantly boosted their sales.",
+    percentage: "40%",
+    description: "increase in taproom visits",
+    gradient: "linear-gradient(to bottom, #9B86BD 0%, #111827 60%)",
+  },
+  {
+    id: 97,
+    category_id: 3,
+    image: image97,
+    challenge:
+      "An online fitness program wanted to attract individuals looking for convenient, at-home workout solutions.",
+    solution:
+      "We identified and engaged with potential customers through targeted online ads and social media campaigns, highlighting the program's benefits and success stories.",
+    result:
+      "The program saw a 45% increase in subscriptions and significantly expanded their customer base.",
+    percentage: "45%",
+    description: "increase in subscriptions",
+    gradient: "linear-gradient(to bottom, #088395 0%, #111827 60%)",
+  },
+
+  {
+    id: 98,
+    category_id: 3,
+    image: image98,
+    challenge:
+      "An eco-friendly products store wanted to attract environmentally conscious consumers.",
+    solution:
+      "We conducted targeted online ads and social media campaigns, engaging potential customers with personalized offers and showcasing the benefits of eco-friendly products.",
+    result:
+      "The store saw a 50% increase in sales and significantly expanded their customer base.",
+    percentage: "50%",
+    description: "increase in sales",
+    gradient: "linear-gradient(to bottom, #3C5B6F 0%, #111827 60%)",
+  },
+
+  {
+    id: 99,
+    category_id: 3,
+    image: image99,
+    challenge:
+      "A personal finance coaching service wanted to attract individuals looking to improve their financial management skills.",
+    solution:
+      "We conducted targeted online ads and email campaigns, engaging potential clients with personalized offers and success stories.",
+    result:
+      " The service saw a 40% increase in client sign-ups and significantly boosted their revenue.",
+    percentage: "40%",
+    description: "increase in client sign-ups",
+    gradient: "linear-gradient(to bottom, #59d337 0%, #111827 60%)",
+  },
+
+  {
+    id: 100,
+    category_id: 3,
+    image: image100,
+    challenge:
+      "A boutique hotel wanted to attract travelers looking for unique and personalized accommodation experiences.",
+    solution:
+      "We identified and engaged with potential customers through targeted online ads and social media campaigns, highlighting the hotel's unique features and personalized services.",
+    result:
+      "The hotel saw a 35% increase in bookings and significantly boosted their revenue.",
+    percentage: "35%",
+    description: "increase in bookings",
+    gradient: "linear-gradient(to bottom, #E3A5C7 0%, #111827 60%)",
+  },
+
+  {
+    id: 101,
+    category_id: 3,
+    image: image101,
+    challenge:
+      "An equity market advisory firm wanted to attract retail investors for their stock market advisory services.",
+    solution:
+      "We conducted targeted campaigns to engage potential investors, showcasing the firm's expertise and success stories.",
+    result:
+      "The firm saw a 50% increase in client sign-ups and significantly boosted their revenue.",
+    percentage: "50%",
+    description: "increase in client sign-ups",
+    gradient: "linear-gradient(to bottom, #2E236C 0%, #111827 60%)",
+  },
+
+  {
+    id: 102,
+    category_id: 3,
+    image: image102,
+    challenge:
+      "A share market advisory service needed to attract high-net-worth individuals (HNWIs) for personalized investment advice.",
+    solution:
+      "We identified and engaged with HNWIs through personalized outreach and targeted campaigns, highlighting the advisory's track record and personalized approach.",
+    result:
+      "The service saw a 45% increase in HNWI clients and significantly expanded their market presence.",
+    percentage: "45%",
+    description: "increase in HNWI clients",
+    gradient: "linear-gradient(to bottom, #9B86BD 0%, #111827 60%)",
+  },
+  {
+    id: 103,
+    category_id: 3,
+    image: image103,
+    challenge:
+      "A mutual fund distributor wanted to attract individual investors looking for diverse investment portfolios.",
+    solution:
+      "We conducted targeted online ads and social media campaigns, engaging potential investors with personalized offers and educational content.",
+    result:
+      "The distributor saw a 40% increase in mutual fund investments and significantly expanded their client base.",
+    percentage: "40%",
+    description: "increase in mutual fund investments",
+    gradient: "linear-gradient(to bottom, #088395 0%, #111827 60%)",
+  },
+
+  // {
+  //   id: 104,
+  //   category_id: 3,
+  //   image: image104,
+  //   challenge:
+  //     "A general insurance company needed to attract businesses and individuals for their insurance products.",
+  //   solution:
+  //     "We identified and engaged with potential clients through targeted campaigns, highlighting the company's comprehensive insurance solutions.",
+  //   result:
+  //     "The company saw a 35% increase in policy sales and significantly boosted their revenue.",
+  //   percentage: "35%",
+  //   description: "increase in policy sales",
+  //   gradient: "linear-gradient(to bottom, #3C5B6F 0%, #111827 60%)",
+  // },
+
+  {
+    id: 105,
+    category_id: 3,
+    image: image105,
+    challenge:
+      "A health insurance company wanted to attract individuals and families looking for comprehensive health coverage.",
+    solution:
+      "We conducted targeted online ads and social media campaigns, engaging potential customers with personalized offers and educational content.",
+    result:
+      "The company saw a 50% increase in policy sign-ups and significantly expanded their customer base.",
+    percentage: "50%",
+    description: "increase in  policy sign-ups",
+    gradient: "linear-gradient(to bottom, #59d337 0%, #111827 60%)",
+  },
+
+  // {
+  //   id: 106,
+  //   category_id: 3,
+  //   image: image106,
+  //   challenge:
+  //     "An independent insurance advisor wanted to attract clients for personalized insurance advice and policy management.",
+  //   solution:
+  //     "We identified and engaged with potential clients through targeted campaigns, highlighting the advisor's expertise and personalized service.",
+  //   result:
+  //     "The advisor saw a 45% increase in client acquisitions and significantly boosted their revenue.",
+  //   percentage: "45%",
+  //   description: "increase in client acquisitions",
+  //   gradient: "linear-gradient(to bottom, #E3A5C7 0%, #111827 60%)",
+  // },
+
+  {
+    id: 107,
+    category_id: 3,
+    image: image107,
+    challenge:
+      "A car dealership wanted to attract buyers for their new and pre-owned vehicles.",
+    solution:
+      "We conducted targeted online ads and social media campaigns, engaging potential customers with personalized offers and showcasing the dealership's inventory.",
+    result:
+      "The dealership saw a 40% increase in sales and significantly boosted their revenue.",
+    percentage: "40%",
+    description: "increase in sales",
+    gradient: "linear-gradient(to bottom, #2E236C 0%, #111827 60%)",
+  },
+
+  {
+    id: 108,
+    category_id: 3,
+    image: image108,
+    challenge:
+      "A second-hand car dealership needed to attract buyers looking for affordable and reliable vehicles.",
+    solution:
+      "We identified and engaged with potential customers through targeted online ads and social media campaigns, highlighting the dealership's inventory and quality assurance.",
+    result:
+      "The dealership saw a 50% increase in sales and significantly expanded their customer base.",
+    percentage: "50%",
+    description: "increase in sales",
+    gradient: "linear-gradient(to bottom, #9B86BD 0%, #111827 60%)",
+  },
+  // {
+  //   id: 109,
+  //   category_id: 3,
+  //   image: image109,
+  //   challenge:
+  //     "A credit card company wanted to attract individuals and businesses for their credit card products.",
+  //   solution:
+  //     "We conducted targeted online ads and social media campaigns, engaging potential customers with personalized offers and highlighting the benefits of the credit card products.",
+  //   result:
+  //     "The company saw a 45% increase in card sign-ups and significantly boosted their revenue.",
+  //   percentage: "45%",
+  //   description: "increase in card sign-ups",
+  //   gradient: "linear-gradient(to bottom, #088395 0%, #111827 60%)",
+  // },
+
+  // {
+  //   id: 110,
+  //   category_id: 3,
+  //   image: image110,
+  //   challenge:
+  //     "A personal loan DSA needed to attract individuals looking for quick and easy personal loans.",
+  //   solution:
+  //     "We identified and engaged with potential borrowers through targeted online ads and social media campaigns, highlighting the benefits and ease of obtaining personal loans.",
+  //   result:
+  //     "The DSA saw a 40% increase in loan applications and significantly expanded their customer base.",
+  //   percentage: "40%",
+  //   description: "increase in loan applications",
+  //   gradient: "linear-gradient(to bottom, #3C5B6F 0%, #111827 60%)",
+  // },
+
+  // {
+  //   id: 111,
+  //   category_id: 3,
+  //   image: image111,
+  //   challenge:
+  //     "A home loan DSA wanted to attract individuals looking to finance their home purchases.",
+  //   solution:
+  //     "We conducted targeted online ads and social media campaigns, engaging potential borrowers with personalized offers and highlighting the benefits of the home loan products.",
+  //   result:
+  //     "The DSA saw a 50% increase in loan applications and significantly boosted their revenue.",
+  //   percentage: "50%",
+  //   description: "increase in loan applications",
+  //   gradient: "linear-gradient(to bottom, #59d337 0%, #111827 60%)",
+  // },
+
+  {
+    id: 112,
+    category_id: 3,
+    image: image112,
+    challenge:
+      "A financial consulting firm wanted to attract businesses and individuals for their financial advisory services.",
+    solution:
+      "We identified and engaged with potential clients through targeted campaigns, highlighting the firm's expertise and successful track record.",
+    result:
+      "The firm saw a 45% increase in client acquisitions and significantly boosted their revenue.",
+    percentage: "45%",
+    description: "increase in client acquisitions",
+    gradient: "linear-gradient(to bottom, #E3A5C7 0%, #111827 60%)",
+  },
+
+  {
+    id: 113,
+    category_id: 3,
+    image: image113,
+    challenge:
+      "An investment advisory firm wanted to attract HNWIs for their portfolio management services.",
+    solution:
+      "We conducted targeted online ads and email campaigns, engaging potential clients with personalized offers and showcasing the firm's successful investment strategies.",
+    result:
+      "The firm saw a 40% increase in HNWI clients and significantly expanded their market presence.",
+    percentage: "40%",
+    description: "increase in HNWI clients",
+    gradient: "linear-gradient(to bottom, #2E236C 0%, #111827 60%)",
+  },
+
+  {
+    id: 114,
+    category_id: 3,
+    image: image114,
+    challenge:
+      "A wealth management firm needed to attract affluent clients for their comprehensive wealth management services.",
+    solution:
+      "We identified and engaged with potential clients through targeted campaigns, highlighting the firm's personalized approach and successful track record.",
+    result:
+      "The firm saw a 50% increase in client sign-ups and significantly boosted their revenue.",
+    percentage: "50%",
+    description: "increase in client sign-ups",
+    gradient: "linear-gradient(to bottom, #9B86BD 0%, #111827 60%)",
+  },
+  // {
+  //   id: 115,
+  //   category_id: 3,
+  //   image: image115,
+  //   challenge:
+  //     "A mortgage brokerage wanted to attract homebuyers looking for the best mortgage rates and terms.",
+  //   solution:
+  //     "We conducted targeted online ads and social media campaigns, engaging potential borrowers with personalized offers and highlighting the brokerage's expertise.",
+  //   result:
+  //     "The brokerage saw a 45% increase in mortgage applications and significantly expanded their customer base.",
+  //   percentage: "45%",
+  //   description: "increase in mortgage applications",
+  //   gradient: "linear-gradient(to bottom, #088395 0%, #111827 60%)",
+  // },
+
+  {
+    id: 116,
+    category_id: 3,
+    image: image116,
+    challenge:
+      "A retirement planning firm wanted to attract individuals planning for their retirement.",
+    solution:
+      "We identified and engaged with potential clients through targeted campaigns, highlighting the firm's personalized retirement planning services.",
+    result:
+      "The firm saw a 40% increase in client sign-ups and significantly boosted their revenue.",
+    percentage: "40%",
+    description: "increase in client sign-ups",
+    gradient: "linear-gradient(to bottom, #3C5B6F 0%, #111827 60%)",
+  },
+
+  {
+    id: 117,
+    category_id: 3,
+    image: image117,
+    challenge:
+      "A tax advisory firm needed to attract businesses and individuals for their tax planning and compliance services.",
+    solution:
+      "We conducted targeted online ads and email campaigns, engaging potential clients with personalized offers and showcasing the firm's expertise.",
+    result:
+      "The firm saw a 35% increase in client acquisitions and significantly expanded their client base.",
+    percentage: "35%",
+    description: "increase in client acquisitions",
+    gradient: "linear-gradient(to bottom, #59d337 0%, #111827 60%)",
+  },
+
+  {
+    id: 118,
+    category_id: 3,
+    image: image118,
+    challenge:
+      "A stock brokerage wanted to attract active traders and investors for their trading platform.",
+    solution:
+      "We identified and engaged with potential clients through targeted online ads and social media campaigns, highlighting the brokerage's trading tools and resources.",
+    result:
+      "The brokerage saw a 50% increase in account sign-ups and significantly boosted their revenue.",
+    percentage: "50%",
+    description: "increase in account sign-ups",
+    gradient: "linear-gradient(to bottom, #E3A5C7 0%, #111827 60%)",
+  },
+
+  {
+    id: 119,
+    category_id: 3,
+    image: image119,
+    challenge:
+      "A debt consolidation company wanted to attract individuals looking to manage and consolidate their debts.",
+    solution:
+      "We conducted targeted online ads and social media campaigns, engaging potential clients with personalized offers and highlighting the benefits of debt consolidation.",
+    result:
+      "The company saw a 45% increase in client sign-ups and significantly expanded their customer base.",
+    percentage: "45%",
+    description: "increase in client sign-ups",
+    gradient: "linear-gradient(to bottom, #2E236C 0%, #111827 60%)",
+  },
+
+  // {
+  //   id: 120,
+  //   category_id: 3,
+  //   image: image120,
+  //   challenge:
+  //     "A financial literacy program wanted to attract individuals and schools for their educational courses.",
+  //   solution:
+  //     "We identified and engaged with potential clients through targeted campaigns, highlighting the program's benefits and success stories.",
+  //   result:
+  //     "The program saw a 40% increase in enrollments and significantly boosted their market presence.",
+  //   percentage: "40%",
+  //   description: "increase in enrollments",
+  //   gradient: "linear-gradient(to bottom, #9B86BD 0%, #111827 60%)",
+  // },
 ];

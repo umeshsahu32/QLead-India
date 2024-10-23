@@ -1,4 +1,3 @@
-import logo1 from "../../assets/images/logos/download.jpeg";
 // AGRICULTURE
 import Agriculture from "../../assets/images/Industries-Images/Agriculture/Agriculture.jpg";
 import AgricultureIcon1 from "../../assets/images/Industries-Images/Agriculture/image-1.jpg";

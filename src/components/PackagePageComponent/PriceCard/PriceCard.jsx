@@ -40,13 +40,13 @@ const PriceCard = () => {
         <div
           className={`${styles.sideCard} ${showSideCards ? styles.show : ""}`}
         >
-          <Card title="Accelerator" price={25000} clients={25} />
+          <Card title="Accelerator" price={50000} clients={25} />
         </div>
-        <Card title="Expansion" price={50000} clients={50} isCenter={true} />
+        <Card title="Expansion" price={100000} clients={50} isCenter={true} />
         <div
           className={`${styles.sideCard} ${showSideCards ? styles.show : ""}`}
         >
-          <Card title="Enterprise" price={75000} clients={75} />
+          <Card title="Enterprise" price={150000} clients={75} />
         </div>
       </div>
     </section>
