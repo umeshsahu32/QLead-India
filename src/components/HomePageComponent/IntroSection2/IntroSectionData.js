@@ -9,6 +9,7 @@ export const introSectionData = [
     paragraph:
       "Qualified Lead Generation service is designed to provide businesses with high-quality, conversion-ready leads.",
     video: video1,
+    link: "/services/qualified-lead-generation",
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export const introSectionData = [
     paragraph:
       "Qualified Meeting Generation service is designed to ensure that your sales team meets with the right prospects who have a genuine interest in your products or services.",
     video: video2,
+    link: "/services/qualified-meeting-generation",
   },
   {
     id: 3,
@@ -23,5 +25,6 @@ export const introSectionData = [
     paragraph:
       "Looking for targeted profiles for your upcoming webinar, on-ground or virtual event? Count on us with our insights into various communities and audience profiles",
     video: video3,
+    link: "/services/qualified-audience-generation",
   },
 ];

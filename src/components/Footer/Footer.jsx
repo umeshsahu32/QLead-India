@@ -107,21 +107,24 @@ const Footer = () => {
           </Link>{" "}
           <br />
           <Link
-            to="/our-services#lead-generation-process"
+            to="/services/qualified-lead-generation"
             className={styles.footerLink}
           >
-            Lead Generation Process
+            Qualified Lead Generation
           </Link>{" "}
           <br />
           <Link
-            to="/our-services#lead-scoring-enhancing"
+            to="/services/qualified-lead-generation"
             className={styles.footerLink}
           >
-            Lead Scoring Enhancing
+            Qualified Meeting Generation
           </Link>{" "}
           <br />
-          <Link to="/our-services#key-features" className={styles.footerLink}>
-            Key Features
+          <Link
+            to="/services/qualified-audience-generation"
+            className={styles.footerLink}
+          >
+            Qualified Audience Generation
           </Link>{" "}
         </div>
 

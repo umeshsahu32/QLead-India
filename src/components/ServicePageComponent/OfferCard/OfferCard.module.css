@@ -1,0 +1,92 @@
+/* General card styling */
+.card {
+  width: 100%;
+  max-width: 300px; /* Adjust as needed for responsive */
+  height: 350px; /* Fixed height for the card */
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.imageContainer {
+  overflow: hidden;
+  height: 50%; /* Adjusts image height to 50% of the card */
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .image {
+  transform: scale(1.1); /* Zoom-in effect */
+}
+
+.textContainer {
+  /* height: 50%; Increased height for the text container */
+  padding: 16px;
+  text-align: left;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0;
+  transition: transform 0.3s ease;
+}
+
+.description {
+  font-size: 0.9em;
+  margin: 8px 0 16px;
+  color: #666;
+  transition: transform 0.3s ease;
+}
+
+.learnMore {
+  font-size: 1rem;
+  color: #0073e6;
+  text-decoration: none;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  font-weight: 700;
+}
+
+.card:hover .title,
+.card:hover .description {
+  /* transform: translateY(-10px); */
+}
+
+.card:hover .learnMore {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Responsive adjustments */
+
+@media (max-width: 1200px) {
+  .learnMore {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    max-width: 100%;
+  }
+
+  .learnMore {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

@@ -14,6 +14,9 @@ import {
   Packages,
   TermsCondition,
   PrivacyPolicy,
+  LeadGeneration,
+  MeetingGeneration,
+  AudienceGeneration,
 } from "./routes/routes.js";
 import Layout from "./routes/Layout.jsx";
 
@@ -32,6 +35,7 @@ const router = createBrowserRouter([
         <Layout />
       </>
     ),
+
     children: [
       {
         path: "/",
@@ -102,6 +106,30 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback={<PageLoader />}>
             <Services />
+          </Suspense>
+        ),
+      },
+      {
+        path: "services/qualified-lead-generation",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <LeadGeneration />
+          </Suspense>
+        ),
+      },
+      {
+        path: "services/qualified-meeting-generation",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <MeetingGeneration />
+          </Suspense>
+        ),
+      },
+      {
+        path: "services/qualified-audience-generation",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <AudienceGeneration />
           </Suspense>
         ),
       },

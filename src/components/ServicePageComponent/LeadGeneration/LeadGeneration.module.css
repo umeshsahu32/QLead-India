@@ -1,0 +1,59 @@
+.key_feature_section {
+  max-width: 1200px;
+  margin: 4rem auto 1rem auto;
+  padding: 0 2rem;
+}
+
+.key_feature_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.offer_section {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.offer_section_cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+@media (max-width: 1200px) {
+  .key_feature_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .offer_section_cards {
+    max-width: 600px;
+    margin: 2rem auto;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .key_feature_section {
+    margin: 2rem auto 1rem auto;
+  }
+
+  .key_feature_cards {
+    margin-top: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .offer_section {
+    margin-top: -5rem;
+  }
+
+  .offer_section_cards {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 2rem;
+  }
+}

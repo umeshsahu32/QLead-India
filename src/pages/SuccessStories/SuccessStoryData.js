@@ -101,23 +101,23 @@ import image100 from "../../assets/images/success-story-logo/100.png";
 import image101 from "../../assets/images/success-story-logo/101.png";
 import image102 from "../../assets/images/success-story-logo/102.png";
 import image103 from "../../assets/images/success-story-logo/103.png";
-// import image104 from "../../assets/images/success-story-logo/104.png";
+import image104 from "../../assets/images/success-story-logo/104.png";
 import image105 from "../../assets/images/success-story-logo/105.png";
-// import image106 from "../../assets/images/success-story-logo/106.png";
+import image106 from "../../assets/images/success-story-logo/106.png";
 import image107 from "../../assets/images/success-story-logo/107.png";
 import image108 from "../../assets/images/success-story-logo/108.png";
-// import image109 from "../../assets/images/success-story-logo/109.png";
-// import image110 from "../../assets/images/success-story-logo/110.png";
-// import image111 from "../../assets/images/success-story-logo/111.png";
+import image109 from "../../assets/images/success-story-logo/109.png";
+import image110 from "../../assets/images/success-story-logo/110.png";
+import image111 from "../../assets/images/success-story-logo/111.png";
 import image112 from "../../assets/images/success-story-logo/112.png";
 import image113 from "../../assets/images/success-story-logo/113.png";
 import image114 from "../../assets/images/success-story-logo/114.png";
-// import image115 from "../../assets/images/success-story-logo/115.png";
+import image115 from "../../assets/images/success-story-logo/115.png";
 import image116 from "../../assets/images/success-story-logo/116.png";
 import image117 from "../../assets/images/success-story-logo/117.png";
 import image118 from "../../assets/images/success-story-logo/118.png";
 import image119 from "../../assets/images/success-story-logo/119.png";
-// import image120 from "../../assets/images/success-story-logo/120.png";
+import image120 from "../../assets/images/success-story-logo/120.png";
 
 export const successData = [
   {
@@ -1652,20 +1652,20 @@ export const successData = [
     gradient: "linear-gradient(to bottom, #088395 0%, #111827 60%)",
   },
 
-  // {
-  //   id: 104,
-  //   category_id: 3,
-  //   image: image104,
-  //   challenge:
-  //     "A general insurance company needed to attract businesses and individuals for their insurance products.",
-  //   solution:
-  //     "We identified and engaged with potential clients through targeted campaigns, highlighting the company's comprehensive insurance solutions.",
-  //   result:
-  //     "The company saw a 35% increase in policy sales and significantly boosted their revenue.",
-  //   percentage: "35%",
-  //   description: "increase in policy sales",
-  //   gradient: "linear-gradient(to bottom, #3C5B6F 0%, #111827 60%)",
-  // },
+  {
+    id: 104,
+    category_id: 3,
+    image: image104,
+    challenge:
+      "A general insurance company needed to attract businesses and individuals for their insurance products.",
+    solution:
+      "We identified and engaged with potential clients through targeted campaigns, highlighting the company's comprehensive insurance solutions.",
+    result:
+      "The company saw a 35% increase in policy sales and significantly boosted their revenue.",
+    percentage: "35%",
+    description: "increase in policy sales",
+    gradient: "linear-gradient(to bottom, #3C5B6F 0%, #111827 60%)",
+  },
 
   {
     id: 105,
@@ -1682,20 +1682,20 @@ export const successData = [
     gradient: "linear-gradient(to bottom, #59d337 0%, #111827 60%)",
   },
 
-  // {
-  //   id: 106,
-  //   category_id: 3,
-  //   image: image106,
-  //   challenge:
-  //     "An independent insurance advisor wanted to attract clients for personalized insurance advice and policy management.",
-  //   solution:
-  //     "We identified and engaged with potential clients through targeted campaigns, highlighting the advisor's expertise and personalized service.",
-  //   result:
-  //     "The advisor saw a 45% increase in client acquisitions and significantly boosted their revenue.",
-  //   percentage: "45%",
-  //   description: "increase in client acquisitions",
-  //   gradient: "linear-gradient(to bottom, #E3A5C7 0%, #111827 60%)",
-  // },
+  {
+    id: 106,
+    category_id: 3,
+    image: image106,
+    challenge:
+      "An independent insurance advisor wanted to attract clients for personalized insurance advice and policy management.",
+    solution:
+      "We identified and engaged with potential clients through targeted campaigns, highlighting the advisor's expertise and personalized service.",
+    result:
+      "The advisor saw a 45% increase in client acquisitions and significantly boosted their revenue.",
+    percentage: "45%",
+    description: "increase in client acquisitions",
+    gradient: "linear-gradient(to bottom, #E3A5C7 0%, #111827 60%)",
+  },
 
   {
     id: 107,
@@ -1726,50 +1726,50 @@ export const successData = [
     description: "increase in sales",
     gradient: "linear-gradient(to bottom, #9B86BD 0%, #111827 60%)",
   },
-  // {
-  //   id: 109,
-  //   category_id: 3,
-  //   image: image109,
-  //   challenge:
-  //     "A credit card company wanted to attract individuals and businesses for their credit card products.",
-  //   solution:
-  //     "We conducted targeted online ads and social media campaigns, engaging potential customers with personalized offers and highlighting the benefits of the credit card products.",
-  //   result:
-  //     "The company saw a 45% increase in card sign-ups and significantly boosted their revenue.",
-  //   percentage: "45%",
-  //   description: "increase in card sign-ups",
-  //   gradient: "linear-gradient(to bottom, #088395 0%, #111827 60%)",
-  // },
+  {
+    id: 109,
+    category_id: 3,
+    image: image109,
+    challenge:
+      "A credit card company wanted to attract individuals and businesses for their credit card products.",
+    solution:
+      "We conducted targeted online ads and social media campaigns, engaging potential customers with personalized offers and highlighting the benefits of the credit card products.",
+    result:
+      "The company saw a 45% increase in card sign-ups and significantly boosted their revenue.",
+    percentage: "45%",
+    description: "increase in card sign-ups",
+    gradient: "linear-gradient(to bottom, #088395 0%, #111827 60%)",
+  },
 
-  // {
-  //   id: 110,
-  //   category_id: 3,
-  //   image: image110,
-  //   challenge:
-  //     "A personal loan DSA needed to attract individuals looking for quick and easy personal loans.",
-  //   solution:
-  //     "We identified and engaged with potential borrowers through targeted online ads and social media campaigns, highlighting the benefits and ease of obtaining personal loans.",
-  //   result:
-  //     "The DSA saw a 40% increase in loan applications and significantly expanded their customer base.",
-  //   percentage: "40%",
-  //   description: "increase in loan applications",
-  //   gradient: "linear-gradient(to bottom, #3C5B6F 0%, #111827 60%)",
-  // },
+  {
+    id: 110,
+    category_id: 3,
+    image: image110,
+    challenge:
+      "A personal loan DSA needed to attract individuals looking for quick and easy personal loans.",
+    solution:
+      "We identified and engaged with potential borrowers through targeted online ads and social media campaigns, highlighting the benefits and ease of obtaining personal loans.",
+    result:
+      "The DSA saw a 40% increase in loan applications and significantly expanded their customer base.",
+    percentage: "40%",
+    description: "increase in loan applications",
+    gradient: "linear-gradient(to bottom, #3C5B6F 0%, #111827 60%)",
+  },
 
-  // {
-  //   id: 111,
-  //   category_id: 3,
-  //   image: image111,
-  //   challenge:
-  //     "A home loan DSA wanted to attract individuals looking to finance their home purchases.",
-  //   solution:
-  //     "We conducted targeted online ads and social media campaigns, engaging potential borrowers with personalized offers and highlighting the benefits of the home loan products.",
-  //   result:
-  //     "The DSA saw a 50% increase in loan applications and significantly boosted their revenue.",
-  //   percentage: "50%",
-  //   description: "increase in loan applications",
-  //   gradient: "linear-gradient(to bottom, #59d337 0%, #111827 60%)",
-  // },
+  {
+    id: 111,
+    category_id: 3,
+    image: image111,
+    challenge:
+      "A home loan DSA wanted to attract individuals looking to finance their home purchases.",
+    solution:
+      "We conducted targeted online ads and social media campaigns, engaging potential borrowers with personalized offers and highlighting the benefits of the home loan products.",
+    result:
+      "The DSA saw a 50% increase in loan applications and significantly boosted their revenue.",
+    percentage: "50%",
+    description: "increase in loan applications",
+    gradient: "linear-gradient(to bottom, #59d337 0%, #111827 60%)",
+  },
 
   {
     id: 112,
@@ -1815,20 +1815,20 @@ export const successData = [
     description: "increase in client sign-ups",
     gradient: "linear-gradient(to bottom, #9B86BD 0%, #111827 60%)",
   },
-  // {
-  //   id: 115,
-  //   category_id: 3,
-  //   image: image115,
-  //   challenge:
-  //     "A mortgage brokerage wanted to attract homebuyers looking for the best mortgage rates and terms.",
-  //   solution:
-  //     "We conducted targeted online ads and social media campaigns, engaging potential borrowers with personalized offers and highlighting the brokerage's expertise.",
-  //   result:
-  //     "The brokerage saw a 45% increase in mortgage applications and significantly expanded their customer base.",
-  //   percentage: "45%",
-  //   description: "increase in mortgage applications",
-  //   gradient: "linear-gradient(to bottom, #088395 0%, #111827 60%)",
-  // },
+  {
+    id: 115,
+    category_id: 3,
+    image: image115,
+    challenge:
+      "A mortgage brokerage wanted to attract homebuyers looking for the best mortgage rates and terms.",
+    solution:
+      "We conducted targeted online ads and social media campaigns, engaging potential borrowers with personalized offers and highlighting the brokerage's expertise.",
+    result:
+      "The brokerage saw a 45% increase in mortgage applications and significantly expanded their customer base.",
+    percentage: "45%",
+    description: "increase in mortgage applications",
+    gradient: "linear-gradient(to bottom, #088395 0%, #111827 60%)",
+  },
 
   {
     id: 116,
@@ -1890,18 +1890,18 @@ export const successData = [
     gradient: "linear-gradient(to bottom, #2E236C 0%, #111827 60%)",
   },
 
-  // {
-  //   id: 120,
-  //   category_id: 3,
-  //   image: image120,
-  //   challenge:
-  //     "A financial literacy program wanted to attract individuals and schools for their educational courses.",
-  //   solution:
-  //     "We identified and engaged with potential clients through targeted campaigns, highlighting the program's benefits and success stories.",
-  //   result:
-  //     "The program saw a 40% increase in enrollments and significantly boosted their market presence.",
-  //   percentage: "40%",
-  //   description: "increase in enrollments",
-  //   gradient: "linear-gradient(to bottom, #9B86BD 0%, #111827 60%)",
-  // },
+  {
+    id: 120,
+    category_id: 3,
+    image: image120,
+    challenge:
+      "A financial literacy program wanted to attract individuals and schools for their educational courses.",
+    solution:
+      "We identified and engaged with potential clients through targeted campaigns, highlighting the program's benefits and success stories.",
+    result:
+      "The program saw a 40% increase in enrollments and significantly boosted their market presence.",
+    percentage: "40%",
+    description: "increase in enrollments",
+    gradient: "linear-gradient(to bottom, #9B86BD 0%, #111827 60%)",
+  },
 ];

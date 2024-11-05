@@ -32,6 +32,22 @@ const PageNotFound = lazy(() =>
   import("../pages/PageNotFound/PageNotFound.jsx")
 );
 
+const LeadGeneration = lazy(() =>
+  import("../components/ServicePageComponent/LeadGeneration/LeadGeneration.jsx")
+);
+
+const MeetingGeneration = lazy(() =>
+  import(
+    "../components/ServicePageComponent/MeetingGeneration/MeetingGeneration.jsx"
+  )
+);
+
+const AudienceGeneration = lazy(() =>
+  import(
+    "../components/ServicePageComponent/AudienceGeneration/AudienceGeneration.jsx"
+  )
+);
+
 export {
   AboutUs,
   Faqs,
@@ -44,4 +60,7 @@ export {
   Services,
   TermsCondition,
   PrivacyPolicy,
+  LeadGeneration,
+  MeetingGeneration,
+  AudienceGeneration,
 };

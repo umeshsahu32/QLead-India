@@ -4,7 +4,7 @@ import QLead_India_logo from "../../assets/images/QLead-logo.png";
 import styles from "./Header.module.css";
 import { AiFillHome } from "react-icons/ai";
 import { FaHandshake } from "react-icons/fa6";
-import { MdEmail } from "react-icons/md";
+import { MdEmail, MdKeyboardArrowDown } from "react-icons/md";
 import {
   FaFacebook,
   FaInstagram,
@@ -23,10 +23,39 @@ import { FiPackage } from "react-icons/fi";
 
 const Header = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const [servicesOpen, setServicesOpen] = useState(false);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
 
   const toggleDrawer = () => {
     setDrawerOpen(!drawerOpen);
+    setMobileServicesOpen(false); // Close services dropdown when drawer toggles
   };
+
+  const toggleServices = () => {
+    setServicesOpen(!servicesOpen);
+  };
+
+  const toggleMobileServices = () => {
+    setMobileServicesOpen(!mobileServicesOpen);
+  };
+
+  const serviceItems = [
+    {
+      id: 1,
+      path: "/services/qualified-lead-generation",
+      text: "Qualified Lead Generation",
+    },
+    {
+      id: 2,
+      path: "/services/qualified-meeting-generation",
+      text: "Qualified Meeting Generation",
+    },
+    {
+      id: 3,
+      path: "/services/qualified-audience-generation",
+      text: "Qualified Audience Generation",
+    },
+  ];
 
   const NavigationLinks = [
     {
@@ -46,6 +75,7 @@ const Header = () => {
       path: "/our-services",
       text: "Services",
       icon: <FaHandshake />,
+      hasDropdown: true,
     },
     {
       id: 4,
@@ -120,6 +150,41 @@ const Header = () => {
 
           <div className={styles.navMenu}>
             {NavigationLinks.map((item) => {
+              if (item.hasDropdown) {
+                return (
+                  <div
+                    className={styles.dropdownContainer}
+                    key={item.id}
+                    onMouseEnter={toggleServices}
+                    onMouseLeave={toggleServices}
+                  >
+                    <NavLink
+                      to={item.path}
+                      className={({ isActive }) =>
+                        isActive ? styles.active : styles.navLink
+                      }
+                    >
+                      {item.text}{" "}
+                      <span className={styles.arrowIcon}>
+                        <MdKeyboardArrowDown />
+                      </span>
+                    </NavLink>
+                    {servicesOpen && (
+                      <div className={styles.dropdownMenu}>
+                        {serviceItems.map((service) => (
+                          <Link
+                            key={service.id}
+                            to={service.path}
+                            className={styles.dropdownItem}
+                          >
+                            {service.text}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              }
               return (
                 <NavLink
                   to={item.path}
@@ -159,6 +224,42 @@ const Header = () => {
           >
             <div className={styles.drawerContent}>
               {NavigationLinks.map((item) => {
+                if (item.hasDropdown) {
+                  return (
+                    <div
+                      key={item.id}
+                      className={styles.mobileDropdownContainer}
+                    >
+                      <div
+                        className={styles.drawerItem}
+                        onClick={toggleMobileServices}
+                      >
+                        {item.icon}&nbsp;&nbsp;&nbsp;{item.text}
+                        <MdKeyboardArrowDown
+                          className={`${styles.arrow} ${
+                            mobileServicesOpen ? styles.rotateArrow : ""
+                          }`}
+                        />
+                      </div>
+                      <div
+                        className={`${styles.mobileDropdownMenu} ${
+                          mobileServicesOpen ? styles.mobileDropdownOpen : ""
+                        }`}
+                      >
+                        {serviceItems.map((service) => (
+                          <Link
+                            key={service.id}
+                            to={service.path}
+                            className={styles.mobileDropdownItem}
+                            onClick={toggleDrawer}
+                          >
+                            {service.text}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  );
+                }
                 return (
                   <Link
                     to={item.path}

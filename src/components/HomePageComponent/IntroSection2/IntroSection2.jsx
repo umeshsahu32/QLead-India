@@ -17,7 +17,7 @@ const Section12 = () => {
             <div className={styles.content}>
               <h2>{item.heading}</h2>
               <p>{item.paragraph}</p>
-              <Link className={styles.get_started_btn} to="#">
+              <Link className={styles.get_started_btn} to={item.link}>
                 Know More
               </Link>
             </div>

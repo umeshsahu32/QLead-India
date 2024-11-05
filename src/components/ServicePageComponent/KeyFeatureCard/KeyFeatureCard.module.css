@@ -1,0 +1,44 @@
+.leadCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d4d4d4;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.leadCard:hover .image {
+  transform: scale(1.1); /* Zoom-in effect */
+}
+
+.leadCardText {
+  background: var(--background);
+  padding: 1.2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.leadCardText h5 {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.leadCard p {
+  text-align: center;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+}
