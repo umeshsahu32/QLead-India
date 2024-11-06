@@ -6,25 +6,33 @@ import KeyFeatureCard from "../KeyFeatureCard/KeyFeatureCard";
 import OfferCard from "../OfferCard/OfferCard";
 import ServiceHeader from "../ServiceHeader/ServiceHeader";
 
+import AudienceProfiling from "../../../assets/images/Services/audience/audience-profiling.jpg";
+import HighEngagement from "../../../assets/images/Services/audience/High-Engagement.jpg";
+import DataDrivenAudience from "../../../assets/images/Services/audience/Data-Driven-Audience.jpg";
+import Demographic from "../../../assets/images/Services/audience/Demographic-Detail.jpg";
+import VoiceRecording from "../../../assets/images/Services/audience/Voice-Recording.jpg";
+import VoiceTranscript from "../../../assets/images/Services/audience/Voice-Transcript.jpg";
+import Harmonic from "../../../assets/images/Services/audience/Harmonic-Analysis.jpg";
+
 const AudienceGeneration = () => {
   const keyFeatureData = [
     {
       id: 1,
-      img: "https://img.freepik.com/free-vector/ai-technology-microchip-background-vector-digital-transformation-concept_53876-117808.jpg",
+      img: AudienceProfiling,
       title: "Audience Profiling",
       description:
         "Our AI models segment audiences based on behavior, interests, and purchasing readiness.",
     },
     {
       id: 2,
-      img: "https://media.istockphoto.com/id/1452604857/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.jpg?s=612x612&w=0&k=20&c=GkAOxzduJbUKpS2-LX_l6jSKtyhdKlnPMo2ito4xpR4=",
+      img: HighEngagement,
       title: "High-Engagement Outcomes",
       description:
         "Tailored messages and exclusive audience insights maximize participation and response rates.",
     },
     {
       id: 3,
-      img: "https://myexeed.com/wp-content/uploads/2023/10/iStock-1462024468-scaled.jpg",
+      img: DataDrivenAudience,
       title: "Data-Driven Audience Insights",
       description:
         "Post-event or campaign insights help refine future targeting for sustained engagement.",
@@ -34,7 +42,7 @@ const AudienceGeneration = () => {
   const offerData = [
     {
       id: 1,
-      img: "https://v-count.com/wp-content/uploads/2022/10/demographic-analysis-2.jpg",
+      img: Demographic,
       title: "Demographic Detail",
       description:
         "Comprehensive demographic data for precise audience targeting.",
@@ -42,7 +50,7 @@ const AudienceGeneration = () => {
     },
     {
       id: 2,
-      img: "https://droplr.com/wp-content/uploads/2020/09/sound-waves-motion-sound-wave-abstract-background-vector-id1176100626-1024x400.jpg",
+      img: VoiceRecording,
       title: "Voice Recording",
       description:
         "Authentic, recorded conversations confirm each prospect’s interest.",
@@ -50,7 +58,7 @@ const AudienceGeneration = () => {
     },
     {
       id: 3,
-      img: "https://media.licdn.com/dms/image/D4D12AQFYcd1UAtf9WA/article-cover_image-shrink_720_1280/0/1722961158362?e=2147483647&v=beta&t=hnBJakO053oHKQFO_sCMYEilXbKNsWEow1vccgBE5q4",
+      img: VoiceTranscript,
       title: "Voice Transcript",
       description:
         "Full conversation transcripts aid in understanding prospect motivations  .",
@@ -58,7 +66,7 @@ const AudienceGeneration = () => {
     },
     {
       id: 4,
-      img: "https://webandcrafts.com/_next/image?url=https%3A%2F%2Fadmin.wac.co%2Fuploads%2FFinancial_ca6672ebee.png&w=444&q=90",
+      img: Harmonic,
       title: "Harmonic Analysis",
       description:
         "Advanced analysis evaluates sentiment and readiness for engagement, enhancing your event’s success..",

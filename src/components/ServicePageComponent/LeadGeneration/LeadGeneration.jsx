@@ -4,27 +4,35 @@ import leadGenerationImage from "../../../assets/images/Services/service-1.png";
 import SectionHeading from "../../SectionHeading/SectionHeading";
 import KeyFeatureCard from "../KeyFeatureCard/KeyFeatureCard";
 import OfferCard from "../OfferCard/OfferCard";
+
 import ServiceHeader from "../ServiceHeader/ServiceHeader";
+import AiDriven from "../../../assets/images/Services/lead/AI-Driven.jpg";
+import LeadQualification from "../../../assets/images/Services/lead/Lead-Qualification.jpg";
+import Customizable from "../../../assets/images/Services/lead/Customizable.jpg";
+import Demographic from "../../../assets/images/Services/lead/Demographic-Detail.jpg";
+import VoiceRecording from "../../../assets/images/Services/lead/Voice-Recording.jpg";
+import VoiceTranscript from "../../../assets/images/Services/lead/Voice-Transcript.jpg";
+import Harmonic from "../../../assets/images/Services/lead/Harmonic-Analysis.jpg";
 
 const LeadGeneration = () => {
   const keyFeatureData = [
     {
       id: 1,
-      img: "https://img.freepik.com/free-vector/ai-technology-microchip-background-vector-digital-transformation-concept_53876-117808.jpg",
+      img: AiDriven,
       title: "AI-Driven Targeting",
       description:
         "Our AI tools refine and focus lead acquisition based on real-time behavior and historical data.",
     },
     {
       id: 2,
-      img: "https://media.istockphoto.com/id/1452604857/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.jpg?s=612x612&w=0&k=20&c=GkAOxzduJbUKpS2-LX_l6jSKtyhdKlnPMo2ito4xpR4=",
+      img: LeadQualification,
       title: "Lead Qualification Process",
       description:
         "Each lead undergoes rigorous qualification steps to ensure alignment with your sales objectives.",
     },
     {
       id: 3,
-      img: "https://myexeed.com/wp-content/uploads/2023/10/iStock-1462024468-scaled.jpg",
+      img: Customizable,
       title: "Customizable to Your Market Needs",
       description:
         "Leads are tailored to fit your ideal customer profile, making each connection impactful.",
@@ -34,7 +42,7 @@ const LeadGeneration = () => {
   const offerData = [
     {
       id: 1,
-      img: "https://v-count.com/wp-content/uploads/2022/10/demographic-analysis-2.jpg",
+      img: Demographic,
       title: "Demographic Detail",
       description:
         "Each lead is matched to your ideal customer profile, providing critical information like age, location, and profession.",
@@ -42,7 +50,7 @@ const LeadGeneration = () => {
     },
     {
       id: 2,
-      img: "https://droplr.com/wp-content/uploads/2020/09/sound-waves-motion-sound-wave-abstract-background-vector-id1176100626-1024x400.jpg",
+      img: VoiceRecording,
       title: "Voice Recording",
       description:
         "Engage with leads confidently, backed by verified, recorded interactions for transparency.",
@@ -50,7 +58,7 @@ const LeadGeneration = () => {
     },
     {
       id: 3,
-      img: "https://media.licdn.com/dms/image/D4D12AQFYcd1UAtf9WA/article-cover_image-shrink_720_1280/0/1722961158362?e=2147483647&v=beta&t=hnBJakO053oHKQFO_sCMYEilXbKNsWEow1vccgBE5q4",
+      img: VoiceTranscript,
       title: "Voice Transcript",
       description:
         "Review detailed transcripts of each call for a complete understanding of the prospect’s needs and questions.",
@@ -58,7 +66,7 @@ const LeadGeneration = () => {
     },
     {
       id: 4,
-      img: "https://webandcrafts.com/_next/image?url=https%3A%2F%2Fadmin.wac.co%2Fuploads%2FFinancial_ca6672ebee.png&w=444&q=90",
+      img: Harmonic,
       title: "Harmonic Analysis",
       description:
         "Our proprietary analysis assesses voice tone and sentiment, ensuring each lead has genuine intent and engagement potential.",

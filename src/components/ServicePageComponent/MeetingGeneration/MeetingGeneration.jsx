@@ -6,25 +6,33 @@ import KeyFeatureCard from "../KeyFeatureCard/KeyFeatureCard";
 import OfferCard from "../OfferCard/OfferCard";
 import ServiceHeader from "../ServiceHeader/ServiceHeader";
 
+import IntentVerification from "../../../assets/images/Services/meeting/Intent-Verification.jpg";
+import Scheduling from "../../../assets/images/Services/meeting/Streamlined-Scheduling.jpg";
+import AiPowered from "../../../assets/images/Services/meeting/AI-Powered.jpg";
+import Demographic from "../../../assets/images/Services/meeting/Demographic-Detail.jpg";
+import VoiceRecording from "../../../assets/images/Services/meeting/Voice-Recording.jpg";
+import VoiceTranscript from "../../../assets/images/Services/meeting/Voice-Transcript.jpg";
+import Harmonic from "../../../assets/images/Services/meeting/Harmonic-Analysis.jpg";
+
 const AudienceGeneration = () => {
   const keyFeatureData = [
     {
       id: 1,
-      img: "https://img.freepik.com/free-vector/ai-technology-microchip-background-vector-digital-transformation-concept_53876-117808.jpg",
+      img: IntentVerification,
       title: "Intent Verification",
       description:
-        "Each meeting is arranged with prospects who show clear buying signals, aligning with your business offerings.",
+        "Each meeting is arranged with prospects who show clear buying signals, aligning with your business.",
     },
     {
       id: 2,
-      img: "https://media.istockphoto.com/id/1452604857/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.jpg?s=612x612&w=0&k=20&c=GkAOxzduJbUKpS2-LX_l6jSKtyhdKlnPMo2ito4xpR4=",
+      img: Scheduling,
       title: "Streamlined Scheduling",
       description:
         "Our platform integrates seamlessly with your calendar, ensuring efficient setup and follow-up reminders.",
     },
     {
       id: 3,
-      img: "https://myexeed.com/wp-content/uploads/2023/10/iStock-1462024468-scaled.jpg",
+      img: AiPowered,
       title: "AI-Powered Insight Reports",
       description:
         "Gain deeper insights with pre-meeting profiles, including needs, preferences, and behavioral analysis.",
@@ -34,14 +42,14 @@ const AudienceGeneration = () => {
   const offerData = [
     {
       id: 1,
-      img: "https://v-count.com/wp-content/uploads/2022/10/demographic-analysis-2.jpg",
+      img: Demographic,
       title: "Demographic Detail",
       description: "Accurate demographic data for targeted engagement.",
       link: "/contact-us",
     },
     {
       id: 2,
-      img: "https://droplr.com/wp-content/uploads/2020/09/sound-waves-motion-sound-wave-abstract-background-vector-id1176100626-1024x400.jpg",
+      img: VoiceRecording,
       title: "Voice Recording",
       description:
         "Verified conversations with recorded interactions add transparency and insight.",
@@ -49,7 +57,7 @@ const AudienceGeneration = () => {
     },
     {
       id: 3,
-      img: "https://media.licdn.com/dms/image/D4D12AQFYcd1UAtf9WA/article-cover_image-shrink_720_1280/0/1722961158362?e=2147483647&v=beta&t=hnBJakO053oHKQFO_sCMYEilXbKNsWEow1vccgBE5q4",
+      img: VoiceTranscript,
       title: "Voice Transcript",
       description:
         "Access full call transcripts to prepare for meaningful discussions.",
@@ -57,7 +65,7 @@ const AudienceGeneration = () => {
     },
     {
       id: 4,
-      img: "https://webandcrafts.com/_next/image?url=https%3A%2F%2Fadmin.wac.co%2Fuploads%2FFinancial_ca6672ebee.png&w=444&q=90",
+      img: Harmonic,
       title: "Harmonic Analysis",
       description:
         "Predictive tone analysis highlights engagement levels, improving meeting productivity and outcomes.",
