@@ -4,6 +4,7 @@ import styles from "./Industries.module.css";
 
 import Industries2 from "../../components/HomePageComponent/Industries2/Industries2";
 import { industriesData } from "./IndustriesData";
+import { Helmet } from "react-helmet";
 
 const Industries = () => {
   const [selectedIndustry, setSelectedIndustry] = useState(null);
@@ -29,6 +30,16 @@ const Industries = () => {
 
   return (
     <Fragment>
+      <Helmet>
+        <title>
+          Qlead: High-Quality Lead Generation for Diverse Industries
+        </title>
+        <meta name="keyword" content="Industries Served " />
+        <meta
+          name="description"
+          content="Qlead generates top-quality leads for various industries—Agriculture, E-commerce, Healthcare, Real Estate, and more—driving business growth and boosting success."
+        />
+      </Helmet>
       <Industries2 />
       <section className={styles.section}>
         <ul className={styles.list}>

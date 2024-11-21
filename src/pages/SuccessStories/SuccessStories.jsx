@@ -5,6 +5,7 @@ import styles from "./SuccessStories.module.css";
 import { successData } from "./SuccessStoryData";
 import StoryCard from "./StoryCard";
 import SuccessPageHero from "./SuccessPageHero.jsx";
+import { Helmet } from "react-helmet";
 
 const SuccessStories = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -40,6 +41,16 @@ const SuccessStories = () => {
 
   return (
     <Fragment>
+      <Helmet>
+        <title>
+          Qlead Success Stories: Driving Growth with Intent-Qualified Leads
+        </title>
+        <meta name="keyword" content="Success Stories" />
+        <meta
+          name="description"
+          content="Explore Qlead's success stories, highlighting how our intent-qualified leads drive growth and deliver exceptional results for our clients."
+        />
+      </Helmet>
       <SuccessPageHero />
       <div className={styles.sectionContainer}>
         {/* <StoryCategoryCarousel
