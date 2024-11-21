@@ -29,7 +29,7 @@ const Blogs = () => {
       category: "CNBC TV18",
       link: "https://www.cnbctv18.com/market/stock-market-live-updates-nifty-50-sensex-today-reliance-ril-q2-hcltech-hdfc-life-hyundai-ipo-angel-one-share-price-liveblog-19492794.htm",
       description:
-        "Sensex Today | Stock Market Highlights: Sensex slips 153 points, Nifty holds 25,000",
+        "Sensex Today | Stock Market LIVE Updates: QLead achieves sales worth ₹460 crore",
     },
     {
       id: 3,
