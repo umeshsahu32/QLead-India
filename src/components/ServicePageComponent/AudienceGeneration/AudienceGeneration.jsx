@@ -1,4 +1,6 @@
 import React, { Fragment } from "react";
+import { Helmet } from "react-helmet";
+
 import styles from "./AudienceGeneration.module.css";
 import audienceGenerationImage from "../../../assets/images/Services/service-3.png";
 import SectionHeading from "../../SectionHeading/SectionHeading";
@@ -76,6 +78,14 @@ const AudienceGeneration = () => {
 
   return (
     <Fragment>
+      <Helmet>
+        <title>Qlead AI: Drive Growth with Qualified Audience Generation</title>
+        <meta name="keyword" content="Qualified Audience Generation" />
+        <meta
+          name="description"
+          content="Unlock the power of qualified audience generation with Qlead AI. We help businesses in India connect with the right prospects, driving targeted growth and engagement."
+        />
+      </Helmet>
       <ServiceHeader
         primary="Reach the Right Audience"
         secondary="Tailored, Verified, and Ready to Engage"

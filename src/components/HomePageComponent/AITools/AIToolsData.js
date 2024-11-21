@@ -4,7 +4,7 @@ import HarmonicAnalysis from "../../../assets/images/feature/Harmonic-Analysis.j
 export const AIToolsData = [
   {
     id: 0,
-    primary_heading: "AOB Q-Lead Predictive Lead Scoring",
+    primary_heading: "AOB QLead Predictive Lead Scoring",
     secondary_heading:
       "Why Lead generated via Predictive Lead Score improves Sales",
     image: PredictiveLead,
@@ -21,7 +21,7 @@ export const AIToolsData = [
   },
   {
     id: 1,
-    primary_heading: "AOB Q-Lead Harmonic Analysis",
+    primary_heading: "AOB QLead Harmonic Analysis",
     secondary_heading: "Why Harmonic Analysis on Qualified Lead improves Sales",
     image: HarmonicAnalysis,
     desc: "Enhanced Customer Insights: Provides deeper insights into customer sentiments by analyzing not just what customers say but how they say it.",

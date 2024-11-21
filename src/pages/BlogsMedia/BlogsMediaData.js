@@ -15,8 +15,30 @@ import image14 from "../../assets/images/Blogs/media-front-14.jpg";
 import image15 from "../../assets/images/Blogs/media-front-15.png";
 import image16 from "../../assets/images/Blogs/media-front-16.webp";
 import image17 from "../../assets/images/Blogs/media-front-17.webp";
+import image18 from "../../assets/images/Blogs/media-front-18.jpg";
+import image19 from "../../assets/images/Blogs/media-front-19.jpg";
 
 const BlogData = [
+  {
+    id: 18,
+    image: image18,
+    date: "November 13, 2024",
+    title: "e5World",
+    category: "Vaartha",
+    link: "https://vaartha.com/416530/",
+    description:
+      "Aikhya Infra Developers seeded 'e5world'. With the help of IKF finance this project will be completed in three phases",
+  },
+  {
+    id: 19,
+    image: image19,
+    date: "October 15, 2024 ",
+    title: "AOB India",
+    category: "Prime View",
+    link: "https://www.cnbctv18.com/market/stock-market-live-updates-nifty-50-sensex-today-reliance-ril-q2-hcltech-hdfc-life-hyundai-ipo-angel-one-share-price-liveblog-19492794.htm",
+    description:
+      "Sensex Today | Stock Market Highlights: Sensex slips 153 points, Nifty holds 25,000",
+  },
   {
     id: 16,
     image: image16,

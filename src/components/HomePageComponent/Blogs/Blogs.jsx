@@ -5,29 +5,31 @@ import SectionHeading from "../../SectionHeading/SectionHeading";
 import image1 from "../../../assets/images/Blogs/media-front-1.png";
 import image2 from "../../../assets/images/Blogs/media-front-2.jpg";
 import image3 from "../../../assets/images/Blogs/media-front-3.jpeg";
+import image4 from "../../../assets/images/Blogs/media-front-18.jpg";
+import image5 from "../../../assets/images/Blogs/media-front-19.jpg";
 import LinkButton from "../../Buttons/LinkButton";
 
 const Blogs = () => {
   const posts = [
     {
       id: 1,
-      image: image1,
-      date: "December 12, 2024",
-      title: "AOB India",
-      category: "Economics Times",
-      link: "https://economictimes.indiatimes.com/aob-india-the-most-reliable-sales-outsourcing-partner-for-any-business/articleshow/76499205.cms?from=mdr",
+      image: image4,
+      date: "November 13, 2024",
+      title: "e5World",
+      category: "Vaartha",
+      link: "https://vaartha.com/416530/",
       description:
-        "The Most Reliable Sales Outsourcing Partner For Any Business",
+        "Aikhya Infra Developers seeded 'e5world'. With the help of IKF finance..this project will be completed in three phases..",
     },
     {
       id: 2,
-      image: image2,
-      date: "July 17, 2023",
+      image: image5,
+      date: "October 15, 2024 ",
       title: "AOB India",
       category: "Prime View",
-      link: "https://primeview.co/aob-india-a-pathbreaking-initiative-efficiently-delivering-outsourcing-service-in-sales/",
+      link: "https://www.cnbctv18.com/market/stock-market-live-updates-nifty-50-sensex-today-reliance-ril-q2-hcltech-hdfc-life-hyundai-ipo-angel-one-share-price-liveblog-19492794.htm",
       description:
-        "A pathbreaking initiative, efficiently delivering outsourcing service in sales",
+        "Sensex Today | Stock Market Highlights: Sensex slips 153 points, Nifty holds 25,000",
     },
     {
       id: 3,

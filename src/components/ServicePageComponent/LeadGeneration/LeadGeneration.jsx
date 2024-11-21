@@ -1,4 +1,6 @@
 import React, { Fragment } from "react";
+import { Helmet } from "react-helmet";
+
 import styles from "./LeadGeneration.module.css";
 import leadGenerationImage from "../../../assets/images/Services/service-1.png";
 import SectionHeading from "../../SectionHeading/SectionHeading";
@@ -76,6 +78,14 @@ const LeadGeneration = () => {
 
   return (
     <Fragment>
+      <Helmet>
+        <title>Qualified Lead Generation Services in India - Qlead AI</title>
+        <meta name="keyword" content="Qualified Lead Generation" />
+        <meta
+          name="description"
+          content="Qlead AI offers expert qualified lead generation services in India to help businesses connect with high-converting prospects and drive sales growth. Learn more now!"
+        />
+      </Helmet>
       <ServiceHeader
         primary="Get Leads That Convert"
         secondary="Targeted, Qualified, and Ready for Engagement"

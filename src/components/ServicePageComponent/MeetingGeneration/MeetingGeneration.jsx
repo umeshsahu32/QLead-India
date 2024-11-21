@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Helmet } from "react-helmet";
 import styles from "./MeetingGeneration.module.css";
 import meetingGenerationImage from "../../../assets/images/Services/service-2.png";
 import SectionHeading from "../../SectionHeading/SectionHeading";
@@ -75,6 +76,16 @@ const AudienceGeneration = () => {
 
   return (
     <Fragment>
+      <Helmet>
+        <title>
+          Qualified Meeting Generation Services by Qlead AI – Boost Sales Today
+        </title>
+        <meta name="keyword" content="Qualified Meeting Generation" />
+        <meta
+          name="description"
+          content="Transform your sales process with Qlead AI’s Qualified Meeting Generation service. We connect you with high-potential prospects, ensuring every meeting counts!"
+        />
+      </Helmet>
       <ServiceHeader
         primary="Set Up Meetings That Matter "
         secondary="High-Intent, Verified Prospects"

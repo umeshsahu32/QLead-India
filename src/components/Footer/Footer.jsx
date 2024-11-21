@@ -48,7 +48,7 @@ const Footer = () => {
     <Fragment>
       <footer className={styles.footer}>
         <div className={styles.footerColumn}>
-          <h4>Q-Lead</h4>
+          <h4>QLead</h4>
           <p>
             79/5,6,7, Capital Building, 7-1-79,
             <br />

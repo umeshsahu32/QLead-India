@@ -10,7 +10,7 @@ const TermsCondition = () => {
         <div className={styles.terms_heading}>
           <SectionHeading
             heading="Terms and Conditions"
-            para='Welcome to www.qlead.ai, a website operated by Q-Lead, a brand of AOB Sales Enterprise ("we," "our," "us"). By accessing or using this website, you agree to comply with and be bound by the following
+            para='Welcome to www.qlead.ai, a website operated by QLead, a brand of AOB Sales Enterprise ("we," "our," "us"). By accessing or using this website, you agree to comply with and be bound by the following
             terms and conditions. Please read these terms carefully before using
             our website. If you do not agree with any part of these terms, you
             must not use our website.'
@@ -31,7 +31,7 @@ const TermsCondition = () => {
           <h5>2. Use of Website</h5>
           <h6>2.1 License</h6>
           <p>
-            Q-Lead grants you a limited, non-exclusive, non-transferable, and
+            QLead grants you a limited, non-exclusive, non-transferable, and
             revocable license to access and use the website for your personal or
             business purposes, subject to these Terms and Conditions.
           </p>
@@ -80,7 +80,7 @@ const TermsCondition = () => {
           <h6>3.1 Ownership</h6>
           <p>
             All content on the website, including text, graphics, logos, images,
-            and software, is the property of Q-Lead or its content suppliers and
+            and software, is the property of QLead or its content suppliers and
             is protected by copyright, trademark, and other intellectual
             property laws. You may not reproduce, distribute, modify, or create
             derivative works based on any content without our express written
@@ -88,10 +88,10 @@ const TermsCondition = () => {
           </p>
           <h6>3.2 Trademarks</h6>
           <p>
-            "Q-Lead," "AOB Sales Enterprise," and all related logos, product
-            names, and services mentioned on the website are trademarks of
-            Q-Lead or its affiliates. You may not use any of these trademarks
-            without our prior written consent.
+            "QLead," "AOB Sales Enterprise," and all related logos, product
+            names, and services mentioned on the website are trademarks of QLead
+            or its affiliates. You may not use any of these trademarks without
+            our prior written consent.
           </p>
         </div>
 
@@ -102,8 +102,8 @@ const TermsCondition = () => {
             You may have the opportunity to post, submit, or otherwise make
             available content, such as comments, feedback, or other information
             ("User Content") on the website. By submitting User Content, you
-            grant Q-Lead a non-exclusive, worldwide, royalty-free, perpetual,
-            and irrevocable license to use, reproduce, modify, adapt, publish,
+            grant QLead a non-exclusive, worldwide, royalty-free, perpetual, and
+            irrevocable license to use, reproduce, modify, adapt, publish,
             translate, create derivative works from, distribute, and display
             such content.
           </p>
@@ -120,7 +120,7 @@ const TermsCondition = () => {
           <h6>5.1 No Warranties</h6>
           <p>
             The website is provided on an "as-is" and "as-available" basis.
-            Q-Lead makes no warranties, express or implied, regarding the
+            QLead makes no warranties, express or implied, regarding the
             website's operation, content, or the information provided. To the
             fullest extent permitted by law, we disclaim all warranties,
             including but not limited to implied warranties of merchantability,
@@ -128,8 +128,8 @@ const TermsCondition = () => {
           </p>
           <h6>5.2 Limitation of Liability</h6>
           <p>
-            Q-Lead shall not be liable for any damages, including but not
-            limited to direct, indirect, incidental, punitive, and consequential
+            QLead shall not be liable for any damages, including but not limited
+            to direct, indirect, incidental, punitive, and consequential
             damages, arising out of or in connection with your use of the
             website, even if we have been advised of the possibility of such
             damages. Your sole remedy for dissatisfaction with the website is to
@@ -140,7 +140,7 @@ const TermsCondition = () => {
         <div className={styles.terms_section}>
           <h5> 6. Indemnification</h5>
           <p>
-            You agree to indemnify, defend, and hold harmless Q-Lead, its
+            You agree to indemnify, defend, and hold harmless QLead, its
             affiliates, officers, directors, employees, and agents from and
             against any and all claims, damages, losses, liabilities, costs, and
             expenses (including reasonable attorneys' fees) arising out of or in
@@ -184,7 +184,7 @@ const TermsCondition = () => {
         <div className={styles.terms_section}>
           <h5>9. Changes to These Terms</h5>
           <p>
-            Q-Lead may update these Terms and Conditions from time to time. We
+            QLead may update these Terms and Conditions from time to time. We
             will notify you of any changes by posting the new terms on this page
             and updating the effective date. Your continued use of the website
             after any changes indicates your acceptance of the revised terms.
@@ -202,7 +202,7 @@ const TermsCondition = () => {
         <div className={styles.terms_section}>
           <p>
             This Terms and Conditions document outlines the rules and
-            responsibilities for using the Q-Lead website, ensuring both legal
+            responsibilities for using the QLead website, ensuring both legal
             protection and clarity for users.
           </p>
         </div>

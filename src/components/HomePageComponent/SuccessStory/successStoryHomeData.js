@@ -14,7 +14,7 @@ export const successStoryHomeData = [
     gradient: "linear-gradient(to bottom, #d2d3d5 0%, #111827 80%)",
     videoId: "jFfmqEcitfM",
     title:
-      "How Q-Lead Drove 3,000+ Qualified Visitors for Square Yards Event in Hyderabad",
+      "How QLead Drove 3,000+ Qualified Visitors for Square Yards Event in Hyderabad",
   },
   {
     logo: successThumbnail2,
@@ -24,7 +24,7 @@ export const successStoryHomeData = [
     gradient: "linear-gradient(to bottom, #cce7d4 0%, #111827 80%)",
     videoId: "qTJ2_KcDamk",
     title:
-      "Neoniche’s Record-Breaking Quarter with Q-Lead’s Qualified Event Leads",
+      "Neoniche’s Record-Breaking Quarter with QLead’s Qualified Event Leads",
   },
   {
     logo: successThumbnail3,
@@ -33,7 +33,7 @@ export const successStoryHomeData = [
     caseStudy: "See Case Study",
     gradient: "linear-gradient(to bottom, #f7adaf 0%, #111827 80%)",
     videoId: "ce7jQnzPC6A",
-    title: "Vertex Photography's Success with Q-Lead's Qualified Leads",
+    title: "Vertex Photography's Success with QLead's Qualified Leads",
   },
   {
     logo: successThumbnail4,
@@ -43,7 +43,7 @@ export const successStoryHomeData = [
     gradient: "linear-gradient(to bottom, #fffbd6 0%, #111827 80%)",
     videoId: "QOTgsxYPbl8",
     title:
-      "Vajra Builders' Sales Transformation: Powered by Q-Lead’s Qualified Leads",
+      "Vajra Builders' Sales Transformation: Powered by QLead’s Qualified Leads",
   },
   {
     logo: successThumbnail5,
@@ -54,7 +54,7 @@ export const successStoryHomeData = [
     gradient: "linear-gradient(to bottom, #c8c5e2 0%, #111827 80%)",
     videoId: "nTt0jYi4Kjg",
     title:
-      "How Q-Lead Boosted B2B Sales for Exotic Blooming Teas with Qualified Leads",
+      "How QLead Boosted B2B Sales for Exotic Blooming Teas with Qualified Leads",
   },
   {
     logo: successThumbnail6,
@@ -64,7 +64,7 @@ export const successStoryHomeData = [
     gradient: "linear-gradient(to bottom, #fdd1a1 0%, #111827 80%)",
     videoId: "Ov659wzUvsg",
     title:
-      "How Q-Lead Helped Redberyl Drive Luxury Sales with Targeted Audiences",
+      "How QLead Helped Redberyl Drive Luxury Sales with Targeted Audiences",
   },
   ,
 ];

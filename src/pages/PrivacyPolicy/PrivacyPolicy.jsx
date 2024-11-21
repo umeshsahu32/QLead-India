@@ -10,7 +10,7 @@ const PrivacyPolicy = () => {
         <div className={styles.terms_heading}>
           <SectionHeading
             heading="Privacy Policy"
-            para='Q-Lead, a brand of AOB Sales Enterprise ("we," "our," "us"), respects your privacy and is committed to protecting your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your data when you visit our website www.qlead.ai and use our services.'
+            para='QLead, a brand of AOB Sales Enterprise ("we," "our," "us"), respects your privacy and is committed to protecting your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your data when you visit our website www.qlead.ai and use our services.'
           />
         </div>
 
@@ -142,7 +142,7 @@ const PrivacyPolicy = () => {
         <div className={styles.terms_section}>
           <h5>7. No Sale of Data</h5>
           <p>
-            Q-Lead does not sell your personal information to any third parties.
+            QLead does not sell your personal information to any third parties.
             We use your data solely to provide our services and improve your
             experience.
           </p>

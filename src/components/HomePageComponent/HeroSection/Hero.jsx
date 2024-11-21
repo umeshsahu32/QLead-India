@@ -20,7 +20,7 @@ const Hero = () => {
           <div className={styles.heading}>
             <h1>Transform Your Sales</h1>
             <h1>with Qualified Leads</h1>
-            <h1>from Q-Lead</h1>
+            <h1>from QLead</h1>
           </div>
 
           <h2 className={styles.heroSubHeading}>
@@ -28,7 +28,7 @@ const Hero = () => {
           </h2>
           <div className={styles.link_btn}>
             <Link className={styles.get_started_btn} to="contact-us">
-              Try Q-Lead
+              Try QLead
             </Link>
           </div>
         </div>
@@ -38,7 +38,7 @@ const Hero = () => {
           <div className={styles.heroMobileHeading}>
             <h1>Transform Your Sales</h1>
             <h1>with Qualified Leads</h1>
-            <h1>from Q-Lead</h1>
+            <h1>from QLead</h1>
           </div>
 
           <h2 className={styles.heroMobileSubHeading}>
@@ -46,7 +46,7 @@ const Hero = () => {
           </h2>
           <div className={styles.link_btn}>
             <Link className={styles.get_started_btn} to="contact-us">
-              Try Q-Lead
+              Try QLead
             </Link>
           </div>
         </div>
