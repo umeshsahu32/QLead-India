@@ -3,7 +3,7 @@ import team2 from "../../../assets/images/team/Dr.Praveen.jpg";
 import team3 from "../../../assets/images/team/Sharmila.jpg";
 import team4 from "../../../assets/images/team/team-3.jpg";
 import team5 from "../../../assets/images/team/team-4.jpg";
-import team6 from "../../../assets/images/team/team-5.jpeg";
+import team6 from "../../../assets/images/team/Chandini.jpg";
 import team7 from "../../../assets/images/team/Bhargav.jpg";
 import team8 from "../../../assets/images/team/Chandhan.jpg";
 
@@ -98,7 +98,7 @@ export const TeamData = [
     role: "AI - Digital Marketing Architect",
     image: team7,
     description:
-      "Bhargava is a Marketing and Strategy specialist at Ingenious Advertise, where his multidisciplinary background and certifications create a formidable skill set. His Google Ads and Meta Ads certifications further solidify his expertise in digital advertising along with deep understanding on Programmatic Advertising, enabling him to craft targeted and effective campaigns. Sakalya particularly shines in Account Based Marketing (ABM) strategy and execution.",
+      "Bhargava is a AI Marketing and Digital strategy specialist. His multidisciplinary background and certifications create a formidable skill set. His Adobe Marketo and Oracle cloud marketing certifications further solidify his expertise in AI digital lead generation via Miyabi way along with deep understanding on Programmatic Advertising, enabling him to craft targeted and effective campaigns. A master in Account Based Marketing (ABM) strategy and execution.",
     socials: {
       twitter: "#",
       facebook: "#",
