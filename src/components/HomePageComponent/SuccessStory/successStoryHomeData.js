@@ -38,7 +38,7 @@ export const successStoryHomeData = [
   {
     logo: successThumbnail4,
     percentage: "40%",
-    description: "Increase in Conversation",
+    description: "Increase in Conversion",
     caseStudy: "See Case Study",
     gradient: "linear-gradient(to bottom, #fffbd6 0%, #111827 80%)",
     videoId: "QOTgsxYPbl8",

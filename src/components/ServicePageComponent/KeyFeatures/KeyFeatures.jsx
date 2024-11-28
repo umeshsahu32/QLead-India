@@ -20,7 +20,7 @@ const KeyFeatures = () => {
     <Fragment>
       <section className={styles.section} id="key-features">
         <div className={styles.head}>
-          <h4>Key Features of AOB India's Predictive Lead Scoring</h4>
+          <h4>Key Features of QLead Predictive Lead Scoring</h4>
         </div>
         <div className={styles.feature_list_container}>
           {KeyFeaturesData.map((item) => {

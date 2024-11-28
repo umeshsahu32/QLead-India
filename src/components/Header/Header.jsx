@@ -72,7 +72,7 @@ const Header = () => {
     },
     {
       id: 3,
-      path: "/our-services",
+      path: "#",
       text: "Services",
       icon: <FaHandshake />,
       hasDropdown: true,
@@ -161,7 +161,9 @@ const Header = () => {
                     <NavLink
                       to={item.path}
                       className={({ isActive }) =>
-                        isActive ? styles.active : styles.navLink
+                        isActive && item.text !== "Services"
+                          ? styles.active
+                          : styles.navLink
                       }
                     >
                       {item.text}{" "}
@@ -202,9 +204,9 @@ const Header = () => {
           <div className={styles.social_icons}>
             {SocialLink.map((item) => {
               return (
-                <Link to={item.path} key={item.id}>
+                <a href={item.path} key={item.id} target="_blank">
                   {item.icon}
-                </Link>
+                </a>
               );
             })}
           </div>

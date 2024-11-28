@@ -29,7 +29,7 @@ const HomePage = () => {
         <IntroSection2 />
         <UniqueFeature />
         <AITools />
-        <Industries2 />
+        <Industries2 path="/industries-served" />
         {/* <BenefitSection /> */}
         {/* <IndustriesSection /> */}
         <SuccessStory />

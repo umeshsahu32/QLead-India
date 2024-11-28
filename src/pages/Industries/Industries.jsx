@@ -40,7 +40,7 @@ const Industries = () => {
           content="Qlead generates top-quality leads for various industries—Agriculture, E-commerce, Healthcare, Real Estate, and more—driving business growth and boosting success."
         />
       </Helmet>
-      <Industries2 />
+      <Industries2 path="/contact-us" />
       <section className={styles.section}>
         <ul className={styles.list}>
           {industriesData.map((industry, index) => (

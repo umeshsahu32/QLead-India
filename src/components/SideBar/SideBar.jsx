@@ -134,9 +134,9 @@ const SideBar = () => {
             required
           ></textarea>
           <p className={styles.disclaimer}>
-            I authorise QLead Sales Entreprise & its representatives to contact
-            me with updates and notifications via Email/SMS/What'sApp/Call. This
-            will override DND/NDNC .
+            I authorise AOB Sales Entreprise & its representatives to contact me
+            with updates and notifications via Email/SMS/WhatsApp/Call. This
+            will override DND/NDNC.
           </p>
           <p className={styles.responseMessage}>{result}</p>
           <div className={styles.btn}>

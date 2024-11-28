@@ -52,6 +52,10 @@
   text-transform: capitalize;
 }
 
+.noCapitalize {
+  text-transform: none; /* Prevent capitalization for this specific span */
+}
+
 .cardFooter {
   display: flex;
   justify-content: space-between;

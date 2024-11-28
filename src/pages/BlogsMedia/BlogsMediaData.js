@@ -62,7 +62,7 @@ const BlogData = [
   {
     id: 2,
     image: image2,
-    date: "July 17, 2024",
+    date: "July 17, 2020",
     title: "AOB India",
     category: "Prime View",
     link: "https://primeview.co/aob-india-a-pathbreaking-initiative-efficiently-delivering-outsourcing-service-in-sales/",

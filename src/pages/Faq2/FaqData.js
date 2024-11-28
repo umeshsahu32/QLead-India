@@ -207,7 +207,7 @@ export const faqData = [
   {
     id: 26,
     section_id: 8,
-    section_name: "Digital Comparison.",
+    section_name: "Digital Comparison",
     question: "Why is AOB QLead better than leads from Google or Facebook?",
     answer:
       "Unlike platforms like Google and Facebook, which charge for all leads regardless of quality, AOB QLead provides only qualified leads. This means you're paying for leads that have been vetted and match your specific criteria, reducing the time and resources spent on unqualified leads. Additionally, our leads come with detailed demographic information, conversation transcripts, and harmonic analysis, offering deeper insights.",
@@ -215,7 +215,7 @@ export const faqData = [
   {
     id: 27,
     section_id: 8,
-    section_name: "Digital Comparison.",
+    section_name: "Digital Comparison",
     question: "How is QLead better than digital marketing leads?",
     answer:
       "Unlike traditional digital marketing leads, QLead focuses on providing highly qualified leads that have been vetted through AI tools and personalized engagement. This results in higher conversion rates and better ROI for your business.",
@@ -223,7 +223,7 @@ export const faqData = [
   {
     id: 28,
     section_id: 8,
-    section_name: "Digital Comparison.",
+    section_name: "Digital Comparison",
     question:
       "What are the advantages of using QLead over digital marketing leads?",
     answer:
@@ -262,21 +262,21 @@ export const faqData = [
     answer:
       "The cost per lead is determined based on various factors, including the industry, target audience, lead qualification criteria, and sales goals. We provide customized pricing packages to ensure the best value for our clients.",
   },
-  {
-    id: 33,
-    section_id: 10,
-    section_name: "Pricing & Packages",
-    question: "What are the different pricing packages available for QLead?",
-    answer:
-      "We offer several pricing packages for QLead, including:Accelerator Package:  Suitable for medium-sized businesses, offering a moderate number of leads with additional features. Expansion Package: Designed for larger businesses, providing a high volume of qualified leads and premium support. Enterprise Package:  Customized solutions for large enterprises with extensive lead generation needs.",
-  },
+  // {
+  //   id: 33,
+  //   section_id: 10,
+  //   section_name: "Pricing & Packages",
+  //   question: "What are the different pricing packages available for QLead?",
+  //   answer:
+  //     "We offer several pricing packages for QLead, including:Accelerator Package:  Suitable for medium-sized businesses, offering a moderate number of leads with additional features. Expansion Package: Designed for larger businesses, providing a high volume of qualified leads and premium support. Enterprise Package:  Customized solutions for large enterprises with extensive lead generation needs.",
+  // },
   {
     id: 34,
     section_id: 10,
     section_name: "Pricing & Packages",
     question: "Is there a setup fee for your services?",
     answer:
-      "Yes, there is a one-time platform setup fee of INR 15,000. This includes campaign setup, creatives cost, lead persona building, lead funnel setup, lead qualification parameter setup, AI tools deployment, and other related costs.",
+      "Yes, there is a one-time platform setup fee of INR 25,000. This includes campaign setup, creatives cost, lead persona building, lead funnel setup, lead qualification parameter setup, AI tools deployment, and other related costs.",
   },
   {
     id: 35,

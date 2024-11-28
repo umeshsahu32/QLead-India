@@ -334,10 +334,10 @@ import ManufacturingIcon6 from "../../assets/images/Industries-Images/Manufactur
 import MediaAndEntertainment from "../../assets/images/Industries-Images/Media-and-Entertainment/Media-and-Entertainment.jpg";
 import MediaAndEntertainmentIcon1 from "../../assets/images/Industries-Images/Media-and-Entertainment/image-1.jpg";
 import MediaAndEntertainmentIcon2 from "../../assets/images/Industries-Images/Media-and-Entertainment/image-2.jpg";
-import MediaAndEntertainmentIcon3 from "../../assets/images/Industries-Images/Media-and-Entertainment/image-3.jpg";
-import MediaAndEntertainmentIcon4 from "../../assets/images/Industries-Images/Media-and-Entertainment/image-4.jpg";
-import MediaAndEntertainmentIcon5 from "../../assets/images/Industries-Images/Media-and-Entertainment/image-5.jpg";
-import MediaAndEntertainmentIcon6 from "../../assets/images/Industries-Images/Media-and-Entertainment/image-6.jpg";
+import MediaAndEntertainmentIcon3 from "../../assets/images/Industries-Images/Media-and-Entertainment/image-3.jpeg";
+import MediaAndEntertainmentIcon4 from "../../assets/images/Industries-Images/Media-and-Entertainment/image-4.jpeg";
+import MediaAndEntertainmentIcon5 from "../../assets/images/Industries-Images/Media-and-Entertainment/image-5.jpeg";
+import MediaAndEntertainmentIcon6 from "../../assets/images/Industries-Images/Media-and-Entertainment/image-6.png";
 // MODULAR KITCHEN
 import ModularKitchen from "../../assets/images/Industries-Images/Modular-Kitchen/Modular-Kitchen.jpg";
 import ModularKitchenIcon1 from "../../assets/images/Industries-Images/Modular-Kitchen/image-1.jpg";
@@ -482,7 +482,6 @@ export const industriesData = [
       AgricultureIcon1,
       AgricultureIcon2,
       AgricultureIcon3,
-      AgricultureIcon4,
       AgricultureIcon5,
       AgricultureIcon6,
       AgricultureIcon7,
@@ -497,9 +496,7 @@ export const industriesData = [
     description:
       "Engage users seeking innovative app-based solutions across various sectors, from ride-sharing to food delivery, with targeted leads.",
     brands: [
-      AppBasedServicesIcon1,
       AppBasedServicesIcon2,
-      AppBasedServicesIcon3,
       AppBasedServicesIcon4,
       AppBasedServicesIcon5,
       AppBasedServicesIcon6,
@@ -608,7 +605,7 @@ export const industriesData = [
     industry_name: "Dental Services",
     image: Dental,
     description:
-      "Enhance your dental practice with expert advice and tailored solutions designed to boost patient satisfaction and streamline operations. From advanced treatment strategies to efficient practice management, we help you drive growth and achieve long-term success in dental care.",
+      "Grow your dental practice with qualified leads tailored to patients actively seeking dental care. QLead connects you with high-intent individuals, ensuring increased appointments and patient satisfaction. Enhance your practice’s efficiency, drive growth, and establish long-term success in dental care.",
     brands: [
       DentalIcon1,
       DentalIcon2,
@@ -736,7 +733,6 @@ export const industriesData = [
     description:
       "Engage fashion-forward consumers looking for the latest trends, styles, and designers, enhancing your brand's visibility and sales.",
     brands: [
-      FashionIcon1,
       FashionIcon2,
       FashionIcon3,
       FashionIcon4,
@@ -783,7 +779,6 @@ export const industriesData = [
       "Engage fitness enthusiasts looking for gyms, personal training, and wellness solutions to enhance their health and fitness journeys.",
     brands: [
       FitnessIcon1,
-      FitnessIcon2,
       FitnessIcon3,
       FitnessIcon4,
       FitnessIcon5,
@@ -804,7 +799,7 @@ export const industriesData = [
     industry_name: "Food",
     image: Food,
     description:
-      "Connect with food lovers seeking culinary experiences, gourmet products, and dining options, boosting your brand's presence.",
+      "Elevate your food business with high-intent leads tailored to culinary enthusiasts and gourmet seekers. QLead connects you with customers looking for unique dining experiences, specialty products, and unforgettable flavors, helping you enhance brand visibility and drive growth in the food industry.",
     brands: [FoodIcon1, FoodIcon2, FoodIcon3, FoodIcon4, FoodIcon5, FoodIcon6],
   },
   {
@@ -827,7 +822,7 @@ export const industriesData = [
     industry_name: "Furniture/Furnishing",
     image: Furniture,
     description:
-      "Elevate your furniture and furnishing business with expert insights and customized solutions to enhance customer experience and optimize operations. Whether you're focused on design innovation or improving supply chain efficiency, we help you drive growth and increase profitability.",
+      "Boost your furniture and furnishing business with high-quality leads tailored to your market. QLead connects you with customers seeking innovative designs and premium furnishings, ensuring higher engagement and conversions. Drive growth, enhance customer experience, and optimize profitability with precision-targeted leads.",
     brands: [
       FurnitureIcon1,
       FurnitureIcon2,
@@ -857,7 +852,7 @@ export const industriesData = [
     industry_name: "Healthcare Technology",
     image: HealthcareTechnology,
     description:
-      "Transform your healthcare technology business with expert guidance and innovative solutions that enhance patient care and streamline operations. From advanced digital health platforms to efficient data management systems, we help you drive growth and improve overall healthcare outcomes.",
+      "Accelerate your healthcare technology business with precision-targeted leads tailored to your innovative solutions. QLead connects you with healthcare providers actively seeking advanced digital platforms and efficient data systems. Enhance adoption rates, drive growth, and revolutionize healthcare outcomes with high-intent leads.",
     brands: [
       HealthcareTechnologyIcon1,
       HealthcareTechnologyIcon2,
@@ -888,7 +883,7 @@ export const industriesData = [
     industry_name: "Hospital",
     image: Hospital,
     description:
-      "Engage with healthcare professionals and institutions in need of medical equipment, supplies, and services through focused lead generation.",
+      "Grow your hospital’s reach with qualified leads tailored to healthcare services. QLead connects you with patients seeking specialized treatments and care, ensuring higher engagement and trust. Enhance patient acquisition, streamline service delivery, and establish your hospital as a leader in healthcare excellence.",
     brands: [
       HospitalIcon1,
       HospitalIcon2,
@@ -903,7 +898,7 @@ export const industriesData = [
     industry_name: "Hotel",
     image: Hotel,
     description:
-      "The fashion industry leads as a trendsetter, evolving through technology's influence on creation, showcase, and consumption. E-commerce and social media platforms grant easy access to trends. Ethical practices driven by sustainability and inclusivity are on the rise. AI and virtual reality redefine the industry. The future brings limitless possibilities as fashion, technology, and personal expression intertwine. Discover how we weave the ultimate strategy to fabricate an unparalleled online experience at WAC.",
+      "Transform your hotel’s growth trajectory with high-intent, qualified leads tailored to your hospitality needs. QLead connects you with travelers actively searching for accommodations, ensuring higher booking rates. Enhance guest satisfaction, optimize occupancy, and establish your hotel as a preferred choice with precision-targeted leads.",
     brands: [
       HotelIcon1,
       HotelIcon2,
@@ -951,7 +946,7 @@ export const industriesData = [
     industry_name: "IVF Clinic",
     image: IVFClinic,
     description:
-      "Grow your IVF clinic with expert support and tailored solutions to enhance patient care and optimize clinical efficiency. From cutting-edge fertility treatments to streamlined practice management, we help you drive success and build a trusted, patient-centric clinic.",
+      "Expand your IVF clinic’s reach with qualified leads tailored to prospective patients actively seeking fertility solutions. QLead connects you with high-intent leads, helping you grow your patient base, enhance care delivery, and establish your clinic as a trusted leader in reproductive health services.",
     brands: [
       IVFClinicIcon1,
       IVFClinicIcon2,
@@ -1002,7 +997,6 @@ export const industriesData = [
       LeisureIcon1,
       LeisureIcon2,
       LeisureIcon3,
-      LeisureIcon4,
       LeisureIcon5,
       LeisureIcon6,
     ],
@@ -1027,7 +1021,7 @@ export const industriesData = [
     industry_name: "Logistics",
     image: Logistics,
     description:
-      "Streamline your logistics operations with expert advice and innovative solutions designed to boost efficiency and reduce costs. From optimizing supply chains to implementing advanced tracking systems, we help you drive growth and improve overall operational performance.",
+      "Accelerate your logistics business with qualified leads tailored to your industry needs. QLead connects you with businesses seeking reliable supply chain and transport solutions. Enhance efficiency, reduce costs, and expand your client base with precision-targeted leads that drive real growth in logistics operations.",
     brands: [
       LogisticsIcon1,
       LogisticsIcon3,
@@ -1087,7 +1081,7 @@ export const industriesData = [
     industry_name: "Modular Kitchen",
     image: ModularKitchen,
     description:
-      "Elevate your modular kitchen business with expert solutions and tailored strategies to enhance design, functionality, and customer satisfaction. From innovative kitchen layouts to efficient installation processes, we help you drive growth and streamline your operations for maximum success.",
+      "Transform your modular kitchen business with high-quality leads tailored to your market. QLead connects you with homeowners and designers actively seeking innovative kitchen solutions. Boost your sales, enhance project efficiency, and establish your brand as a leader in modular kitchen excellence.",
     brands: [
       ModularKitchenIcon1,
       ModularKitchenIcon2,
@@ -1222,7 +1216,7 @@ export const industriesData = [
     industry_name: "Skin / Hair Services",
     image: SkinHairServices,
     description:
-      "Enhance your skin and hair services with expert insights and personalized solutions to improve client satisfaction and streamline your offerings. From advanced treatment techniques to optimized service delivery, we help you drive growth and elevate your beauty business to the next level.",
+      "Boost your skin and hair service business with high-intent, qualified leads tailored to your niche. QLead connects you with clients actively seeking advanced treatments, ensuring higher engagement and conversions. Drive growth, enhance bookings, and build a loyal customer base with precision-targeted leads.",
     brands: [
       SkinHairServicesIcon1,
       SkinHairServicesIcon2,
@@ -1313,7 +1307,6 @@ export const industriesData = [
       TravelIcon2,
       TravelIcon3,
       TravelIcon4,
-      TravelIcon5,
       TravelIcon6,
       TravelIcon7,
     ],

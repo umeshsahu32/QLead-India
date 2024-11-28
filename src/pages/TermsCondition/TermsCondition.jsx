@@ -164,20 +164,9 @@ const TermsCondition = () => {
           <p>
             These Terms and Conditions are governed by and construed in
             accordance with the laws of India. You agree to submit to the
-            exclusive jurisdiction of the courts located in New Hyderabad,
-            India, for the resolution of any disputes arising out of or relating
-            to these terms or your use of the website.
-          </p>
-        </div>
-
-        <div className={styles.terms_section}>
-          <h5>8. Governing Law</h5>
-          <p>
-            These Terms and Conditions are governed by and construed in
-            accordance with the laws of India. You agree to submit to the
-            exclusive jurisdiction of the courts located in New Hyderabad,
-            India, for the resolution of any disputes arising out of or relating
-            to these terms or your use of the website.
+            exclusive jurisdiction of the courts located in Hyderabad, India,
+            for the resolution of any disputes arising out of or relating to
+            these terms or your use of the website.
           </p>
         </div>
 

@@ -15,6 +15,10 @@ import VoiceRecording from "../../../assets/images/Services/meeting/Voice-Record
 import VoiceTranscript from "../../../assets/images/Services/meeting/Voice-Transcript.jpg";
 import Harmonic from "../../../assets/images/Services/meeting/Harmonic-Analysis.jpg";
 
+import LeadProcess from "../LeadProcess/LeadProcess";
+import LeadScoring from "../LeadScoring/LeadScoring";
+import KeyFeatures from "../KeyFeatures/KeyFeatures";
+
 const AudienceGeneration = () => {
   const keyFeatureData = [
     {
@@ -93,6 +97,11 @@ const AudienceGeneration = () => {
         alt="Qualified Meeting  Generation"
         description="QLead’s Qualified Meeting Generation service bridges the gap between interest and engagement. We arrange meetings with prospects already vetted for relevancy and intent, ensuring your time is spent on prospects ready to discuss solutions. By integrating predictive scoring and sentiment analysis, we ensure that each meeting represents a genuine opportunity, optimized for engagement."
       />
+
+      <LeadProcess />
+      <LeadScoring />
+      <KeyFeatures />
+
       <section className={styles.key_feature_section}>
         <SectionHeading heading="Key Highlights" />
         <div className={styles.key_feature_cards}>

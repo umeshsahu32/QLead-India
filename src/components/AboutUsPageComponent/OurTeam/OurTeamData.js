@@ -98,7 +98,7 @@ export const TeamData = [
     role: "AI - Digital Marketing Architect",
     image: team7,
     description:
-      "Bhargava is a AI Marketing and Digital strategy specialist. His multidisciplinary background and certifications create a formidable skill set. His Adobe Marketo and Oracle cloud marketing certifications further solidify his expertise in AI digital lead generation via Miyabi way along with deep understanding on Programmatic Advertising, enabling him to craft targeted and effective campaigns. A master in Account Based Marketing (ABM) strategy and execution.",
+      "Bhargava is an AI Marketing and Digital strategy specialist. His multidisciplinary background and certifications create a formidable skill set. His Adobe Marketo and Oracle cloud marketing certifications further solidify his expertise in AI digital lead generation via Miyabi way along with deep understanding on Programmatic Advertising, enabling him to craft targeted and effective campaigns. A master in Account Based Marketing (ABM) strategy and execution.",
     socials: {
       twitter: "#",
       facebook: "#",
@@ -112,7 +112,7 @@ export const TeamData = [
     role: "Director - Strategic Partnerships",
     image: team8,
     description:
-      "International Global expertise for over 25+ years in Sales, Marketing & Startup project execution in GSM Telecom Network launch, Retail Channel Formulation, Real Estate & Architect Design/ Project analyst, Spa & Wellness management. Worked for top brands like Dabur India Ltd , Bharti Airtel PAN India Operations, Emirates Telecom as UAE National Head S&M, Middle East & Africa with 38+ Countries in Operations, Real Estate Business Head for Silpa Infratech Ltd., Kohinoor Group & Aditya Construction Company in Hyderabad.",
+      "International Global expertise for over 25+ years in Sales, Marketing & Startup project execution in GSM Telecom Network launch, Retail Channel Formulation, Real Estate & Architect Design/ Project analyst, Spa & Wellness management. Worked for top brands like Dabur India Ltd, Bharti Airtel PAN India Operations, Emirates Telecom as UAE National Head S&M, Middle East & Africa with 38+ Countries in Operations, Real Estate Business Head for Silpa Infratech Ltd., Kohinoor Group & Aditya Construction Company in Hyderabad.",
     socials: {
       twitter: "#",
       facebook: "#",

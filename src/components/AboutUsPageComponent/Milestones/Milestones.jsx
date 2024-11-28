@@ -10,7 +10,7 @@ const Milestones = () => {
   const stats = [
     { number: "500+", label: "Clients Served" },
     { number: "1 M+", label: "Leads Generated" },
-    { number: "200+", label: "Sales Expert" },
+    { number: "200+", label: "Sales Experts" },
     { number: "100+", label: "Awards" },
   ];
 

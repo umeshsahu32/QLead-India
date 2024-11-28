@@ -65,13 +65,14 @@ const Footer = () => {
           <div className={styles.socialLinks}>
             {SocialLink.map((item) => {
               return (
-                <Link
-                  to={item.path}
+                <a
+                  href={item.path}
                   key={item.id}
                   className={styles.socialIcon}
+                  target="_black"
                 >
                   {item.icon}
-                </Link>
+                </a>
               );
             })}
           </div>
@@ -91,21 +92,29 @@ const Footer = () => {
             Packages
           </Link>{" "}
           <br />
-          <Link to="/terms-and-conditions" className={styles.footerLink}>
+          <a
+            href="/terms-and-conditions"
+            target="_blank"
+            className={styles.footerLink}
+          >
             Terms of service
-          </Link>{" "}
+          </a>{" "}
           <br />
-          <Link to="/privacy-policy" className={styles.footerLink}>
+          <a
+            href="/privacy-policy"
+            target="_blank"
+            className={styles.footerLink}
+          >
             Privacy policy
-          </Link>
+          </a>
         </div>
 
         <div className={styles.footerColumn}>
           <h4>Our Services</h4>
-          <Link to="/our-services" className={styles.footerLink}>
+          {/* <Link to="/our-services" className={styles.footerLink}>
             Services
           </Link>{" "}
-          <br />
+          <br /> */}
           <Link
             to="/services/qualified-lead-generation"
             className={styles.footerLink}
@@ -114,7 +123,7 @@ const Footer = () => {
           </Link>{" "}
           <br />
           <Link
-            to="/services/qualified-lead-generation"
+            to="/services/qualified-meeting-generation"
             className={styles.footerLink}
           >
             Qualified Meeting Generation
@@ -146,9 +155,13 @@ const Footer = () => {
             Contact Us
           </Link>{" "}
           <br />
-          <Link to="https://aobsales.com/" className={styles.footerLink}>
+          <a
+            href="https://aobsales.com/"
+            target="_blank"
+            className={styles.footerLink}
+          >
             AOB India
-          </Link>
+          </a>
         </div>
       </footer>
       <section className={styles.copyright_section}>

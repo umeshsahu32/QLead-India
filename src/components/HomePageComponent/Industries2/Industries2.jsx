@@ -5,7 +5,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import "animate.css";
 import { Link } from "react-router-dom";
 
-const Industries2 = () => {
+const Industries2 = ({ path }) => {
   const INDUSTRIES_COUNT = 55;
 
   const { count, countRef } = useCountAnimation(INDUSTRIES_COUNT, 1000);
@@ -29,7 +29,7 @@ const Industries2 = () => {
               <FaLongArrowAltRight />
             </span>
           </Link> */}
-          <Link to="/industries-served" className={styles.submitButton}>
+          <Link to={path} className={styles.submitButton}>
             Let's Talk
           </Link>
         </div>

@@ -2,7 +2,7 @@ import React, { Fragment, useState } from "react";
 import styles from "./ContactUs2.module.css";
 import { AiOutlineDownload } from "react-icons/ai";
 import image1 from "../../assets/contact/browser.webp";
-import samplePdf from "../../assets/contact/sample-pdf.pdf";
+import samplePdf from "../../assets/contact/QLead_Corporate_Oct 2024.pdf";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
@@ -242,9 +242,9 @@ const ContactUs2 = () => {
             </div>
           </div>
           <p className={styles.disclaimer}>
-            I authorise QLead Sales Entreprise & its representatives to contact
-            me with updates and notifications via Email/SMS/What'sApp/Call. This
-            will override DND/NDNC .
+            I authorise AOB Sales Entreprise & its representatives to contact me
+            with updates and notifications via Email/SMS/WhatsApp/Call. This
+            will override DND/NDNC.
           </p>
           {/* <button
           onClick={(e) => submitBtnHandler(e)}

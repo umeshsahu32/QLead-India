@@ -15,6 +15,9 @@ import Demographic from "../../../assets/images/Services/lead/Demographic-Detail
 import VoiceRecording from "../../../assets/images/Services/lead/Voice-Recording.jpg";
 import VoiceTranscript from "../../../assets/images/Services/lead/Voice-Transcript.jpg";
 import Harmonic from "../../../assets/images/Services/lead/Harmonic-Analysis.jpg";
+import LeadProcess from "../LeadProcess/LeadProcess";
+import LeadScoring from "../LeadScoring/LeadScoring";
+import KeyFeatures from "../KeyFeatures/KeyFeatures";
 
 const LeadGeneration = () => {
   const keyFeatureData = [
@@ -99,6 +102,9 @@ const LeadGeneration = () => {
               potential customers who align perfectly with your product or
               service, reducing wasted time and increasing conversion rates."
       />
+      <LeadProcess />
+      <LeadScoring />
+      <KeyFeatures />
       <section className={styles.key_feature_section}>
         <SectionHeading heading="Key Highlights" />
         <div className={styles.key_feature_cards}>

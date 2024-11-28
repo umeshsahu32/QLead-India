@@ -15,7 +15,7 @@ const Blogs = () => {
       id: 1,
       image: image4,
       date: "November 13, 2024",
-      title: "e5World",
+      title: "e5world",
       category: "Vaartha",
       link: "https://vaartha.com/416530/",
       description:
@@ -34,7 +34,7 @@ const Blogs = () => {
     {
       id: 3,
       image: image3,
-      date: "March 05, 2024",
+      date: "July 02, 2020",
       title: "AOB India",
       category: "Your Story",
       link: "https://yourstory.com/2020/07/sales-outsourcing-reliable-startups",
@@ -58,7 +58,16 @@ const Blogs = () => {
               <div className={styles.cardContent}>
                 <h3 className={styles.cardTitle}>{item.title}</h3>
                 <p className={styles.cardSubtitle}>{item.category}</p>
-                <p className={styles.cardDescription}>{item.description}</p>
+                <p className={styles.cardDescription}>
+                  {item.description.split("e5world").map((part, idx) => (
+                    <React.Fragment key={idx}>
+                      {part}
+                      {idx < item.description.split("e5world").length - 1 && (
+                        <span className={styles.noCapitalize}>e5world</span>
+                      )}
+                    </React.Fragment>
+                  ))}
+                </p>
                 <div className={styles.cardFooter}>
                   <p className={styles.cardDate}>{item.date}</p>
                   {/* <a href={item.link} className={styles.cardLink}>
@@ -67,7 +76,11 @@ const Blogs = () => {
                       <FaArrowRight />
                     </span>
                   </a> */}
-                  <a href={item.link} className={styles.cardLink}>
+                  <a
+                    href={item.link}
+                    className={styles.cardLink}
+                    target="_black"
+                  >
                     READ MORE
                   </a>
                 </div>

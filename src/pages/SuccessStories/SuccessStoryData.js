@@ -1394,7 +1394,7 @@ export const successData = [
     solution:
       "We conducted targeted social media and email campaigns, engaging potential customers with personalized offers and unboxing videos.",
     result:
-      "The company saw a 40% increase in subscriptions and significantly boosted their revenue.",
+      "The company saw a 45% increase in subscriptions and significantly boosted their revenue.",
     percentage: "45%",
     description: "increase in subscriptions",
     gradient: "linear-gradient(to bottom, #3C5B6F 0%, #111827 60%)",

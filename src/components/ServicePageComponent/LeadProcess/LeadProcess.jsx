@@ -17,7 +17,7 @@ const LeadProcess = () => {
   return (
     <Fragment>
       <div className={styles.sectionWrapper} id="lead-generation-process">
-        <h3>Overview of the lead generation process</h3>
+        <h3>Overview of the Lead Generation Process</h3>
         <div className={styles.breadcrumb}>
           {LeadProcessData.map((item) => {
             return (

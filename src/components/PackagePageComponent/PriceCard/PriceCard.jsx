@@ -29,7 +29,7 @@ const PriceCard = () => {
   const [showSideCards, setShowSideCards] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => setShowSideCards(true), 1000);
+    const timer = setTimeout(() => setShowSideCards(true), 300);
     return () => clearTimeout(timer);
   }, []);
 

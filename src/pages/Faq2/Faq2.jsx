@@ -26,9 +26,9 @@ const Faq2 = () => {
   return (
     <Fragment>
       <div className={styles.heading_container}>
-        <SectionHeading heading="Frequently Asked Question" />
+        <SectionHeading heading="Frequently Asked Questions" />
         <p>
-          These Are the most commonly asked questions about AOB India QLead.
+          These are the most commonly asked questions about AOB India QLead.
         </p>
         <p>
           Can't find what you're looking for?{" "}

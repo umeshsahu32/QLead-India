@@ -9,7 +9,7 @@ const reviews = [
     name: "Venkata Ramesh",
     username: "Real Estate Agent",
     description:
-      "QLead helped me to find right buyer at right time in a quick span of time",
+      "QLead helped me to find right buyers at the right time in a quick span of time.",
     img: "https://api.dicebear.com/9.x/initials/svg?seed=Patches",
     videoId: "ls4xRwekWgU",
   },
@@ -17,7 +17,7 @@ const reviews = [
     name: "Ramesh Reddy",
     username: "Property Consultant",
     description:
-      "QLead has transform my approach to sales and its a game changer",
+      "QLead has transformed my approach to sales and it’s a game changer",
     img: "https://api.dicebear.com/9.x/initials/svg?seed=Patches",
     videoId: "s1p9Wd0F660",
   },
@@ -31,14 +31,15 @@ const reviews = [
   {
     name: "Satish Govind",
     username: "Real Estate Agent ",
-    description: "Thanks to QLead predicting scoring my sales increase by 35%.",
+    description:
+      "Thanks to QLead predictive scoring, my sales increased by 35%.",
     img: "https://api.dicebear.com/9.x/initials/svg?seed=Patches",
     videoId: "2xdykyqgpZI",
   },
   {
     name: "Sailaja Kumari",
     username: "Event Planner",
-    description: "QLead Delivers qualified leads that works.",
+    description: "QLead delivers qualified leads that work.",
     img: "https://api.dicebear.com/9.x/initials/svg?seed=Patches",
     videoId: "KI8O_d7TkBA",
   },
@@ -46,7 +47,7 @@ const reviews = [
     name: "Surya Pavan",
     username: "Realtor",
     description:
-      "QLead AI technology helps make sure that i only deal with the people who are seriously looking for properties.",
+      "QLead AI technology helps make sure that I only deal with the people who are seriously looking for properties.",
     img: "https://api.dicebear.com/9.x/initials/svg?seed=Patches",
     videoId: "DgYU9a7MyGo",
   },
@@ -54,7 +55,7 @@ const reviews = [
     name: "Shefali Shaik",
     username: "Event Planner",
     description:
-      "QLead predictive scoring help us on client who were actually looking for event planning.",
+      "QLead predictive scoring helps us with clients who are actually looking for event planning.",
     img: "https://api.dicebear.com/9.x/initials/svg?seed=Patches",
     videoId: "ID7qzlu54No",
   },

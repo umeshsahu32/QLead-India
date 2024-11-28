@@ -16,6 +16,10 @@ import VoiceRecording from "../../../assets/images/Services/audience/Voice-Recor
 import VoiceTranscript from "../../../assets/images/Services/audience/Voice-Transcript.jpg";
 import Harmonic from "../../../assets/images/Services/audience/Harmonic-Analysis.jpg";
 
+import LeadProcess from "../LeadProcess/LeadProcess";
+import LeadScoring from "../LeadScoring/LeadScoring";
+import KeyFeatures from "../KeyFeatures/KeyFeatures";
+
 const AudienceGeneration = () => {
   const keyFeatureData = [
     {
@@ -93,6 +97,11 @@ const AudienceGeneration = () => {
         alt="Qualified Meeting  Generation"
         description="With Qualified Audience Generation, QLead helps you identify and engage groups of prospects who fit your precise customer demographics. Whether for webinars, events, or special promotions, our service gathers audiences with strong engagement potential. Using AI-driven data mining and psychographic profiling, we ensure that each audience segment is primed for relevance, yielding higher conversion rates and better engagement metrics."
       />
+
+      <LeadProcess />
+      <LeadScoring />
+      <KeyFeatures />
+
       <section className={styles.key_feature_section}>
         <SectionHeading heading="Key Highlights" />
         <div className={styles.key_feature_cards}>
