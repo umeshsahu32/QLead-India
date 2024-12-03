@@ -3,32 +3,29 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
-import PageLoader from "./components/PageLoader/PageLoader.jsx";
-import {
-  AboutUs,
-  PageNotFound,
-  Faqs,
-  BlogsAndMedia,
-  SuccessStories,
-  Industries,
-  Packages,
-  TermsCondition,
-  PrivacyPolicy,
-  LeadGeneration,
-  MeetingGeneration,
-  AudienceGeneration,
-  Media,
-  Blogs,
-  BlogSummary,
-} from "./routes/routes.js";
 import Layout from "./routes/Layout.jsx";
-
-// import ContactUs from "./pages/ContactUs/ContactUs.jsx";
-import ContactUs2 from "./pages/ContactUs2/ContactUs2.jsx";
-import Services from "./pages/Services/Services.jsx";
 import { NotificationProvider } from "./components/NotificationToaster/NotificationContext.jsx";
 import ScrollToTop from "./routes/ScrollToTop.jsx";
+import PageLoader from "./components/PageLoader/PageLoader.jsx";
 import Context from "./context/Context.jsx";
+import {
+  AboutUs,
+  AudienceGeneration,
+  Blogs,
+  BlogSummary,
+  ContactUs,
+  Faqs,
+  Industries,
+  LeadGeneration,
+  Media,
+  MeetingGeneration,
+  Packages,
+  PageNotFound,
+  PrivacyPolicy,
+  Services,
+  SuccessStories,
+  TermsCondition,
+} from "./routes/routes.js";
 
 const router = createBrowserRouter([
   {
@@ -50,14 +47,6 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "contact-us",
-        element: (
-          <Suspense fallback={<PageLoader />}>
-            <ContactUs2 />
-          </Suspense>
-        ),
-      },
-      {
         path: "about-us",
         element: (
           <Suspense fallback={<PageLoader />}>
@@ -66,98 +55,10 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "faqs",
-        element: (
-          <Suspense fallback={<PageLoader />}>
-            <Faqs />
-          </Suspense>
-        ),
-      },
-      {
-        path: "blogs-and-media",
-        element: (
-          <Suspense fallback={<PageLoader />}>
-            <BlogsAndMedia />
-          </Suspense>
-        ),
-      },
-      {
-        path: "success-stories",
-        element: (
-          <Suspense fallback={<PageLoader />}>
-            <SuccessStories />
-          </Suspense>
-        ),
-      },
-      {
-        path: "industries-served",
-        element: (
-          <Suspense fallback={<PageLoader />}>
-            <Industries />
-          </Suspense>
-        ),
-      },
-      {
-        path: "our-packages",
-        element: (
-          <Suspense fallback={<PageLoader />}>
-            <Packages />
-          </Suspense>
-        ),
-      },
-      {
-        path: "our-services",
-        element: (
-          <Suspense fallback={<PageLoader />}>
-            <Services />
-          </Suspense>
-        ),
-      },
-      {
-        path: "services/qualified-lead-generation",
-        element: (
-          <Suspense fallback={<PageLoader />}>
-            <LeadGeneration />
-          </Suspense>
-        ),
-      },
-      {
-        path: "services/qualified-meeting-generation",
-        element: (
-          <Suspense fallback={<PageLoader />}>
-            <MeetingGeneration />
-          </Suspense>
-        ),
-      },
-      {
         path: "services/qualified-audience-generation",
         element: (
           <Suspense fallback={<PageLoader />}>
             <AudienceGeneration />
-          </Suspense>
-        ),
-      },
-      {
-        path: "terms-and-conditions",
-        element: (
-          <Suspense fallback={<PageLoader />}>
-            <TermsCondition />
-          </Suspense>
-        ),
-      },
-      {
-        path: "privacy-policy",
-        element: (
-          <Suspense fallback={<PageLoader />}>
-            <PrivacyPolicy />
-          </Suspense>
-        ),
-      },
-      {
-        path: "media",
-        element: (
-          <Suspense fallback={<PageLoader />}>
-            <Media />
           </Suspense>
         ),
       },
@@ -177,6 +78,97 @@ const router = createBrowserRouter([
           </Suspense>
         ),
       },
+      {
+        path: "contact-us",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <ContactUs />
+          </Suspense>
+        ),
+      },
+      {
+        path: "faqs",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <Faqs />
+          </Suspense>
+        ),
+      },
+
+      {
+        path: "industries-served",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <Industries />
+          </Suspense>
+        ),
+      },
+      {
+        path: "services/qualified-lead-generation",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <LeadGeneration />
+          </Suspense>
+        ),
+      },
+      {
+        path: "media",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <Media />
+          </Suspense>
+        ),
+      },
+      {
+        path: "services/qualified-meeting-generation",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <MeetingGeneration />
+          </Suspense>
+        ),
+      },
+
+      {
+        path: "our-packages",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <Packages />
+          </Suspense>
+        ),
+      },
+      {
+        path: "privacy-policy",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <PrivacyPolicy />
+          </Suspense>
+        ),
+      },
+      {
+        path: "our-services",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <Services />
+          </Suspense>
+        ),
+      },
+      {
+        path: "success-stories",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <SuccessStories />
+          </Suspense>
+        ),
+      },
+      {
+        path: "terms-and-conditions",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <TermsCondition />
+          </Suspense>
+        ),
+      },
+
       {
         path: "*",
         element: (
