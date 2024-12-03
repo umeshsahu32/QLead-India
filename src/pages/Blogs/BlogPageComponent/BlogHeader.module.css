@@ -1,0 +1,144 @@
+.headerComponent {
+  background-color: #161515;
+  width: 100%;
+  color: #fff;
+}
+
+.blogHead {
+  max-width: 1500px;
+  margin: auto;
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.headerImage {
+  width: 650px;
+  height: 450px !important;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.blogNameContainer {
+  display: flex;
+  flex-direction: column;
+  height: 430px;
+  justify-content: space-between;
+}
+
+.blogNameContainer h3 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.blogNameContainer p {
+  font-size: 1.2rem;
+  color: #ffffff9a;
+}
+
+.category {
+  background-color: #e3ff59;
+  padding: 0.4rem 0.9rem;
+  border-radius: 9999px;
+  color: #161515;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  max-width: fit-content;
+}
+
+.authorContainer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-items: flex-start;
+  gap: 0.2rem;
+}
+
+.authorContainer span:first-child {
+  font-size: 1.6rem;
+  color: #e3ff59;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.authorContainer span:last-child {
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+  .headerImage {
+    width: 450px;
+    height: 350px !important;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .blogNameContainer {
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    justify-content: flex-start;
+  }
+
+  .blogNameContainer h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .blogNameContainer p {
+    font-size: 1rem;
+    color: #ffffff9a;
+    margin-bottom: 20px;
+  }
+
+  .authorContainer {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: flex-start;
+    gap: 0.2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .blogHead {
+    max-width: 90%;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headerImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .blogNameContainer {
+    height: auto;
+  }
+
+  .blogNameContainer h3 {
+    font-size: 1.8rem;
+  }
+
+  .authorContainer span:first-child {
+    font-size: 1.4rem;
+  }
+}

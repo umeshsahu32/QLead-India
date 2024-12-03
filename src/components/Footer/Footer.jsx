@@ -147,9 +147,13 @@ const Footer = () => {
             Success Stories
           </Link>{" "}
           <br />
-          <Link to="/blogs-and-media" className={styles.footerLink}>
-            Blogs & Media
+          <Link to="/blogs" className={styles.footerLink}>
+            Blogs
           </Link>{" "}
+          <br />
+          <Link to="/media" className={styles.footerLink}>
+            Media
+          </Link>
           <br />
           <Link to="/contact-us" className={styles.footerLink}>
             Contact Us

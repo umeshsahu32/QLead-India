@@ -48,6 +48,10 @@ const AudienceGeneration = lazy(() =>
   )
 );
 
+const Media = lazy(() => import("../pages/Media/Media.jsx"));
+const Blogs = lazy(() => import("../pages/Blogs/Blogs.jsx"));
+const BlogSummary = lazy(() => import("../pages/Blogs/BlogSummary.jsx"));
+
 export {
   AboutUs,
   Faqs,
@@ -63,4 +67,7 @@ export {
   LeadGeneration,
   MeetingGeneration,
   AudienceGeneration,
+  Media,
+  Blogs,
+  BlogSummary,
 };

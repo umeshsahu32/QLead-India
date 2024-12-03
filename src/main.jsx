@@ -17,14 +17,18 @@ import {
   LeadGeneration,
   MeetingGeneration,
   AudienceGeneration,
+  Media,
+  Blogs,
+  BlogSummary,
 } from "./routes/routes.js";
 import Layout from "./routes/Layout.jsx";
 
-import ContactUs from "./pages/ContactUs/ContactUs.jsx";
+// import ContactUs from "./pages/ContactUs/ContactUs.jsx";
 import ContactUs2 from "./pages/ContactUs2/ContactUs2.jsx";
 import Services from "./pages/Services/Services.jsx";
 import { NotificationProvider } from "./components/NotificationToaster/NotificationContext.jsx";
 import ScrollToTop from "./routes/ScrollToTop.jsx";
+import Context from "./context/Context.jsx";
 
 const router = createBrowserRouter([
   {
@@ -150,6 +154,30 @@ const router = createBrowserRouter([
         ),
       },
       {
+        path: "media",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <Media />
+          </Suspense>
+        ),
+      },
+      {
+        path: "blogs",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <Blogs />
+          </Suspense>
+        ),
+      },
+      {
+        path: "blog/:title",
+        element: (
+          <Suspense fallback={<PageLoader />}>
+            <BlogSummary />
+          </Suspense>
+        ),
+      },
+      {
         path: "*",
         element: (
           <Suspense fallback={<PageLoader />}>
@@ -163,8 +191,10 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <NotificationProvider>
-      <RouterProvider router={router} />
-    </NotificationProvider>
+    <Context>
+      <NotificationProvider>
+        <RouterProvider router={router} />
+      </NotificationProvider>
+    </Context>
   </React.StrictMode>
 );
