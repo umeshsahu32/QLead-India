@@ -1,6 +1,6 @@
-import service1 from "../../../assets/images/Services/service-1.png";
-import service2 from "../../../assets/images/Services/service-2.png";
-import service3 from "../../../assets/images/Services/service-3.png";
+import service1 from "../../../assets/images/Services/lead-generation.png";
+import service2 from "../../../assets/images/Services/meeting-generation.png";
+import service3 from "../../../assets/images/Services/audience-generation.png";
 
 export const HeroSectionData = [
   {

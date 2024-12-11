@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Helmet } from "react-helmet";
 import styles from "./MeetingGeneration.module.css";
-import meetingGenerationImage from "../../../assets/images/Services/service-2.png";
+import meetingGenerationImage from "../../../assets/images/Services/meeting-generation.png";
 import SectionHeading from "../../SectionHeading/SectionHeading";
 import KeyFeatureCard from "../KeyFeatureCard/KeyFeatureCard";
 import OfferCard from "../OfferCard/OfferCard";

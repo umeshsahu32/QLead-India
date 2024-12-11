@@ -166,7 +166,7 @@ const Header = () => {
                           : styles.navLink
                       }
                     >
-                      {item.text}{" "}
+                      {item.text}
                       <span className={styles.arrowIcon}>
                         <MdKeyboardArrowDown />
                       </span>

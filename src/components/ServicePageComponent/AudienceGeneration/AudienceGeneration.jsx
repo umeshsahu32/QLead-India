@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { Helmet } from "react-helmet";
 
 import styles from "./AudienceGeneration.module.css";
-import audienceGenerationImage from "../../../assets/images/Services/service-3.png";
+import audienceGenerationImage from "../../../assets/images/Services/audience-generation.png";
 import SectionHeading from "../../SectionHeading/SectionHeading";
 import KeyFeatureCard from "../KeyFeatureCard/KeyFeatureCard";
 import OfferCard from "../OfferCard/OfferCard";

@@ -93,13 +93,14 @@
   align-items: center;
   border-radius: 9999px;
   padding: 0.4rem 1.25rem;
-  transition: all 0.2s;
+  transition: all 0.2s ease-in-out;
   text-decoration: none;
 }
 
 .learnMoreButton:hover {
   color: white;
-  background-color: black;
+  background: var(--background);
+  border: 1px solid transparent;
 }
 
 /* Responsive Styles */
