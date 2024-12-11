@@ -6,7 +6,7 @@ const Context = ({ children }) => {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
-    fetch("../../public/blogs.json")
+    fetch("/blogs.json")
       .then((response) => response.json())
       .then((data) => setBlogs(data))
       .catch((error) => console.error("Error fetching blogs:", error));

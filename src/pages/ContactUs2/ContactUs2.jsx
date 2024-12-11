@@ -110,7 +110,7 @@ const ContactUs2 = () => {
   const handleDownload = (e) => {
     if (!isFormSubmitted) {
       e.preventDefault();
-      addNotification("Please Fill the form first.", "warning", 3000);
+      addNotification("Please Fill The Form First.", "warning", 3000);
     }
   };
 
