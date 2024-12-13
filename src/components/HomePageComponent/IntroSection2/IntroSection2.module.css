@@ -18,7 +18,7 @@
   max-width: 40%;
 }
 
-.content h2 {
+.content h1 {
   font-size: 40px;
   line-height: 1.25;
   margin-bottom: 20px;
@@ -86,7 +86,7 @@
     align-items: center;
   }
 
-  .content h2 {
+  .content h1 {
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -115,7 +115,7 @@
 }
 
 @media (max-width: 568px) {
-  .content h2 {
+  .content h1 {
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 10px;

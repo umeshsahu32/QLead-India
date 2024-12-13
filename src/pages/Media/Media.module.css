@@ -31,7 +31,9 @@
 .card:hover {
   transform: translateY(-5px);
 }
-
+.noCapitalize {
+  text-transform: none; /* Prevent capitalization for this specific span */
+}
 .cardImage {
   width: 100%;
   height: 10rem;

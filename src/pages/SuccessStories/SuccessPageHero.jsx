@@ -21,10 +21,10 @@ const SuccessPageHero = () => {
         />
         <div className={styles.container}>
           <div className={styles.content}>
-            <h2 className={styles.heading}>
+            <h1 className={styles.heading}>
               Big Dreams,
               <br /> Bigger Numbers
-            </h2>
+            </h1>
             <p className={styles.paragraph}>
               We are moving ahead with relentless energy to achieve amazing
               results that speak volumes. We don't intend to slow down either!

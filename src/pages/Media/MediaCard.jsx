@@ -26,7 +26,16 @@ const MediaCard = ({ posts }) => {
               <div className={styles.cardContent}>
                 <h3 className={styles.cardTitle}>{item.title}</h3>
                 <p className={styles.cardSubtitle}>{item.category}</p>
-                <p className={styles.cardDescription}>{item.description}</p>
+                <p className={styles.cardDescription}>
+                  {item.description.split("e5world").map((part, idx) => (
+                    <React.Fragment key={idx}>
+                      {part}
+                      {idx < item.description.split("e5world").length - 1 && (
+                        <span className={styles.noCapitalize}>e5world</span>
+                      )}
+                    </React.Fragment>
+                  ))}
+                </p>
                 <div className={styles.cardFooter}>
                   <p className={styles.cardDate}>{item.date}</p>
                   {/* <a href={item.link} className={styles.cardLink}>
@@ -35,7 +44,11 @@ const MediaCard = ({ posts }) => {
                       <FaArrowRight />
                     </span>
                   </a> */}
-                  <a href={item.link} className={styles.cardLink}>
+                  <a
+                    href={item.link}
+                    target="_black"
+                    className={styles.cardLink}
+                  >
                     READ MORE
                   </a>
                 </div>

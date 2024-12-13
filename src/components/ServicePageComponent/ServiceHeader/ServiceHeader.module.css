@@ -15,13 +15,13 @@
   gap: 8px;
 }
 
-.heading h2 {
+.heading h1 {
   font-size: 3.5rem;
   color: #fff;
   text-transform: capitalize;
 }
 
-.heading h3 {
+.heading h1 {
   font-size: 3.5rem;
   font-weight: 600;
   color: #fff;
@@ -58,8 +58,8 @@
 }
 
 @media (max-width: 992px) {
-  .heading h2,
-  .heading h3 {
+  .heading h1,
+  .heading h1 {
     font-size: 2.5rem;
     text-align: center;
   }
@@ -70,8 +70,8 @@
 }
 
 @media (max-width: 668px) {
-  .heading h2,
-  .heading h3 {
+  .heading h1,
+  .heading h1 {
     font-size: 2rem;
   }
 }
@@ -81,8 +81,8 @@
     padding: 2rem 1rem;
   }
 
-  .heading h2,
-  .heading h3 {
+  .heading h1,
+  .heading h1 {
     font-size: 1.6rem;
     text-align: center;
   }

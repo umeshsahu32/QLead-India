@@ -32,7 +32,7 @@ export const AIToolsData = [
     secondary_list: [
       "The technology helps identify buying triggers and understand the overall disposition of leads.",
       "AI tools generate dynamic scripts based on lead source, and conversations are analysed for quality assurance, resulting in audio transcripts and harmonic analysis files.",
-      "Harmonic analysis is used to monitor and evaluate conversations to ensures quality and compliance. This ensure the lead is truly qualified on all parameters.",
+      "Harmonic analysis is used to monitor and evaluate conversations to ensures quality and compliance. This ensures the lead is truly qualified on all parameters.",
     ],
   },
 ];

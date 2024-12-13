@@ -1,8 +1,9 @@
-import React from "react";
+import React, { Fragment } from "react";
 import styles from "./Blogs.module.css";
 import { BlogState } from "../../context/Context";
 import { Link } from "react-router-dom";
 import SectionHeading from "../../components/SectionHeading/SectionHeading";
+import { Helmet } from "react-helmet";
 
 const BlogCard = ({ item }) => {
   return (
@@ -30,19 +31,29 @@ const BlogCard = ({ item }) => {
 const Blogs = () => {
   const BlogsData = BlogState();
   return (
-    <div className={styles.container}>
-      <div className={styles.header}>
-        <SectionHeading
-          heading="Recent Blogs"
-          para="Explore the insights and trends shaping our industry"
+    <Fragment>
+      <Helmet>
+        <title>Qlead AI Blogs - Insights on Lead Generation Strategies</title>
+        <meta name="keyword" content="Qlead AI Blogs" />
+        <meta
+          name="description"
+          content="Read Qlead AI's blogs for insights on lead generation, digital marketing, and customer acquisition strategies. Optimize your efforts with expert tips and trends."
         />
+      </Helmet>
+      <div className={styles.container}>
+        <div className={styles.header}>
+          <SectionHeading
+            heading="Recent Blogs"
+            para="Explore the insights and trends shaping our industry"
+          />
+        </div>
+        <div className={styles.blogList}>
+          {BlogsData.map((cardInfo) => {
+            return <BlogCard item={cardInfo} key={cardInfo.id} />;
+          })}
+        </div>
       </div>
-      <div className={styles.blogList}>
-        {BlogsData.map((cardInfo) => {
-          return <BlogCard item={cardInfo} key={cardInfo.id} />;
-        })}
-      </div>
-    </div>
+    </Fragment>
   );
 };
 

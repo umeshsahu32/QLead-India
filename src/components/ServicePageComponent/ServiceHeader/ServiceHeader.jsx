@@ -6,8 +6,8 @@ const ServiceHeader = ({ primary, secondary, img, description, alt }) => {
     <Fragment>
       <section className={styles.section}>
         <div className={styles.heading}>
-          <h2>{primary}</h2>
-          <h3>{secondary}</h3>
+          <h1>{primary}</h1>
+          <h1>{secondary}</h1>
         </div>
         <div className={styles.banner_container}>
           <img src={img} alt={alt} className={styles.image} />

@@ -1024,7 +1024,7 @@ export const industriesData = [
       "Accelerate your logistics business with qualified leads tailored to your industry needs. QLead connects you with businesses seeking reliable supply chain and transport solutions. Enhance efficiency, reduce costs, and expand your client base with precision-targeted leads that drive real growth in logistics operations.",
     brands: [
       LogisticsIcon1,
-      LogisticsIcon3,
+      // LogisticsIcon3,
       LogisticsIcon3,
       LogisticsIcon4,
       LogisticsIcon5,

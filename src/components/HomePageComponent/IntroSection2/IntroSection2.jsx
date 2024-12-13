@@ -15,7 +15,7 @@ const Section12 = () => {
             className={`${styles.row} ${index % 2 !== 0 ? styles.reverse : ""}`}
           >
             <div className={styles.content}>
-              <h2>{item.heading}</h2>
+              <h1>{item.heading}</h1>
               <p>{item.paragraph}</p>
               <Link className={styles.get_started_btn} to={item.link}>
                 Know More

@@ -34,45 +34,9 @@
   margin-bottom: 2rem;
 }
 
-/* .submitButton {
-  align-self: flex-end;
-  padding: 15px 30px;
-  background-color: transparent;
-  color: var(--color-button-1);
-  border: 1px solid var(--color-button-1);
-  cursor: pointer;
-  font-weight: 600;
-  letter-spacing: 2px;
-  transition: all 0.3s ease;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 8px;
-  font-size: 1.4rem;
-  margin-top: 4rem;
-  text-decoration: none;
-  width: 50%;
-  line-height: 1;
-}
-
-.submitButton span {
-  transition: all 0.3s ease;
-  height: auto;
-}
-
-.submitButton:hover {
-  background-color: var(--color-button-1);
-  color: var(--color-white);
-}
-
-.submitButton:hover span:last-child {
-  transform: translateX(10px);
-} */
-
 .submitButton {
   align-self: flex-end;
   padding: 10px 20px;
-  /* background-color: var(--color-button-1); */
   background: var(--background);
   border: none;
   color: var(--color-white);

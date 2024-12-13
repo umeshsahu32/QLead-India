@@ -12,11 +12,11 @@ const Industries2 = ({ path }) => {
 
   return (
     <section className={styles.section15}>
-      <h2 className={styles.title}>
+      <h1 className={styles.title}>
         <span> Boosting Growth</span>
         <br />
         <span>Across Industries</span>
-      </h2>
+      </h1>
       <div className={styles.number_container}>
         <div className={styles.content}>
           <p className={styles.description}>
