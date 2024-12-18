@@ -41,10 +41,10 @@
 }
 
 .category {
-  background-color: #e3ff59;
+  background: var(--background);
   padding: 0.4rem 0.9rem;
   border-radius: 9999px;
-  color: #161515;
+  color: #fff;
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 1rem;
@@ -62,7 +62,9 @@
 
 .authorContainer span:first-child {
   font-size: 1.6rem;
-  color: #e3ff59;
+  background: var(--background);
+  background-clip: text;
+  color: transparent;
   text-transform: uppercase;
   font-weight: 600;
 }

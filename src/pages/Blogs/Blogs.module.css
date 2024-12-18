@@ -59,10 +59,10 @@
 }
 
 .category {
-  background-color: #e0bbff;
+  background: var(--background);
+  color: #fff;
   padding: 0.4rem 0.9rem;
   border-radius: 9999px;
-  color: #6319a3;
   font-size: 0.9rem;
   font-weight: 600;
   margin-bottom: 1rem;
@@ -86,7 +86,7 @@
 
 .learnMoreButton {
   font-size: 0.875rem;
-  border: 1px solid black;
+  border: 1px solid #1579bd;
   font-weight: 600;
   display: flex;
   justify-content: center;

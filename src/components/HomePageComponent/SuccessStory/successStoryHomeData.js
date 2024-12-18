@@ -12,7 +12,7 @@ export const successStoryHomeData = [
     description: "Qualified Visitors for Square Yards Event",
     caseStudy: "See Case Study",
     gradient: "linear-gradient(to bottom, #d2d3d5 0%, #111827 80%)",
-    videoId: "jFfmqEcitfM",
+    videoId: "4XRy4Xg7PE4",
     title:
       "How QLead Drove 3,000+ Qualified Visitors for Square Yards Event in Hyderabad",
   },
@@ -22,7 +22,7 @@ export const successStoryHomeData = [
     description: "High Intent Leads Delivered",
     caseStudy: "See Case Study",
     gradient: "linear-gradient(to bottom, #cce7d4 0%, #111827 80%)",
-    videoId: "qTJ2_KcDamk",
+    videoId: "1g5QKcUef1k",
     title:
       "Neoniche’s Record-Breaking Quarter with QLead’s Qualified Event Leads",
   },
@@ -32,7 +32,7 @@ export const successStoryHomeData = [
     description: "Lakh Revenue Generated",
     caseStudy: "See Case Study",
     gradient: "linear-gradient(to bottom, #f7adaf 0%, #111827 80%)",
-    videoId: "ce7jQnzPC6A",
+    videoId: "kZk4LoyP1cE",
     title: "Vertex Photography's Success with QLead's Qualified Leads",
   },
   {
