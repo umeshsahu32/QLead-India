@@ -20,8 +20,18 @@ import BlogsSection from "../../components/HomePageComponent/BlogsSection/BlogsS
 // import ParallaxSection from "../../components/HomePageComponent/ParallaxSection/ParallaxSection";
 // import IndustriesSection from "../../components/HomePageComponent/IndustriesSection/IndustriesSection";
 // import Blogs from "../../components/HomePageComponent/Blogs/Blogs";
+import { Helmet } from "react-helmet";
+import useMetaTags from "../../hooks/useMetaTags";
 
 const HomePage = () => {
+  useMetaTags({
+    title:
+      "QLead AI: Top Lead Generation Services for Qualified Leads in India",
+    description:
+      "Generate high-quality, qualified leads in India with QLead AI. Boost your sales with advanced lead generation services tailored to your business needs",
+    keywords: "Qualified Leads",
+  });
+
   return (
     <Fragment>
       <Hero />

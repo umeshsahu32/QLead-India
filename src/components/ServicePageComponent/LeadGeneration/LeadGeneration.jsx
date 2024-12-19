@@ -18,6 +18,7 @@ import Harmonic from "../../../assets/images/Services/lead/Harmonic-Analysis.jpg
 import LeadProcess from "../LeadProcess/LeadProcess";
 import LeadScoring from "../LeadScoring/LeadScoring";
 import KeyFeatures from "../KeyFeatures/KeyFeatures";
+import useMetaTags from "../../../hooks/useMetaTags";
 
 const LeadGeneration = () => {
   const keyFeatureData = [
@@ -79,16 +80,23 @@ const LeadGeneration = () => {
     },
   ];
 
+  useMetaTags({
+    title: "Qualified Lead Generation Services in India - QLead AI",
+    description:
+      "QLead AI offers expert qualified lead generation services in India to help businesses connect with high-converting prospects and drive sales growth. Learn more now!",
+    keywords: "Qualified Lead Generation",
+  });
+
   return (
     <Fragment>
-      <Helmet>
-        <title>Qualified Lead Generation Services in India - Qlead AI</title>
+      {/* <Helmet>
+        <title>Qualified Lead Generation Services in India - QLead AI</title>
         <meta name="keyword" content="Qualified Lead Generation" />
         <meta
           name="description"
-          content="Qlead AI offers expert qualified lead generation services in India to help businesses connect with high-converting prospects and drive sales growth. Learn more now!"
+          content="QLead AI offers expert qualified lead generation services in India to help businesses connect with high-converting prospects and drive sales growth. Learn more now!"
         />
-      </Helmet>
+      </Helmet> */}
       <ServiceHeader
         primary="Get Leads That Convert"
         secondary="Targeted, Qualified, and Ready for Engagement"

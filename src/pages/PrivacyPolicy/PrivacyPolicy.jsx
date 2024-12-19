@@ -2,8 +2,15 @@ import React, { Fragment } from "react";
 import styles from "./PrivacyPolicy.module.css";
 import { Link } from "react-router-dom";
 import SectionHeading from "../../components/SectionHeading/SectionHeading";
+import useMetaTags from "../../hooks/useMetaTags";
 
 const PrivacyPolicy = () => {
+  useMetaTags({
+    title: "Privacy Policy | QLead",
+    description:
+      "Learn about our commitment to protecting your privacy. Our Privacy Policy outlines how we collect, use, and safeguard your personal information.",
+    keywords: "privacy policy, data protection",
+  });
   return (
     <Fragment>
       <section className={styles.sectionContainer}>

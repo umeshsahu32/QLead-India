@@ -6,11 +6,29 @@ const BlogText = ({ blogDetails }) => {
     <div>
       {blogDetails?.content?.map((block, index) => {
         switch (block.type) {
+          case "heading-1":
+            return (
+              <h1 className={styles.heading1} key={index}>
+                {block.text}
+              </h1>
+            );
           case "heading-2":
             return (
               <h2 className={styles.heading2} key={index}>
                 {block.text}
               </h2>
+            );
+          case "heading-3":
+            return (
+              <h3 className={styles.heading3} key={index}>
+                {block.text}
+              </h3>
+            );
+          case "heading-4":
+            return (
+              <h4 className={styles.heading4} key={index}>
+                {block.text}
+              </h4>
             );
           case "paragraph":
             return (

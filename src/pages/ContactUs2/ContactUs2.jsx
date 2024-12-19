@@ -8,6 +8,7 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import { useNotification } from "../../components/NotificationToaster/NotificationContext";
 import { Helmet } from "react-helmet";
+import useMetaTags from "../../hooks/useMetaTags";
 
 const ContactUs2 = () => {
   const [formData, setFormData] = useState({
@@ -114,19 +115,26 @@ const ContactUs2 = () => {
     }
   };
 
+  useMetaTags({
+    title: "Contact QLead | Boost Your Business with Intent-Qualified Leads",
+    description:
+      "Contact QLead to learn how our intent-qualified leads can drive business growth. Get in touch today!",
+    keywords: "Contact QLead",
+  });
+
   // @  JSX START
   return (
     <Fragment>
-      <Helmet>
+      {/* <Helmet>
         <title>
           Contact QLead - Boost Your Business with Intent-Qualified Leads
         </title>
-        <meta name="keyword" content="Contact QLead " />
+        <meta name="keyword" content="Contact QLead" />
         <meta
           name="description"
           content="Contact QLead to learn how our intent-qualified leads can drive business growth. Get in touch today!"
         />
-      </Helmet>
+      </Helmet> */}
       <div className={styles.section14}>
         <div className={styles.leftColumn}>
           <h1>

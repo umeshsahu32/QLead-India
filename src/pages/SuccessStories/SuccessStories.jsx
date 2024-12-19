@@ -6,6 +6,7 @@ import { successData } from "./SuccessStoryData";
 import StoryCard from "./StoryCard";
 import SuccessPageHero from "./SuccessPageHero.jsx";
 import { Helmet } from "react-helmet";
+import useMetaTags from "../../hooks/useMetaTags.js";
 
 const SuccessStories = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -38,6 +39,13 @@ const SuccessStories = () => {
       category: "D2C",
     },
   ];
+
+  useMetaTags({
+    title: "QLead Success Stories: Driving Growth with Intent-Qualified Leads",
+    description:
+      "Explore QLead's success stories, highlighting how our intent-qualified leads drive growth and deliver exceptional results for our clients.",
+    keywords: "Success Stories",
+  });
 
   return (
     <Fragment>

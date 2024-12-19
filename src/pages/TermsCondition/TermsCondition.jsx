@@ -2,8 +2,16 @@ import React, { Fragment } from "react";
 import styles from "./TermsCondition.module.css";
 import { Link } from "react-router-dom";
 import SectionHeading from "../../components/SectionHeading/SectionHeading";
+import useMetaTags from "../../hooks/useMetaTags";
 
 const TermsCondition = () => {
+  useMetaTags({
+    title: "Terms & Conditions | QLead",
+    description:
+      "Review our Terms & Conditions for using our services. This page outlines the legal terms and conditions governing your use of our website and services.",
+    keywords: "terms & conditions, terms of use, legal terms,",
+  });
+
   return (
     <Fragment>
       <section className={styles.sectionContainer}>

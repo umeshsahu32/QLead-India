@@ -16,27 +16,34 @@ const BlogsSection = () => {
       <div className={styles.container}>
         {BlogsData.map((item, index) => {
           return (
-            <div className={styles.card} key={index}>
-              <img
-                src={item.image}
-                alt={item.title}
-                className={styles.cardImage}
-              />
-              <div className={styles.cardContent}>
-                <h3 className={styles.cardTitle}>{item.title}</h3>
-                <p className={styles.cardSubtitle}>{item.category}</p>
-                <p className={styles.cardDescription}>{item.description}</p>
-                <div className={styles.cardFooter}>
-                  <p className={styles.cardDate}>{item.date}</p>
-                  <Link
+            <Link
+              to={`/blog/${item.title.replace(/ /g, "-")}`}
+              className={styles.cardLink}
+              key={index}
+            >
+              <div className={styles.card} key={index}>
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className={styles.cardImage}
+                />
+                <div className={styles.cardContent}>
+                  <h3 className={styles.cardTitle}>{item.title}</h3>
+                  <p className={styles.cardSubtitle}>{item.category}</p>
+                  <p className={styles.cardDescription}>{item.description}</p>
+                  <div className={styles.cardFooter}>
+                    <p className={styles.cardDate}>{item.date}</p>
+                    <p className={styles.cardDate}>{item.author}</p>
+                    {/* <Link
                     to={`/blog/${item.title.replace(/ /g, "-")}`}
                     className={styles.cardLink}
                   >
                     READ MORE
-                  </Link>
+                  </Link> */}
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           );
         })}
       </div>

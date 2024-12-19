@@ -46,37 +46,43 @@ const MediaSection = () => {
       <div className={styles.container}>
         {mediaPost?.map((item, index) => {
           return (
-            <div className={styles.card} key={index}>
-              <img
-                src={item.image}
-                alt={item.title}
-                className={styles.cardImage}
-              />
-              <div className={styles.cardContent}>
-                <h3 className={styles.cardTitle}>{item.title}</h3>
-                <p className={styles.cardSubtitle}>{item.category}</p>
-                <p className={styles.cardDescription}>
-                  {item.description.split("e5world").map((part, idx) => (
-                    <React.Fragment key={idx}>
-                      {part}
-                      {idx < item.description.split("e5world").length - 1 && (
-                        <span className={styles.noCapitalize}>e5world</span>
-                      )}
-                    </React.Fragment>
-                  ))}
-                </p>
-                <div className={styles.cardFooter}>
-                  <p className={styles.cardDate}>{item.date}</p>
-                  <a
-                    href={item.link}
-                    className={styles.cardLink}
-                    target="_black"
-                  >
-                    READ MORE
-                  </a>
+            <a
+              href={item.link}
+              className={styles.cardLinkContainer}
+              target="_black"
+            >
+              <div className={styles.card} key={index}>
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className={styles.cardImage}
+                />
+                <div className={styles.cardContent}>
+                  <h3 className={styles.cardTitle}>{item.title}</h3>
+                  <p className={styles.cardSubtitle}>{item.category}</p>
+                  <p className={styles.cardDescription}>
+                    {item.description.split("e5world").map((part, idx) => (
+                      <React.Fragment key={idx}>
+                        {part}
+                        {idx < item.description.split("e5world").length - 1 && (
+                          <span className={styles.noCapitalize}>e5world</span>
+                        )}
+                      </React.Fragment>
+                    ))}
+                  </p>
+                  <div className={styles.cardFooter}>
+                    <p className={styles.cardDate}>{item.date}</p>
+                    {/* <a
+                      href={item.link}
+                      className={styles.cardLink}
+                      target="_black"
+                    >
+                      READ MORE
+                    </a> */}
+                  </div>
                 </div>
               </div>
-            </div>
+            </a>
           );
         })}
       </div>

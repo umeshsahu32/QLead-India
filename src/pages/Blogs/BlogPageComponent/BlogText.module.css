@@ -1,7 +1,28 @@
 .heading2 {
   color: #4f46e5;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.heading2 {
+  color: #4f46e5;
   font-size: 1.5rem;
   font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.heading3 {
+  color: #4f46e5;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
+.heading4 {
+  color: #4f46e5;
+  font-size: 1rem;
+  font-weight: 400;
   padding-bottom: 5px;
 }
 

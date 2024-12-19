@@ -5,6 +5,7 @@ import styles from "./Industries.module.css";
 import Industries2 from "../../components/HomePageComponent/Industries2/Industries2";
 import { industriesData } from "./IndustriesData";
 import { Helmet } from "react-helmet";
+import useMetaTags from "../../hooks/useMetaTags";
 
 const Industries = () => {
   const [selectedIndustry, setSelectedIndustry] = useState(null);
@@ -28,9 +29,16 @@ const Industries = () => {
     setIsDrawerOpen(false);
   };
 
+  useMetaTags({
+    title: "QLead: High-Quality Lead Generation for Diverse Industries",
+    description:
+      "QLead generates top-quality leads for various industries—Agriculture, E-commerce, Healthcare, Real Estate, and more—driving business growth and boosting success.",
+    keywords: "Industries Served",
+  });
+
   return (
     <Fragment>
-      <Helmet>
+      {/* <Helmet>
         <title>
           Qlead: High-Quality Lead Generation for Diverse Industries
         </title>
@@ -39,7 +47,7 @@ const Industries = () => {
           name="description"
           content="Qlead generates top-quality leads for various industries—Agriculture, E-commerce, Healthcare, Real Estate, and more—driving business growth and boosting success."
         />
-      </Helmet>
+      </Helmet> */}
       <Industries2 path="/contact-us" />
       <section className={styles.section}>
         <ul className={styles.list}>

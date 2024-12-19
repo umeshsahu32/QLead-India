@@ -18,6 +18,7 @@ import Harmonic from "../../../assets/images/Services/meeting/Harmonic-Analysis.
 import LeadProcess from "../LeadProcess/LeadProcess";
 import LeadScoring from "../LeadScoring/LeadScoring";
 import KeyFeatures from "../KeyFeatures/KeyFeatures";
+import useMetaTags from "../../../hooks/useMetaTags";
 
 const AudienceGeneration = () => {
   const keyFeatureData = [
@@ -78,9 +79,17 @@ const AudienceGeneration = () => {
     },
   ];
 
+  useMetaTags({
+    title:
+      "Qualified Meeting Generation Services by QLead AI – Boost Sales Today",
+    description:
+      "Transform your sales process with QLead AI’s Qualified Meeting Generation service. We connect you with high-potential prospects, ensuring every meeting counts!",
+    keywords: "Qualified Meeting Generation",
+  });
+
   return (
     <Fragment>
-      <Helmet>
+      {/* <Helmet>
         <title>
           Qualified Meeting Generation Services by Qlead AI – Boost Sales Today
         </title>
@@ -89,7 +98,7 @@ const AudienceGeneration = () => {
           name="description"
           content="Transform your sales process with Qlead AI’s Qualified Meeting Generation service. We connect you with high-potential prospects, ensuring every meeting counts!"
         />
-      </Helmet>
+      </Helmet> */}
       <ServiceHeader
         primary="Set Up Meetings That Matter "
         secondary="High-Intent, Verified Prospects"

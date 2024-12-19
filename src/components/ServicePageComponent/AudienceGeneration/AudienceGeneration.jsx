@@ -20,6 +20,8 @@ import LeadProcess from "../LeadProcess/LeadProcess";
 import LeadScoring from "../LeadScoring/LeadScoring";
 import KeyFeatures from "../KeyFeatures/KeyFeatures";
 
+import useMetaTags from "../../../hooks/useMetaTags";
+
 const AudienceGeneration = () => {
   const keyFeatureData = [
     {
@@ -80,16 +82,23 @@ const AudienceGeneration = () => {
     },
   ];
 
+  useMetaTags({
+    title: "QLead AI: Drive Growth with Qualified Audience Generation",
+    description:
+      "Unlock the power of qualified audience generation with QLead AI. We help businesses in India connect with the right prospects, driving targeted growth and engagement.",
+    keywords: "Qualified Audience Generation",
+  });
+
   return (
     <Fragment>
-      <Helmet>
+      {/* <Helmet>
         <title>Qlead AI: Drive Growth with Qualified Audience Generation</title>
         <meta name="keyword" content="Qualified Audience Generation" />
         <meta
           name="description"
           content="Unlock the power of qualified audience generation with Qlead AI. We help businesses in India connect with the right prospects, driving targeted growth and engagement."
         />
-      </Helmet>
+      </Helmet> */}
       <ServiceHeader
         primary="Reach the Right Audience"
         secondary="Tailored, Verified, and Ready to Engage"

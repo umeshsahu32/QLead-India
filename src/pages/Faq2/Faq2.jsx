@@ -5,6 +5,7 @@ import { faqData } from "./FaqData";
 import CategoryButtons from "./CategoryButtons";
 import FaqList from "./FaqList";
 import SectionHeading from "../../components/SectionHeading/SectionHeading";
+import useMetaTags from "../../hooks/useMetaTags";
 
 const Faq2 = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -22,6 +23,14 @@ const Faq2 = () => {
   const buttonClickHandler = (id) => {
     setActiveTab(id);
   };
+
+  useMetaTags({
+    title:
+      "QLead FAQs | Harmonic Analysis, Pricing, Industries Served, AI Tools & Process",
+    description:
+      "Find answers to your most frequently asked questions about lead generation. Learn about our pricing, the industries we serve, our lead generation process, and how we utilize AI tools to deliver high-quality leads.",
+    keywords: "QLead FAQs",
+  });
 
   return (
     <Fragment>
