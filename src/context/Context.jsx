@@ -12,7 +12,7 @@ const Context = ({ children }) => {
       .catch((error) => console.error("Error fetching blogs:", error));
   }, []);
 
-  //   console.log("blogs", blogs);
+  // console.log("blogs", blogs);
 
   return <Blogs.Provider value={blogs}>{children}</Blogs.Provider>;
 };

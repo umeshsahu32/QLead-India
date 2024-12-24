@@ -19,7 +19,7 @@ const MostPopularBlog = ({ BlogData }) => {
                 </div>
                 <div className={styles.blog_title}>
                   <p>{item.title}</p>
-                  <p>{item.author}</p>
+                  {/* <p>{item.author}</p> */}
                 </div>
               </Link>
             </li>

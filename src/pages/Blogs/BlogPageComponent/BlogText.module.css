@@ -1,26 +1,35 @@
 .heading2 {
-  color: #4f46e5;
+  /* color: #4f46e5; */
+  background: var(--background);
+  background-clip: text;
+  color: transparent;
   font-size: 1.8rem;
   font-weight: 700;
   padding-bottom: 5px;
 }
 
 .heading2 {
-  color: #4f46e5;
+  background: var(--background);
+  background-clip: text;
+  color: transparent;
   font-size: 1.5rem;
   font-weight: 600;
   padding-bottom: 5px;
 }
 
 .heading3 {
-  color: #4f46e5;
+  background: var(--background);
+  background-clip: text;
+  color: transparent;
   font-size: 1.2rem;
   font-weight: 400;
   padding-bottom: 5px;
 }
 
 .heading4 {
-  color: #4f46e5;
+  background: var(--background);
+  background-clip: text;
+  color: transparent;
   font-size: 1rem;
   font-weight: 400;
   padding-bottom: 5px;
@@ -28,24 +37,30 @@
 
 .paragraph {
   color: #303030;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding-bottom: 2rem;
 }
 
 .imageBlock {
   width: 100%;
   height: 24rem;
-  object-fit: cover;
+  object-fit: contain;
   padding: 2rem 0;
 }
 
 .bulletList {
   list-style-type: disc;
   max-width: 90%;
-  margin: auto;
+  margin: 20px auto;
 }
 
 .bulletItem {
   color: #252a30;
-  font-size: 1.2rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .imageBlock {
+    height: auto;
+  }
 }

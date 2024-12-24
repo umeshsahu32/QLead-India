@@ -40,7 +40,10 @@
 
 .cardTitle {
   font-size: 1rem;
-  color: var(--color-theme);
+  /* color: var(--color-theme); */
+  background: var(--background);
+  background-clip: text;
+  color: transparent;
   margin: 0;
   font-weight: 600;
   height: 3rem;

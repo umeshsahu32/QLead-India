@@ -43,29 +43,29 @@
 .blog_list span {
   background: var(--background);
   color: #fff;
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 2.2rem;
+  height: 2.2rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 
 .blog_title p:first-child {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #fff;
   padding-bottom: 5px;
 }
 
-.blog_title p:last-child {
+/* .blog_title p:last-child {
   font-size: 1rem;
   background: var(--background);
   background-clip: text;
   color: transparent;
   font-weight: 700;
-}
+} */
 
 @media (max-width: 1200px) {
   .mostPopularContent {

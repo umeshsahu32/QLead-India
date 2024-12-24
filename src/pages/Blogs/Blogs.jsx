@@ -44,6 +44,16 @@ const BlogCard = ({ item }) => {
 
 const Blogs = () => {
   const BlogsData = BlogState();
+
+  const sortedBlogData = BlogsData.sort((a, b) => {
+    // Convert dates to Date objects for comparison
+    const dateA = new Date(a.date);
+    const dateB = new Date(b.date);
+
+    // Sort in descending order (most recent first)
+    return dateB - dateA;
+  });
+
   useMetaTags({
     title: "Qlead AI Blogs - Insights on Lead Generation Strategies",
     description:
@@ -68,7 +78,7 @@ const Blogs = () => {
           />
         </div>
         <div className={styles.blogList}>
-          {BlogsData.map((cardInfo) => {
+          {sortedBlogData.map((cardInfo) => {
             return <BlogCard item={cardInfo} key={cardInfo.id} />;
           })}
         </div>

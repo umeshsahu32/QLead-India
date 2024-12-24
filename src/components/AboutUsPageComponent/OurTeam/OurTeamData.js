@@ -3,7 +3,7 @@ import team2 from "../../../assets/images/team/Dr.Praveen.jpg";
 import team3 from "../../../assets/images/team/Sharmila.jpg";
 import team4 from "../../../assets/images/team/team-3.jpg";
 import team5 from "../../../assets/images/team/team-4.jpg";
-import team6 from "../../../assets/images/team/Chandini.jpg";
+import team6 from "../../../assets/images/team/Chandini.jpeg";
 import team7 from "../../../assets/images/team/Bhargav.jpg";
 import team8 from "../../../assets/images/team/Chandhan.jpg";
 

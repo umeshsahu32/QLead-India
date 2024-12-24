@@ -13,6 +13,15 @@ const BlogSummary = () => {
   const params = useParams();
   const BlogData = BlogState();
 
+  const sortedBlogData = BlogData.sort((a, b) => {
+    // Convert dates to Date objects for comparison
+    const dateA = new Date(a.date);
+    const dateB = new Date(b.date);
+
+    // Sort in descending order (most recent first)
+    return dateB - dateA;
+  });
+
   const currentBlog = BlogData.filter(
     (item) => item.title.replace(/ /g, "-") === params.title
   );
@@ -68,9 +77,9 @@ const BlogSummary = () => {
         <BlogHeader blogDetails={currentBlog[0]} />
         <div className={styles.blogList}>
           <BlogText blogDetails={currentBlog[0]} />
-          <MostPopularBlog BlogData={BlogData} />
+          <MostPopularBlog BlogData={sortedBlogData} />
         </div>
-        <MoreBlogs BlogData={BlogData} />
+        <MoreBlogs BlogData={sortedBlogData} />
       </div>
     </Fragment>
   );

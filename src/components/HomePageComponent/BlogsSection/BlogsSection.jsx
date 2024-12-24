@@ -8,13 +8,20 @@ import { Link } from "react-router-dom";
 const BlogsSection = () => {
   const BlogsData = BlogState();
 
-  console.log("BlogState", BlogsData);
+  const sortedBlogData = BlogsData.sort((a, b) => {
+    // Convert dates to Date objects for comparison
+    const dateA = new Date(a.date);
+    const dateB = new Date(b.date);
+
+    // Sort in descending order (most recent first)
+    return dateB - dateA;
+  });
 
   return (
     <Fragment>
       <SectionHeading heading="Blogs" />
       <div className={styles.container}>
-        {BlogsData.map((item, index) => {
+        {sortedBlogData.slice(0, 3).map((item, index) => {
           return (
             <Link
               to={`/blog/${item.title.replace(/ /g, "-")}`}
