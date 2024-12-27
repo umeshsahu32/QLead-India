@@ -5,6 +5,7 @@ const useMetaTags = ({ title, description, keywords }) => {
     if (title) {
       document.title = title;
     }
+    console.log("title", title);
 
     const updateMetaTag = (name, content) => {
       if (!content) return;
