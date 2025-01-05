@@ -334,10 +334,10 @@ import ManufacturingIcon6 from "../../assets/images/Industries-Images/Manufactur
 import MediaAndEntertainment from "../../assets/images/Industries-Images/Media-and-Entertainment/Media-and-Entertainment.jpg";
 import MediaAndEntertainmentIcon1 from "../../assets/images/Industries-Images/Media-and-Entertainment/image-1.jpg";
 import MediaAndEntertainmentIcon2 from "../../assets/images/Industries-Images/Media-and-Entertainment/image-2.jpg";
-import MediaAndEntertainmentIcon3 from "../../assets/images/Industries-Images/Media-and-Entertainment/image-3.jpeg";
-import MediaAndEntertainmentIcon4 from "../../assets/images/Industries-Images/Media-and-Entertainment/image-4.jpeg";
-import MediaAndEntertainmentIcon5 from "../../assets/images/Industries-Images/Media-and-Entertainment/image-5.jpeg";
-import MediaAndEntertainmentIcon6 from "../../assets/images/Industries-Images/Media-and-Entertainment/image-6.png";
+import MediaAndEntertainmentIcon3 from "../../assets/images/Industries-Images/Media-and-Entertainment/image-3.jpg";
+import MediaAndEntertainmentIcon4 from "../../assets/images/Industries-Images/Media-and-Entertainment/image-4.jpg";
+import MediaAndEntertainmentIcon5 from "../../assets/images/Industries-Images/Media-and-Entertainment/image-5.jpg";
+import MediaAndEntertainmentIcon6 from "../../assets/images/Industries-Images/Media-and-Entertainment/image-6.jpg";
 // MODULAR KITCHEN
 import ModularKitchen from "../../assets/images/Industries-Images/Modular-Kitchen/Modular-Kitchen.jpg";
 import ModularKitchenIcon1 from "../../assets/images/Industries-Images/Modular-Kitchen/image-1.jpg";

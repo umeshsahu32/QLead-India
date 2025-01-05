@@ -36,7 +36,7 @@ const MoreBlogs = ({ BlogData }) => {
         <h3>Read More</h3>
       </div>
       <div className={styles.container}>
-        {BlogData.map((item, index) => {
+        {BlogData.slice(0, 3).map((item, index) => {
           return <MoreBlogCard key={index} item={item} />;
         })}
       </div>
