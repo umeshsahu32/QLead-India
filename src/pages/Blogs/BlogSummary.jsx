@@ -26,37 +26,11 @@ const BlogSummary = () => {
     (item) => item.title.replace(/ /g, "-") === params.title
   );
 
-  console.log("currentBlog", currentBlog);
-
   useMetaTags({
-    title: currentBlog[0].metaTitle,
-    description: currentBlog[0].metaDescription,
-    keywords: currentBlog[0].metaKeyword,
+    title: currentBlog[0]?.metaTitle,
+    description: currentBlog[0]?.metaDescription,
+    keywords: currentBlog[0]?.metaKeyword,
   });
-
-  // useEffect(() => {
-  //   console.log("Meta tags data:", {
-  //     title: currentBlog[0].metaTitle,
-  //     description: currentBlog[0].metaDescription,
-  //     keywords: currentBlog[0].metaKeyword,
-  //   });
-  // }, [currentBlog]);
-
-  // useEffect(() => {
-  //   document.title = currentBlog[0].metaTitle;
-
-  //   // Update meta description
-  //   let descriptionMeta = document.querySelector('meta[name="description"]');
-  //   if (descriptionMeta) {
-  //     descriptionMeta.setAttribute("content", currentBlog[0].metaDescription);
-  //   }
-
-  //   // Update meta keywords
-  //   let keywordsMeta = document.querySelector('meta[name="keyword"]');
-  //   if (keywordsMeta) {
-  //     keywordsMeta.setAttribute("content", currentBlog[0].metaKeyword);
-  //   }
-  // }, [currentBlog]);
 
   return (
     <Fragment>
